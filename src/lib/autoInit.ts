@@ -26,7 +26,7 @@ export async function autoInitializeSession() {
         } catch (error) {
           console.log('⚠️ 会话管理器初始化错误:', error);
         }
-      }, 5000); // 5秒后初始化
+      }, 2000); // 2秒后初始化
       
       isInitialized = true;
     }

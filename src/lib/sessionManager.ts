@@ -10,7 +10,7 @@ class SessionManager {
   private static instance: SessionManager;
   private sessionData: SessionData | null = null;
   private intervalId: NodeJS.Timeout | null = null;
-  private readonly SESSION_DURATION = 5 * 60 * 1000; // 5分钟
+  private readonly SESSION_DURATION = 2 * 60 * 1000; // 2分钟
   private readonly MAX_RETRIES = 3;
 
   private constructor() {
@@ -26,7 +26,7 @@ class SessionManager {
 
   // 启动自动刷新
   private startAutoRefresh(): void {
-    console.log('🔄 启动会话自动刷新，间隔：5分钟');
+    console.log('🔄 启动会话自动刷新，间隔：2分钟');
     
     // 立即执行一次
     this.refreshSession();

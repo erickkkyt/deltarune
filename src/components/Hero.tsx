@@ -110,7 +110,12 @@ export default function Hero() {
                 )}
               </button>
 
-              <div className="aspect-video bg-black">
+              {/* Loading Tip - Above iframe */}
+              <div className="text-gray-500 text-xs font-mono mb-1 px-1">
+                If not loading, try refreshing or re-entering. Game loads within 2 minutes max.
+              </div>
+
+              <div className="aspect-video bg-black relative">
                 {(!isGameLoaded && !hasError) && (
                   <div className="absolute inset-0 flex items-center justify-center bg-black z-10">
                     <div className="text-center">
