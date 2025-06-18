@@ -112,7 +112,7 @@ export default function Hero() {
 
               {/* Loading Tip - Above iframe */}
               <div className="text-gray-500 text-xs font-mono mb-1 px-1">
-                If not loading, try refreshing or re-entering. Game loads within 2 minutes max.
+                If not loading, try refreshing or re-entering. Game loads within 30 seconds max.
               </div>
 
               <div className="aspect-video bg-black relative">
