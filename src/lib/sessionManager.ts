@@ -10,7 +10,7 @@ class SessionManager {
   private static instance: SessionManager;
   private sessionData: SessionData | null = null;
   private intervalId: NodeJS.Timeout | null = null;
-  private readonly SESSION_DURATION = 2 * 60 * 1000; // 2分钟
+  private readonly SESSION_DURATION = 15 * 1000; // 15秒
   private readonly MAX_RETRIES = 3;
 
   private constructor() {
