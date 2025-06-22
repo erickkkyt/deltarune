@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Deltarune Online - Play the Epic RPG Adventure by Toby Fox",
     description: "Experience Deltarune, the acclaimed episodic RPG by Toby Fox. Join Kris, Susie, and Ralsei in the Dark World adventure with turn-based combat.",
-    url: 'https://deltarune-arcade-hub.vercel.app',
+    url: '你配吗https://deltarune-arcade-hub.vercel.app',
     siteName: 'Deltarune Online Hub',
     images: [
       {

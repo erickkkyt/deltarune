@@ -2,19 +2,16 @@
 interface SessionData {
   cookies: string;
   lastUpdate: number;
-  isValid: boolean;
-  retryCount: number;
 }
 
 class SessionManager {
   private static instance: SessionManager;
   private sessionData: SessionData | null = null;
-  private intervalId: NodeJS.Timeout | null = null;
-  private readonly SESSION_DURATION = 15 * 1000; // 15秒
-  private readonly MAX_RETRIES = 3;
+  private readonly SESSION_VALIDITY_DURATION = 5 * 60 * 1000; // 会话有效期：5分钟
+  private isRefreshing = false; // 防止并发刷新
 
   private constructor() {
-    this.startAutoRefresh();
+    // 构造函数中不再启动定时器
   }
 
   public static getInstance(): SessionManager {
@@ -24,30 +21,44 @@ class SessionManager {
     return SessionManager.instance;
   }
 
-  // 启动自动刷新
-  private startAutoRefresh(): void {
-    console.log('🔄 启动会话自动刷新，间隔：2分钟');
-    
-    // 立即执行一次
-    this.refreshSession();
-    
-    // 设置定时器
-    this.intervalId = setInterval(() => {
-      this.refreshSession();
-    }, this.SESSION_DURATION);
-  }
-
-  // 停止自动刷新
-  public stopAutoRefresh(): void {
-    if (this.intervalId) {
-      clearInterval(this.intervalId);
-      this.intervalId = null;
-      console.log('⏹️ 会话自动刷新已停止');
+  // 核心方法：按需获取有效会话
+  public async getValidSession(): Promise<SessionData> {
+    if (this.isSessionValid()) {
+      return this.sessionData!;
     }
+
+    // 如果会话无效或不存在，则触发刷新
+    await this.forceRefresh();
+
+    if (!this.sessionData) {
+      throw new Error('Failed to refresh session, session data is still null.');
+    }
+    
+    return this.sessionData;
   }
 
-  // 刷新会话
-  private async refreshSession(): Promise<void> {
+  // 检查会话是否有效
+  private isSessionValid(): boolean {
+    if (!this.sessionData) {
+      return false;
+    }
+    const now = Date.now();
+    const sessionAge = now - this.sessionData.lastUpdate;
+    return sessionAge < this.SESSION_VALIDITY_DURATION;
+  }
+
+  // 强制刷新会话
+  public async forceRefresh(): Promise<boolean> {
+    if (this.isRefreshing) {
+      console.log('🔄 A refresh is already in progress, skipping this one.');
+      //
+      // 等待正在进行的刷新完成
+      await new Promise(resolve => setTimeout(resolve, 2000)); 
+      return !!this.sessionData?.cookies;
+    }
+
+    this.isRefreshing = true;
+
     try {
       console.log('🔄 开始刷新 deltarune.io 会话...');
       
@@ -64,11 +75,10 @@ class SessionManager {
         'Sec-Fetch-Site': 'none',
       };
 
-      // 访问主页获取会话
       const response = await fetch('https://deltarune.io/', {
         method: 'GET',
         headers,
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(20000), // 超时时间增加到20秒
       });
 
       if (response.ok) {
@@ -77,60 +87,26 @@ class SessionManager {
         this.sessionData = {
           cookies,
           lastUpdate: Date.now(),
-          isValid: true,
-          retryCount: 0,
         };
 
         console.log('✅ 会话刷新成功');
-        console.log(`📊 会话状态: ${cookies ? '有Cookie' : '无Cookie'}`);
+        return true;
       } else {
         throw new Error(`HTTP ${response.status}`);
       }
 
     } catch (error) {
       console.error('❌ 会话刷新失败:', error);
-      
-      if (this.sessionData) {
-        this.sessionData.retryCount++;
-        
-        if (this.sessionData.retryCount >= this.MAX_RETRIES) {
-          this.sessionData.isValid = false;
-          console.log('⚠️ 会话已标记为无效（重试次数过多）');
-        }
-      }
+      this.sessionData = null; // 刷新失败时，清除旧的会话数据
+      return false;
+    } finally {
+      this.isRefreshing = false; // 确保在操作结束后重置标志
     }
   }
 
-  // 获取当前会话数据
+  // 获取当前会话数据（可能已过期）
   public getSessionData(): SessionData | null {
     return this.sessionData;
-  }
-
-  // 检查会话是否有效
-  public isSessionValid(): boolean {
-    if (!this.sessionData) return false;
-    
-    const now = Date.now();
-    const sessionAge = now - this.sessionData.lastUpdate;
-    
-    // 如果会话超过10分钟，认为可能过期
-    if (sessionAge > 10 * 60 * 1000) {
-      console.log('⚠️ 会话可能已过期（超过10分钟）');
-      return false;
-    }
-    
-    return this.sessionData.isValid;
-  }
-
-  // 强制刷新会话
-  public async forceRefresh(): Promise<boolean> {
-    try {
-      await this.refreshSession();
-      return this.isSessionValid();
-    } catch (error) {
-      console.error('强制刷新失败:', error);
-      return false;
-    }
   }
 
   // 获取会话统计信息
@@ -138,14 +114,12 @@ class SessionManager {
     isValid: boolean;
     lastUpdate: string;
     age: string;
-    retryCount: number;
   } {
     if (!this.sessionData) {
       return {
         isValid: false,
         lastUpdate: 'Never',
         age: 'N/A',
-        retryCount: 0,
       };
     }
 
@@ -155,10 +129,9 @@ class SessionManager {
     const ageSeconds = Math.floor((ageMs % 60000) / 1000);
 
     return {
-      isValid: this.sessionData.isValid,
+      isValid: this.isSessionValid(),
       lastUpdate: new Date(this.sessionData.lastUpdate).toLocaleString(),
       age: `${ageMinutes}分${ageSeconds}秒前`,
-      retryCount: this.sessionData.retryCount,
     };
   }
 }
