@@ -87,12 +87,6 @@ export default function RootLayout({
             gtag('config', 'G-HJSFL4E6KB');
           `}
         </Script>
-        {/* Google AdSense 网站权属验证代码，务必保留在 <head> 内，勿删 */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6313486072364487"
-          crossOrigin="anonymous"
-        />
         {/* Microsoft Clarity */}
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
