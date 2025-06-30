@@ -5,7 +5,7 @@ import { sessionManager } from '@/lib/sessionManager';
 export const runtime = 'nodejs';
 
 // 定义目标 URL
-const TARGET_URL = 'https://deltarune.io/embed/deltarune';
+const TARGET_URL = 'https://deltarune.fun/';
 
 export async function GET(request: NextRequest) {
   console.log('⚡ 收到游戏代理请求');

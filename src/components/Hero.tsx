@@ -68,7 +68,7 @@ export default function Hero() {
   };
 
   const openInNewTab = () => {
-    window.open('https://deltarune.io/', '_blank', 'noopener,noreferrer');
+    window.open('https://deltarune.fun/', '_blank', 'noopener,noreferrer');
   };
 
   const getIframeSrc = () => {
@@ -77,7 +77,7 @@ export default function Hero() {
         return '/api/game-proxy';
       case 'direct':
       default:
-        return 'https://deltarune.io/embed/deltarune';
+        return 'https://deltarune.fun/';
     }
   };
 
