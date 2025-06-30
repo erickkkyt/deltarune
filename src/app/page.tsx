@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
+      <h1 className="sr-only">Deltarune Online - Play Deltarune RPG Adventure</h1>
       <main>
         <Hero />
         <Features />
