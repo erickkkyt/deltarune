@@ -104,6 +104,17 @@ export default function Footer() {
             Kris, Susie, Ralsei, and the Dark World are part of the Deltarune universe created by Toby Fox.
           </p>
         </div>
+
+        <div className="mt-6 text-center">
+          <a
+            href="https://startupfa.me/s/deltarune-online?utm_source=deltarune.cc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Featured on Startup Fame
+          </a>
+        </div>
       </div>
     </footer>
   );
