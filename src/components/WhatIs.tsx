@@ -39,13 +39,13 @@ export default function WhatIs() {
                 <div className="border-l-4 border-blue-400 pl-4">
                   <h4 className="text-lg font-semibold text-blue-400 mb-2">Platforms</h4>
                   <p className="text-gray-400 text-sm">
-                    Available on Windows, macOS, PlayStation, Nintendo Switch, and playable online in browsers.
+                    Available on Windows, macOS, PlayStation, Nintendo Switch, and as free deltarune online versions playable in browsers.
                   </p>
                 </div>
                 <div className="border-l-4 border-purple-400 pl-4">
                   <h4 className="text-lg font-semibold text-purple-400 mb-2">Release Info</h4>
                   <p className="text-gray-400 text-sm">
-                    Chapters 1 & 2 are available for free, with additional chapters planned for future release.
+                    Chapters 1 & 2 are available for free, with deltarune online access and additional chapters planned for future release.
                   </p>
                 </div>
               </div>

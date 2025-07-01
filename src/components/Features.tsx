@@ -23,7 +23,7 @@ export default function Features() {
     {
       icon: "🎮",
       title: "Play Online Free",
-      description: "Play deltarune online directly in your browser. Experience the full adventure on desktop, tablet, and mobile devices."
+      description: "Play deltarune online directly in your browser. Experience the full free deltarune adventure on desktop, tablet, and mobile devices."
     },
     {
       icon: "💾",
@@ -41,7 +41,7 @@ export default function Features() {
           </h2>
           <div className="w-24 h-0.5 bg-blue-400 mx-auto"></div>
           <p className="text-gray-400 text-sm mt-4 max-w-2xl mx-auto">
-            Discover what makes this RPG by Toby Fox an unforgettable experience
+            Discover what makes this RPG by Toby Fox an unforgettable deltarune online experience
           </p>
         </div>
 

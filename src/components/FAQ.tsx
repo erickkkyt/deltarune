@@ -20,7 +20,7 @@ export default function FAQ() {
     },
     {
       question: "What platforms can I play on?",
-      answer: "Available on Windows, macOS, PlayStation, Nintendo Switch, and through free deltarune online browser versions for easy access anywhere."
+      answer: "Available on Windows, macOS, PlayStation, Nintendo Switch, and through free deltarune online browser versions for easy access anywhere. Deltarune online versions offer the same complete experience."
     },
     {
       question: "Who are the main characters?",
