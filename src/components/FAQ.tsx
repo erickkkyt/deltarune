@@ -7,36 +7,24 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What is the relationship between Deltarune and Undertale?",
-      answer: "According to creator Toby Fox, Deltarune is set in an alternate universe, not a prequel or sequel to Undertale. While Deltarune shares some familiar characters like Toriel, Sans, and Alphys, they appear in completely new roles. Deltarune is an anagram of 'Undertale' and represents a fresh story in the Dark World."
+      question: "What is the relationship to Undertale?",
+      answer: "Created by Toby Fox, this game is set in an alternate universe with familiar characters in new roles. While sharing some characters like Toriel and Sans, it represents a fresh story in the Dark World."
     },
     {
-      question: "Is Deltarune a multiplayer game?",
-      answer: "Deltarune offers a single-player adventure focused on story and strategy. The Deltarune experience is designed for solo play, where you control Kris and command team members Susie and Ralsei through the Dark World adventure."
+      question: "How does the combat system work?",
+      answer: "Features turn-based battles with bullet-hell mechanics and team-based combat. Players control Kris, Susie, and Ralsei using the TP system for special abilities and magic spells."
     },
     {
-      question: "How does Deltarune's combat system work?",
-      answer: "Deltarune features turn-based battles with bullet-hell mechanics. Unlike Undertale's single-character combat, Deltarune introduces team-based battles similar to Final Fantasy. Players control Kris, Susie, and Ralsei, using the TP (Tension Points) system for special abilities and magic spells."
+      question: "How many chapters are available?",
+      answer: "Chapters 1 and 2 are currently available for free. Additional chapters are planned for future release as the story continues to expand."
     },
     {
-      question: "What are the main Deltarune characters?",
-      answer: "The main Deltarune characters are Kris (the silent human protagonist), Susie (a rebellious monster classmate), and Ralsei (the kind Dark Prince). Kris is the adopted child of Toriel and Asgore, with an older brother Asriel who is away at college."
+      question: "What platforms can I play on?",
+      answer: "Available on Windows, macOS, PlayStation, Nintendo Switch, and through free deltarune online browser versions for easy access anywhere."
     },
     {
-      question: "How many Deltarune chapters are available?",
-      answer: "Deltarune Chapter 1 was released for free on October 31, 2018, and Deltarune Chapter 2 was released for free on September 17, 2021. Deltarune Chapters 3 and 4 are planned for release as paid content, with future chapters provided as free updates."
-    },
-    {
-      question: "What platforms support Deltarune?",
-      answer: "Deltarune is available on Windows, macOS, PlayStation 4, and Nintendo Switch. Future Deltarune releases are planned for PlayStation 5 and Nintendo Switch 2. You can also play Deltarune online through browser versions."
-    },
-    {
-      question: "Does Deltarune have multiple endings?",
-      answer: "Unlike Undertale, Toby Fox has stated that Deltarune is planned to have only one ending. However, Deltarune features hidden routes like the 'Snowgrave' path that can significantly change character fates and story progression."
-    },
-    {
-      question: "Who created Deltarune?",
-      answer: "Deltarune was created by Toby Fox, the acclaimed developer behind Undertale. The Deltarune development began in 2012, even before Undertale. The game's artwork was created by Toby Fox and Temmie Chang, featuring more detailed and expressive visuals than Undertale."
+      question: "Who are the main characters?",
+      answer: "The main characters are Kris (the human protagonist), Susie (a rebellious monster), and Ralsei (the kind Dark Prince). Together they explore the Dark World adventure."
     }
   ];
 
@@ -49,11 +37,11 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-mono">
-            DELTARUNE FAQ
+            FREQUENTLY ASKED QUESTIONS
           </h2>
           <div className="w-24 h-0.5 bg-blue-400 mx-auto"></div>
           <p className="text-gray-400 text-sm mt-4">
-            Everything you need to know about Deltarune by Toby Fox
+            Common questions about this RPG adventure by Toby Fox
           </p>
         </div>
 
@@ -103,8 +91,6 @@ export default function FAQ() {
             </div>
           ))}
         </div>
-
-
       </div>
     </section>
   );

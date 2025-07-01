@@ -84,6 +84,16 @@ export default function Hero() {
   return (
     <section id="game" className="bg-black py-8">
       <div className="max-w-6xl mx-auto px-4">
+        {/* Hero Text */}
+        <div className="text-center mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-mono">
+            Play Free Deltarune Online
+          </h2>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            Experience Deltarune online directly in your browser. Join Kris, Susie, and Ralsei in this acclaimed RPG adventure by Toby Fox.
+          </p>
+        </div>
+
         {/* Game Container */}
         <div className="relative">
           <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden">
