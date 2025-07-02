@@ -1,0 +1,15 @@
+{
+  "title": "服务条款",
+  "lastUpdated": "最后更新：{date}",
+  "introduction": "这些服务条款管理您对我们网站和服务的使用。",
+  "sections": {
+    "acceptanceOfTerms": "条款接受",
+    "useOfService": "服务使用",
+    "userResponsibilities": "用户责任",
+    "intellectualProperty": "知识产权",
+    "disclaimers": "免责声明",
+    "limitation": "责任限制",
+    "termination": "终止",
+    "contactUs": "联系我们"
+  }
+} 

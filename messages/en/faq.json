@@ -1,0 +1,26 @@
+{
+  "title": "FREQUENTLY ASKED QUESTIONS",
+  "subtitle": "Common questions about this RPG adventure by Toby Fox",
+  "questions": {
+    "undertale": {
+      "question": "What is the relationship to Undertale?",
+      "answer": "Created by Toby Fox, this game is set in an alternate universe with familiar characters in new roles. While sharing some characters like Toriel and Sans, it represents a fresh story in the Dark World."
+    },
+    "combat": {
+      "question": "How does the combat system work?",
+      "answer": "Features turn-based battles with bullet-hell mechanics and team-based combat. Players control Kris, Susie, and Ralsei using the TP system for special abilities and magic spells."
+    },
+    "chapters": {
+      "question": "How many chapters are available?",
+      "answer": "Chapters 1 and 2 are currently available for free. Additional chapters are planned for future release as the story continues to expand."
+    },
+    "platforms": {
+      "question": "What platforms can I play on?",
+      "answer": "Available on Windows, macOS, PlayStation, Nintendo Switch, and through free deltarune online browser versions for easy access anywhere. Deltarune online versions offer the same complete experience."
+    },
+    "characters": {
+      "question": "Who are the main characters?",
+      "answer": "The main characters are Kris (the human protagonist), Susie (a rebellious monster), and Ralsei (the kind Dark Prince). Together they explore the Dark World adventure."
+    }
+  }
+} 

@@ -1,0 +1,13 @@
+{
+  "title": "Deltarune Blog",
+  "description": "Latest news and updates about Deltarune",
+  "readMore": "Read More",
+  "publishedOn": "Published on {date}",
+  "author": "By {author}",
+  "categories": "Categories",
+  "tags": "Tags",
+  "relatedPosts": "Related Posts",
+  "backToBlog": "Back to Blog",
+  "noArticles": "No articles found",
+  "loadMore": "Load More Articles"
+} 

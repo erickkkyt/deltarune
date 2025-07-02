@@ -1,30 +1,32 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function FAQ() {
+  const t = useTranslations('faq');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
     {
-      question: "What is the relationship to Undertale?",
-      answer: "Created by Toby Fox, this game is set in an alternate universe with familiar characters in new roles. While sharing some characters like Toriel and Sans, it represents a fresh story in the Dark World."
+      question: t('questions.undertale.question'),
+      answer: t('questions.undertale.answer')
     },
     {
-      question: "How does the combat system work?",
-      answer: "Features turn-based battles with bullet-hell mechanics and team-based combat. Players control Kris, Susie, and Ralsei using the TP system for special abilities and magic spells."
+      question: t('questions.combat.question'),
+      answer: t('questions.combat.answer')
     },
     {
-      question: "How many chapters are available?",
-      answer: "Chapters 1 and 2 are currently available for free. Additional chapters are planned for future release as the story continues to expand."
+      question: t('questions.chapters.question'),
+      answer: t('questions.chapters.answer')
     },
     {
-      question: "What platforms can I play on?",
-      answer: "Available on Windows, macOS, PlayStation, Nintendo Switch, and through free deltarune online browser versions for easy access anywhere. Deltarune online versions offer the same complete experience."
+      question: t('questions.platforms.question'),
+      answer: t('questions.platforms.answer')
     },
     {
-      question: "Who are the main characters?",
-      answer: "The main characters are Kris (the human protagonist), Susie (a rebellious monster), and Ralsei (the kind Dark Prince). Together they explore the Dark World adventure."
+      question: t('questions.characters.question'),
+      answer: t('questions.characters.answer')
     }
   ];
 
@@ -37,11 +39,11 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-mono">
-            FREQUENTLY ASKED QUESTIONS
+            {t('title')}
           </h2>
           <div className="w-24 h-0.5 bg-blue-400 mx-auto"></div>
           <p className="text-gray-400 text-sm mt-4">
-            Common questions about this RPG adventure by Toby Fox
+            {t('subtitle')}
           </p>
         </div>
 

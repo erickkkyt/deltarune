@@ -1,0 +1,13 @@
+{
+  "title": "Deltarune 博客",
+  "description": "Deltarune 最新消息和更新",
+  "readMore": "阅读更多",
+  "publishedOn": "发布于 {date}",
+  "author": "作者：{author}",
+  "categories": "分类",
+  "tags": "标签",
+  "relatedPosts": "相关文章",
+  "backToBlog": "返回博客",
+  "noArticles": "未找到文章",
+  "loadMore": "加载更多文章"
+} 

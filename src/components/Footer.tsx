@@ -1,6 +1,11 @@
+'use client';
+
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import FooterLanguageSelector from './FooterLanguageSelector';
 
 export default function Footer() {
+  const t = useTranslations('footer');
   const currentYear = new Date().getFullYear();
 
   return (
@@ -11,38 +16,37 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
               <div className="text-xl font-bold text-white font-mono">
-                DELTARUNE ARCADE HUB
+                {t('brand.title')}
               </div>
             </div>
             <p className="text-gray-400 mb-6 max-w-md text-sm">
-              Experience the mysterious Dark World of Deltarune online. A dedicated hub for the
-              acclaimed episodic RPG adventure created by Toby Fox featuring Kris, Susie, and Ralsei.
+              {t('brand.description')}
             </p>
 
           </div>
 
           {/* Deltarune Navigation */}
           <div>
-            <h3 className="text-white font-semibold mb-4 font-mono">DELTARUNE NAVIGATION</h3>
+            <h3 className="text-white font-semibold mb-4 font-mono">{t('navigation.title')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#game" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Play Deltarune
+                  {t('navigation.play')}
                 </Link>
               </li>
               <li>
                 <Link href="#features" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Deltarune Features
+                  {t('navigation.features')}
                 </Link>
               </li>
               <li>
                 <Link href="#about" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  About Deltarune
+                  {t('navigation.about')}
                 </Link>
               </li>
               <li>
                 <Link href="#faq" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Deltarune FAQ
+                  {t('navigation.faq')}
                 </Link>
               </li>
             </ul>
@@ -50,41 +54,21 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="text-white font-semibold mb-4 font-mono">RESOURCES</h3>
+            <h3 className="text-white font-semibold mb-4 font-mono">{t('resources.title')}</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="https://store.steampowered.com/app/1671210/DELTARUNE/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
-                >
-                  Steam Page
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://deltarune.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
-                >
-                  Official Website
-                </a>
-              </li>
-              <li>
                 <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Privacy Policy
+                  {t('resources.privacy')}
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Terms of Service
+                  {t('resources.terms')}
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Blog
+                  {t('resources.blog')}
                 </Link>
               </li>
             </ul>
@@ -95,19 +79,15 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Deltarune Online Hub. Deltarune game created by Toby Fox.
-              This is a fan site dedicated to the Deltarune community for educational and entertainment purposes.
+              {t('copyright', { year: currentYear })}
             </div>
 
           </div>
         </div>
 
-        {/* Deltarune Attribution */}
+        {/* Language Selector */}
         <div className="mt-6 text-center">
-          <p className="text-gray-500 text-xs">
-            Deltarune is a trademark of Toby Fox. All Deltarune content, characters, and assets belong to their respective owners.
-            Kris, Susie, Ralsei, and the Dark World are part of the Deltarune universe created by Toby Fox.
-          </p>
+          <FooterLanguageSelector />
         </div>
 
         <div className="mt-6 text-center">
@@ -115,9 +95,9 @@ export default function Footer() {
             href="https://startupfa.me/s/deltarune-online?utm_source=deltarune.cc"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="text-gray-400 hover:text-white text-xs transition-colors"
           >
-            Featured on Startup Fame
+            {t('featured')}
           </a>
         </div>
       </div>

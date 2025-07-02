@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "title": "DELTARUNE ARCADE HUB",
+    "description": "Experience the mysterious Dark World of Deltarune online. A dedicated hub for the acclaimed episodic RPG adventure created by Toby Fox featuring Kris, Susie, and Ralsei."
+  },
+  "navigation": {
+    "title": "DELTARUNE NAVIGATION",
+    "play": "Play Deltarune",
+    "features": "Deltarune Features",
+    "about": "About Deltarune",
+    "faq": "Deltarune FAQ"
+  },
+  "resources": {
+    "title": "RESOURCES",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "blog": "Blog"
+  },
+  "copyright": "© {year} Deltarune Online Hub. Deltarune game created by Toby Fox. This is a fan site dedicated to the Deltarune community for educational and entertainment purposes.",
+  "featured": "Featured on Startup Fame"
+} 

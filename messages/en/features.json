@@ -1,0 +1,39 @@
+{
+  "title": "GAME FEATURES",
+  "subtitle": "Discover what makes this RPG by Toby Fox an unforgettable deltarune online experience",
+  "whyLove": {
+    "title": "Why Players Love Deltarune",
+    "points": {
+      "adventure": "Unique Dark World adventure with Kris, Susie, and Ralsei",
+      "storytelling": "Toby Fox's masterful storytelling and character development",
+      "music": "Memorable music that enhances every emotional moment",
+      "free": "Free-to-play episodic releases with expanding lore"
+    }
+  },
+  "features": {
+    "combat": {
+      "title": "Strategic Combat System",
+      "description": "Experience innovative turn-based combat with bullet-hell mechanics. Control Kris, Susie, and Ralsei in strategic team battles."
+    },
+    "story": {
+      "title": "Compelling Story",
+      "description": "Immerse yourself in a captivating narrative by Toby Fox. Follow the heroes through the Dark World in this episodic RPG adventure."
+    },
+    "music": {
+      "title": "Amazing Soundtrack",
+      "description": "Enjoy an acclaimed musical score that perfectly complements your Dark World adventure experience."
+    },
+    "chapters": {
+      "title": "Multiple Chapters",
+      "description": "Explore unique Dark World environments with character development across expanding story chapters."
+    },
+    "online": {
+      "title": "Play Online Free",
+      "description": "Play deltarune online directly in your browser. Experience the full free deltarune adventure on desktop, tablet, and mobile devices."
+    },
+    "save": {
+      "title": "Auto-Save Progress",
+      "description": "Your progress is automatically saved. Continue your Dark World adventure anytime without losing progress."
+    }
+  }
+} 

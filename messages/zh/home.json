@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "免费在线玩 Deltarune",
+    "subtitle": "Toby Fox 创作的史诗级 RPG 冒险",
+    "description": "在浏览器中直接体验 deltarune 在线游戏。",
+    "playButton": "立即游戏",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "title": "游戏特色",
+    "subtitle": "发现 Deltarune 的独特魅力"
+  },
+  "gameLoader": {
+    "title": "开始你的冒险",
+    "description": "点击下方按钮在浏览器中启动 Deltarune",
+    "playButton": "游戏 Deltarune",
+    "loading": "游戏加载中...",
+    "error": "游戏加载失败，请重试。"
+  }
+} 

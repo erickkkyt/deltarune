@@ -1,0 +1,26 @@
+{
+  "LocaleSwitcher": {
+    "label": "Switch Language",
+    "locale": "{locale, select, en {English} zh {中文} other {Unknown}}"
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "readMore": "Read More", 
+    "submit": "Submit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "success": "Success"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email format",
+    "tooShort": "Too short",
+    "tooLong": "Too long"
+  }
+} 

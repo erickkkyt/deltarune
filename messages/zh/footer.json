@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "title": "DELTARUNE 游戏中心",
+    "description": "在线体验神秘的 Deltarune 暗世界。这是一个专为 Toby Fox 创作的备受赞誉的章节式 RPG 冒险游戏而设的中心，主角为 Kris、Susie 和 Ralsei。"
+  },
+  "navigation": {
+    "title": "DELTARUNE 导航",
+    "play": "游戏 Deltarune",
+    "features": "Deltarune 特色",
+    "about": "关于 Deltarune",
+    "faq": "Deltarune 常见问题"
+  },
+  "resources": {
+    "title": "资源",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "blog": "博客"
+  },
+  "copyright": "© {year} Deltarune 在线中心。Deltarune 游戏由 Toby Fox 创作。这是一个致力于 Deltarune 社区的粉丝网站，用于教育和娱乐目的。",
+  "featured": "在 Startup Fame 上推荐"
+} 

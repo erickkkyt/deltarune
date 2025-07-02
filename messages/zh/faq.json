@@ -1,0 +1,26 @@
+{
+  "title": "常见问题",
+  "subtitle": "关于这款由 Toby Fox 创作的 RPG 冒险游戏的常见问题",
+  "questions": {
+    "undertale": {
+      "question": "与 Undertale 的关系是什么？",
+      "answer": "由 Toby Fox 创作，这款游戏设定在一个平行宇宙中，熟悉的角色扮演着新的角色。虽然与 Undertale 共享一些角色如 Toriel 和 Sans，但它呈现的是暗世界的全新故事。"
+    },
+    "combat": {
+      "question": "战斗系统是如何运作的？",
+      "answer": "具有弹幕机制的回合制战斗和团队作战。玩家控制 Kris、Susie 和 Ralsei，使用 TP 系统施展特殊能力和魔法。"
+    },
+    "chapters": {
+      "question": "现在有多少章节可玩？",
+      "answer": "第1章和第2章目前免费提供。随着故事的继续扩展，计划发布更多章节。"
+    },
+    "platforms": {
+      "question": "我可以在哪些平台上游戏？",
+      "answer": "可在 Windows、macOS、PlayStation、Nintendo Switch 以及免费的 deltarune 在线浏览器版本上游戏，随时随地轻松访问。Deltarune 在线版本提供完整的游戏体验。"
+    },
+    "characters": {
+      "question": "主要角色有哪些？",
+      "answer": "主要角色包括 Kris（人类主角）、Susie（叛逆的怪物）和 Ralsei（善良的暗王子）。他们一起探索暗世界冒险。"
+    }
+  }
+} 

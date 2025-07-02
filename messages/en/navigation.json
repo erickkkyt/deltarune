@@ -1,0 +1,18 @@
+{
+  "brand": "Deltarune Online",
+  "menu": {
+    "home": "Home",
+    "blog": "Blog", 
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "mobileMenu": {
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "game": "Game",
+  "faq": "FAQ",
+  "privacy": "Privacy",
+  "terms": "Terms"
+} 

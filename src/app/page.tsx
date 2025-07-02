@@ -1,22 +1,12 @@
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import Features from '@/components/Features';
-import WhatIs from '@/components/WhatIs';
-import FAQ from '@/components/FAQ';
-import Footer from '@/components/Footer';
+import { redirect } from 'next/navigation';
+import { siteConfig } from '@/config/site';
 
-export default function Home() {
-  return (
-    <div className="min-h-screen bg-gray-900">
-      <Header />
-      <h1 className="sr-only">Deltarune Online - Play Deltarune RPG Adventure</h1>
-      <main>
-        <Hero />
-        <Features />
-        <WhatIs />
-        <FAQ />
-      </main>
-      <Footer />
-    </div>
-  );
+export default function RootPage() {
+  // 根据多语言配置重定向到合适的路径
+  const isI18nEnabled = siteConfig.i18n.enabled === 1;
+  const defaultPath = isI18nEnabled 
+    ? `/${siteConfig.i18n.defaultLocale}` 
+    : '/';
+  
+  redirect(defaultPath);
 }

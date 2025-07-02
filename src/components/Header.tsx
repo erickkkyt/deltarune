@@ -2,8 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 export default function Header() {
+  const t = useTranslations('navigation');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -26,25 +28,25 @@ export default function Header() {
                 href="#game"
                 className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
               >
-                Game
+                {t('game')}
               </Link>
               <Link
                 href="#features"
                 className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
               >
-                Features
+                {t('features')}
               </Link>
               <Link
                 href="#about"
                 className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
               >
-                About
+                {t('about')}
               </Link>
               <Link
                 href="#faq"
                 className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
               >
-                FAQ
+                {t('faq')}
               </Link>
             </div>
           </nav>
@@ -79,28 +81,28 @@ export default function Header() {
               className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
               onClick={() => setIsMenuOpen(false)}
             >
-              Game
+              {t('game')}
             </Link>
             <Link
               href="#features"
               className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              {t('features')}
             </Link>
             <Link
               href="#about"
               className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
               onClick={() => setIsMenuOpen(false)}
             >
-              About
+              {t('about')}
             </Link>
             <Link
               href="#faq"
               className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
               onClick={() => setIsMenuOpen(false)}
             >
-              FAQ
+              {t('faq')}
             </Link>
           </div>
         </div>

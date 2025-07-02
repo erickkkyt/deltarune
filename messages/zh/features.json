@@ -1,0 +1,39 @@
+{
+  "title": "游戏特色",
+  "subtitle": "发现这款由 Toby Fox 创作的 RPG 带来的难忘 deltarune 在线体验",
+  "whyLove": {
+    "title": "为什么玩家喜爱 Deltarune",
+    "points": {
+      "adventure": "与 Kris、Susie 和 Ralsei 一起的独特暗世界冒险",
+      "storytelling": "Toby Fox 精湛的叙事艺术和角色发展",
+      "music": "增强每个情感时刻的难忘音乐",
+      "free": "免费游戏的章节式发布与不断扩展的传说"
+    }
+  },
+  "features": {
+    "combat": {
+      "title": "策略战斗系统",
+      "description": "体验融合弹幕机制的创新回合制战斗。控制 Kris、Susie 和 Ralsei 进行策略团队战斗。"
+    },
+    "story": {
+      "title": "引人入胜的故事",
+      "description": "沉浸在 Toby Fox 创作的迷人叙事中。跟随英雄们在这个章节式 RPG 冒险中穿越暗世界。"
+    },
+    "music": {
+      "title": "精彩的音乐",
+      "description": "享受完美契合您暗世界冒险体验的备受赞誉的音乐作品。"
+    },
+    "chapters": {
+      "title": "多个章节",
+      "description": "探索独特的暗世界环境，在不断扩展的故事章节中体验角色发展。"
+    },
+    "online": {
+      "title": "免费在线游戏",
+      "description": "直接在浏览器中在线游戏 deltarune。在桌面、平板和移动设备上体验完整的免费 deltarune 冒险。"
+    },
+    "save": {
+      "title": "自动保存进度",
+      "description": "您的进度将自动保存。随时继续您的暗世界冒险，不会丢失进度。"
+    }
+  }
+} 

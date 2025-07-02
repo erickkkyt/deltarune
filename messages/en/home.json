@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Play Free Deltarune Online",
+    "subtitle": "The Epic RPG Adventure by Toby Fox",
+    "description": "Experience deltarune online directly in your browser.",
+    "playButton": "Play Now",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Game Features",
+    "subtitle": "Discover what makes Deltarune special"
+  },
+  "gameLoader": {
+    "title": "Start Your Adventure",
+    "description": "Click below to launch Deltarune in your browser",
+    "playButton": "Play Deltarune",
+    "loading": "Loading game...",
+    "error": "Failed to load game. Please try again."
+  }
+} 

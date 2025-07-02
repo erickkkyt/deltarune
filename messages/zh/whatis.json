@@ -1,0 +1,19 @@
+{
+  "title": "什么是 DELTARUNE？",
+  "description": "Deltarune 是由 Undertale 的创作者 Toby Fox 创作的备受赞誉的章节式 RPG。这个冒险故事讲述了人类少年 Kris 与 Susie 和暗王子 Ralsei 一起被拉入神秘暗世界的故事。",
+  "game_elements": "游戏巧妙地融合了传统回合制 RPG 机制与创新的弹幕序列。玩家控制三名英雄团队进行策略战斗，既考验战术思维又考验反应能力。",
+  "story_chapters_title": "故事与章节",
+  "story_and_chapters": "跟随 Kris 和朋友们经历多个章节，发现在他们家乡出现的暗之泉源。每个章节都有独特的环境和更深层的角色发展。",
+  "game_details_title": "游戏详情",
+  "platforms_title": "平台",
+  "platforms": "可在 Windows、macOS、PlayStation、Nintendo Switch 以及免费的 deltarune 在线浏览器版本上游戏。",
+  "release_info_title": "发布信息",
+  "release_info": "第1章和第2章免费提供，支持 deltarune 在线访问，更多章节计划在未来发布。",
+  "gameplay_elements_title": "游戏元素",
+  "gameplay": {
+    "bullet_hell": "弹幕战斗",
+    "team_strategy": "团队策略",
+    "puzzles": "暗世界谜题",
+    "tp_magic": "TP 魔法系统"
+  }
+} 

@@ -10,10 +10,13 @@
     "deploy": "vercel --prod",
     "deploy-preview": "vercel",
     "type-check": "tsc --noEmit",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "cleanup": "powershell -ExecutionPolicy Bypass -File scripts/cleanup.ps1",
+    "fresh-start": "npm run cleanup && npm run dev"
   },
   "dependencies": {
     "next": "^14.2.5",
+    "next-intl": "^4.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

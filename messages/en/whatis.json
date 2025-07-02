@@ -1,0 +1,19 @@
+{
+  "title": "WHAT IS DELTARUNE?",
+  "description": "Deltarune is an acclaimed episodic RPG created by Toby Fox, the creator of Undertale. This adventure follows Kris, a human teenager who gets pulled into the mysterious Dark World alongside Susie and the Dark Prince Ralsei.",
+  "game_elements": "The game masterfully blends traditional turn-based RPG mechanics with innovative bullet-hell sequences. Players control a team of three heroes in strategic battles that challenge both tactical thinking and reflexes.",
+  "story_chapters_title": "STORY & CHAPTERS",
+  "story_and_chapters": "Follow Kris and friends through multiple chapters as they discover Dark Fountains appearing in their hometown. Each chapter features unique environments and deeper character development in this expanding adventure.",
+  "game_details_title": "GAME DETAILS",
+  "platforms_title": "Platforms",
+  "platforms": "Available on Windows, macOS, PlayStation, Nintendo Switch, and as free deltarune online versions playable in browsers.",
+  "release_info_title": "Release Info",
+  "release_info": "Chapters 1 & 2 are available for free, with deltarune online access and additional chapters planned for future release.",
+  "gameplay_elements_title": "GAMEPLAY ELEMENTS",
+  "gameplay": {
+    "bullet_hell": "Bullet-Hell Combat",
+    "team_strategy": "Team Strategy",
+    "puzzles": "Dark World Puzzles",
+    "tp_magic": "TP Magic System"
+  }
+} 

@@ -1,0 +1,13 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: {date}",
+  "introduction": "This Privacy Policy describes how we collect, use, and protect your information when you visit our website.",
+  "sections": {
+    "informationCollection": "Information We Collect",
+    "informationUse": "How We Use Information", 
+    "informationSharing": "Information Sharing",
+    "dataSecurity": "Data Security",
+    "cookiePolicy": "Cookie Policy",
+    "contactUs": "Contact Us"
+  }
+} 

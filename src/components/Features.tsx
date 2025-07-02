@@ -1,34 +1,39 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function Features() {
+  const t = useTranslations('features');
   const features = [
     {
       icon: "⚔️",
-      title: "Strategic Combat System",
-      description: "Experience innovative turn-based combat with bullet-hell mechanics. Control Kris, Susie, and Ralsei in strategic team battles."
+      title: t('features.combat.title'),
+      description: t('features.combat.description')
     },
     {
       icon: "📖",
-      title: "Compelling Story",
-      description: "Immerse yourself in a captivating narrative by Toby Fox. Follow the heroes through the Dark World in this episodic RPG adventure."
+      title: t('features.story.title'),
+      description: t('features.story.description')
     },
     {
       icon: "🎵",
-      title: "Amazing Soundtrack",
-      description: "Enjoy an acclaimed musical score that perfectly complements your Dark World adventure experience."
+      title: t('features.music.title'),
+      description: t('features.music.description')
     },
     {
       icon: "🌟",
-      title: "Multiple Chapters",
-      description: "Explore unique Dark World environments with character development across expanding story chapters."
+      title: t('features.chapters.title'),
+      description: t('features.chapters.description')
     },
     {
       icon: "🎮",
-      title: "Play Online Free",
-      description: "Play deltarune online directly in your browser. Experience the full free deltarune adventure on desktop, tablet, and mobile devices."
+      title: t('features.online.title'),
+      description: t('features.online.description')
     },
     {
       icon: "💾",
-      title: "Auto-Save Progress",
-      description: "Your progress is automatically saved. Continue your Dark World adventure anytime without losing progress."
+      title: t('features.save.title'),
+      description: t('features.save.description')
     }
   ];
 
@@ -37,11 +42,11 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-mono">
-            GAME FEATURES
+            {t('title')}
           </h2>
           <div className="w-24 h-0.5 bg-blue-400 mx-auto"></div>
           <p className="text-gray-400 text-sm mt-4 max-w-2xl mx-auto">
-            Discover what makes this RPG by Toby Fox an unforgettable deltarune online experience
+            {t('subtitle')}
           </p>
         </div>
 
@@ -68,27 +73,27 @@ export default function Features() {
         <div className="mt-16 bg-gradient-to-r from-purple-900 to-blue-900 rounded-lg p-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Why Players Love This RPG
+              {t('whyLove.title')}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-start">
                   <span className="text-purple-400 mr-2">✓</span>
-                  Innovative gameplay combining classic RPG with modern mechanics
+                  {t('whyLove.points.adventure')}
                 </div>
                 <div className="flex items-start">
                   <span className="text-purple-400 mr-2">✓</span>
-                  Meaningful choices that impact story and character relationships
+                  {t('whyLove.points.storytelling')}
                 </div>
               </div>
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-start">
                   <span className="text-purple-400 mr-2">✓</span>
-                  Beautiful pixel art bringing the Dark World to life
+                  {t('whyLove.points.music')}
                 </div>
                 <div className="flex items-start">
                   <span className="text-purple-400 mr-2">✓</span>
-                  Active community with fan theories and discussions
+                  {t('whyLove.points.free')}
                 </div>
               </div>
             </div>
