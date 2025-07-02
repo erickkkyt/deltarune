@@ -27,13 +27,6 @@ export default function SmartGameLoader() {
       icon: '🎮'
     },
     {
-      id: 'proxy',
-      name: 'Session Proxy',
-      url: '/api/game-proxy',
-      description: 'Using session simulation to bypass restrictions',
-      icon: '🔄'
-    },
-    {
       id: 'alternative',
       name: 'Alternative Methods',
       url: '',

@@ -90,7 +90,7 @@ export default function Hero() {
             Play Free Deltarune Online
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Experience deltarune online directly in your browser. Join Kris, Susie, and Ralsei in this acclaimed free deltarune RPG adventure by Toby Fox.
+            Experience deltarune online directly in your browser.
           </p>
         </div>
 

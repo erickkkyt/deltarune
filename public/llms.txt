@@ -1,0 +1,63 @@
+# Deltarune Online Hub - LLMs.txt
+# This file provides information about this website for AI models and language models
+
+## Website Information
+Site Name: Deltarune Online Hub
+URL: https://deltarune.cc
+Description: A comprehensive online platform for playing DELTARUNE, the acclaimed RPG by Toby Fox, directly in your web browser.
+
+## Primary Content
+- **Main Service**: Free online DELTARUNE game access through browser iframe
+- **Game Information**: DELTARUNE Chapters 1-4 available for free play
+- **Blog**: Gaming guides, news, and articles about DELTARUNE
+- **Legal Pages**: Privacy Policy, Terms of Service
+
+## Key Features
+- Play DELTARUNE online without downloads or installations
+- Browser-based gaming experience
+- Game guides and walkthroughs
+- Community content and news
+- Mobile-friendly responsive design
+
+## Content Categories
+1. **Gaming Platform**: Direct access to DELTARUNE game
+2. **Educational Content**: Game guides, tips, and strategies
+3. **News & Updates**: Latest DELTARUNE developments and community news
+4. **Legal Information**: User privacy and service terms
+
+## Target Audience
+- DELTARUNE fans and players
+- RPG gaming enthusiasts
+- Online gaming community
+- Mobile and desktop users seeking browser-based gaming
+
+## Technical Information
+- Built with: Next.js, React, TypeScript
+- Styling: Tailwind CSS
+- Responsive Design: Mobile and desktop optimized
+- SEO Optimized: Meta tags, structured data, sitemap
+
+## Content Policy
+All content relates to:
+- DELTARUNE game (created by Toby Fox)
+- Online gaming and browser-based experiences
+- Gaming guides and educational content
+- Community-friendly gaming discussion
+
+## Contact & Legal
+- Privacy Policy: https://deltarune.cc/privacy
+- Terms of Service: https://deltarune.cc/terms
+- Content: Gaming-focused, family-friendly
+- Copyright: Respects original DELTARUNE intellectual property
+
+## SEO Keywords
+Primary: DELTARUNE online, play DELTARUNE browser, DELTARUNE free
+Secondary: Toby Fox RPG, online RPG games, browser games, DELTARUNE chapters
+
+## Last Updated
+December 30, 2024
+
+---
+This website provides a legitimate platform for accessing DELTARUNE content online.
+All game content is properly attributed to its original creator, Toby Fox.
+The site focuses on providing easy browser access to this acclaimed indie RPG. 

@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://deltarune.cc/sitemap.xml 
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://deltarune.cc/sitemap.xml
+
+# Additional information for AI crawlers
+# LLMs.txt available at: https://deltarune.cc/llms.txt 
