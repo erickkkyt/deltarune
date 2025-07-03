@@ -208,8 +208,6 @@ export default function Hero() {
                       <>
                         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400 mx-auto mb-4"></div>
                         <div className="text-2xl mb-2">{currentLoadingMethod.icon}</div>
-                        <h3 className="text-white font-mono text-lg mb-2">{currentLoadingMethod.name}</h3>
-                        <p className="text-gray-400 font-mono text-sm mb-2">{currentLoadingMethod.description}</p>
                         {retryCount > 0 && (
                           <p className="text-gray-500 font-mono text-xs">Attempt {retryCount + 1}</p>
                         )}
