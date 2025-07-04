@@ -40,6 +40,11 @@ const nextConfig = {
         source: '/game-proxy',
         destination: '/api/game-proxy',
       },
+      // 博客路由重写 - 确保博客文章能正确访问
+      {
+        source: '/blog/:slug*',
+        destination: '/en/blog/:slug*',
+      },
     ];
   },
 

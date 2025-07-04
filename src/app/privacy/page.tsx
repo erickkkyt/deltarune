@@ -4,9 +4,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy - Deltarune Online Hub',
   description: 'Privacy Policy for Deltarune Online Hub - Learn how we protect your data and privacy.',
+  alternates: {
+    canonical: 'https://deltarune.cc/privacy',
+  },
   openGraph: {
     title: 'Privacy Policy - Deltarune Online Hub',
     description: 'Privacy Policy for Deltarune Online Hub - Learn how we protect your data and privacy.',
+    url: 'https://deltarune.cc/privacy',
   },
 };
 

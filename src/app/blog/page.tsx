@@ -4,9 +4,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Blog - Deltarune Online Hub',
   description: 'Latest news, updates, and articles about Deltarune and gaming community.',
+  alternates: {
+    canonical: 'https://deltarune.cc/blog',
+  },
   openGraph: {
     title: 'Blog - Deltarune Online Hub',
     description: 'Latest news, updates, and articles about Deltarune and gaming community.',
+    url: 'https://deltarune.cc/blog',
   },
 };
 

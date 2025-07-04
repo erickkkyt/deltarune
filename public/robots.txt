@@ -1,11 +1,55 @@
 User-agent: *
 Allow: /
 
+# Disallow API routes and internal files
+Disallow: /api/
+Disallow: /_next/
+Disallow: /_vercel/
+Disallow: /admin/
+Disallow: /*.json$
+
+# Allow specific important pages
+Allow: /blog/
+Allow: /en/
+Allow: /zh/
+Allow: /privacy
+Allow: /terms
+
 # Crawl-delay for polite crawling
 Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://deltarune.cc/sitemap.xml
 
-# Additional information for AI crawlers
-# LLMs.txt available at: https://deltarune.cc/llms.txt 
+# Additional information for AI crawlers and LLMs
+# LLMs.txt available at: https://deltarune.cc/llms.txt
+
+# Special instructions for AI crawlers
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 2
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 2
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 2
+
+# Gaming content - encourage indexing
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

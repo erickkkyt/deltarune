@@ -22,5 +22,14 @@
     "invalidEmail": "Invalid email format",
     "tooShort": "Too short",
     "tooLong": "Too long"
+  },
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "features": "Features",
+    "about": "About",
+    "faq": "FAQ",
+    "privacy": "Privacy",
+    "terms": "Terms"
   }
-} 
+}

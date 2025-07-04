@@ -1,33 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Main Pages -->
   <url>
     <loc>https://deltarune.cc/</loc>
-    <lastmod>2024-12-30</lastmod>
+    <lastmod>2025-01-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/" />
   </url>
+
+  <!-- English Pages -->
   <url>
-    <loc>https://deltarune.cc/blog</loc>
-    <lastmod>2024-12-30</lastmod>
+    <loc>https://deltarune.cc/en</loc>
+    <lastmod>2025-01-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/" />
   </url>
+
+  <!-- Chinese Pages -->
+  <url>
+    <loc>https://deltarune.cc/zh</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/" />
+  </url>
+
+  <!-- Blog Pages -->
+  <url>
+    <loc>https://deltarune.cc/blog</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/en/blog</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/blog</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog" />
+  </url>
+
+  <!-- Blog Articles -->
   <url>
     <loc>https://deltarune.cc/blog/deltarune-chapters-3-4</loc>
-    <lastmod>2024-12-30</lastmod>
+    <lastmod>2025-01-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/blog/deltarune-chapters-3-4" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/blog/deltarune-chapters-3-4" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog/deltarune-chapters-3-4" />
   </url>
+
+  <url>
+    <loc>https://deltarune.cc/en/blog/deltarune-chapters-3-4</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/blog/deltarune-chapters-3-4" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/blog/deltarune-chapters-3-4" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog/deltarune-chapters-3-4" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/blog/deltarune-chapters-3-4</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/blog/deltarune-chapters-3-4" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/blog/deltarune-chapters-3-4" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog/deltarune-chapters-3-4" />
+  </url>
+
+  <!-- Legal Pages -->
   <url>
     <loc>https://deltarune.cc/privacy</loc>
-    <lastmod>2024-12-30</lastmod>
+    <lastmod>2025-01-04</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/privacy" />
   </url>
+
+  <url>
+    <loc>https://deltarune.cc/en/privacy</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/privacy" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/privacy</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/privacy" />
+  </url>
+
   <url>
     <loc>https://deltarune.cc/terms</loc>
-    <lastmod>2024-12-30</lastmod>
+    <lastmod>2025-01-04</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/terms" />
   </url>
-</urlset> 
+
+  <url>
+    <loc>https://deltarune.cc/en/terms</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/terms" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/terms</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/terms" />
+  </url>
+
+</urlset>

@@ -16,9 +16,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Deltarune Online - Play the Epic RPG Adventure by Toby Fox",
-  description: "Play Deltarune online for free. Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG adventure. Enjoy turn-based combat and bullet-hell action now!",
-  keywords: "",
+  title: "Free DELTARUNE Online - The Epic RPG Adventure",
+  description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
   authors: [{ name: "Deltarune Online Hub" }],
   creator: "Deltarune Online Hub",
   publisher: "Deltarune Online Hub",
@@ -27,13 +26,13 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://deltarune-arcade-hub.vercel.app'),
+  metadataBase: new URL('https://deltarune.cc'),
   alternates: {
-    canonical: 'https://deltarune.cc',
+    canonical: 'https://deltarune.cc/',
   },
   openGraph: {
-    title: "Deltarune Online - Play the Epic RPG Adventure by Toby Fox",
-    description: "Play Deltarune online for free. Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG adventure.",
+    title: "Free DELTARUNE Online - The Epic RPG Adventure",
+    description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
     url: 'https://deltarune-arcade-hub.vercel.app',
     siteName: 'Deltarune Online Hub',
     images: [
@@ -49,8 +48,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Deltarune Online - Play the Epic RPG Adventure by Toby Fox",
-    description: "Play Deltarune online for free. Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG adventure.",
+    title: "Free DELTARUNE Online - The Epic RPG Adventure",
+    description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
     images: ['/deltarune-og.jpg'],
   },
   robots: {

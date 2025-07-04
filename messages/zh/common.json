@@ -22,5 +22,14 @@
     "invalidEmail": "邮箱格式无效",
     "tooShort": "内容过短",
     "tooLong": "内容过长"
+  },
+  "nav": {
+    "home": "首页",
+    "blog": "博客",
+    "features": "特色",
+    "about": "关于",
+    "faq": "常见问题",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
   }
-} 
+}

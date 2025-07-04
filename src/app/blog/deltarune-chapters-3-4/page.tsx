@@ -4,9 +4,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Exploring DELTARUNE Online: Chapters 3 & 4 Deep Dive - Deltarune Online Hub',
   description: 'Experience DELTARUNE Chapters 3 and 4 online with our comprehensive guide. Play DELTARUNE free in your browser and discover the Dark World adventures.',
+  alternates: {
+    canonical: 'https://deltarune.cc/blog/deltarune-chapters-3-4',
+  },
   openGraph: {
     title: 'Exploring DELTARUNE Online: Chapters 3 & 4 Deep Dive',
     description: 'Experience DELTARUNE Chapters 3 and 4 online with our comprehensive guide. Play DELTARUNE free in your browser and discover the Dark World adventures.',
+    url: 'https://deltarune.cc/blog/deltarune-chapters-3-4',
   },
 };
 
