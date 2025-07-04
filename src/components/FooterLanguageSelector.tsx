@@ -18,7 +18,10 @@ export default function FooterLanguageSelector() {
   // 语言标签映射
   const languageLabels = {
     en: 'English',
-    zh: '中文'
+    zh: '中文',
+    ja: '日本語',
+    ko: '한국어',
+    fr: 'Français'
   };
 
   const handleLanguageChange = (newLocale: string) => {

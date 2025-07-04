@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "title": "Hub de Jeu DELTARUNE",
+    "description": "Découvrez en ligne le mystérieux Monde Sombre de Deltarune. Un hub dédié à l'aventure RPG épisodique acclamée créée par Toby Fox, mettant en vedette Kris, Susie et Ralsei."
+  },
+  "navigation": {
+    "title": "Navigation DELTARUNE",
+    "play": "Jouer à DELTARUNE",
+    "features": "Fonctionnalités DELTARUNE",
+    "about": "À propos de DELTARUNE",
+    "faq": "FAQ DELTARUNE"
+  },
+  "resources": {
+    "title": "Ressources",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "blog": "Blog"
+  },
+  "copyright": "© {year} Hub en Ligne Deltarune. Le jeu DELTARUNE a été créé par Toby Fox. Ceci est un site de fans dédié à la communauté DELTARUNE à des fins éducatives et de divertissement.",
+  "featured": "Recommandé sur Startup Fame"
+}

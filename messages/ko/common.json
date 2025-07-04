@@ -1,0 +1,35 @@
+{
+  "LocaleSwitcher": {
+    "label": "언어 변경",
+    "locale": "{locale, select, en {English} zh {中文} ja {日本語} ko {한국어} fr {Français} other {알 수 없음}}"
+  },
+  "buttons": {
+    "learnMore": "자세히 보기",
+    "readMore": "더 읽기", 
+    "submit": "제출",
+    "close": "닫기",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전"
+  },
+  "status": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "success": "성공"
+  },
+  "validation": {
+    "required": "이 필드는 필수입니다",
+    "invalidEmail": "잘못된 이메일 형식",
+    "tooShort": "너무 짧습니다",
+    "tooLong": "너무 깁니다"
+  },
+  "nav": {
+    "home": "홈",
+    "blog": "블로그",
+    "features": "특징",
+    "about": "소개",
+    "faq": "자주 묻는 질문",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관"
+  }
+}

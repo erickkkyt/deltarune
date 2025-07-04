@@ -1,0 +1,35 @@
+{
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, en {English} zh {中文} ja {日本語} ko {한국어} fr {Français} other {Inconnu}}"
+  },
+  "buttons": {
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite", 
+    "submit": "Soumettre",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "status": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Format d'email invalide",
+    "tooShort": "Trop court",
+    "tooLong": "Trop long"
+  },
+  "nav": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "features": "Fonctionnalités",
+    "about": "À propos",
+    "faq": "FAQ",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  }
+}

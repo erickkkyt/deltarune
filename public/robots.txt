@@ -12,6 +12,9 @@ Disallow: /*.json$
 Allow: /blog/
 Allow: /en/
 Allow: /zh/
+Allow: /ja/
+Allow: /ko/
+Allow: /fr/
 Allow: /privacy
 Allow: /terms
 

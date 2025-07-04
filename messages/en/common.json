@@ -1,7 +1,7 @@
 {
   "LocaleSwitcher": {
     "label": "Switch Language",
-    "locale": "{locale, select, en {English} zh {中文} other {Unknown}}"
+    "locale": "{locale, select, en {English} zh {中文} ja {日本語} ko {한국어} fr {Français} other {Unknown}}"
   },
   "buttons": {
     "learnMore": "Learn More",

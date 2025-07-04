@@ -5,7 +5,7 @@
 Site Name: Free DELTARUNE Online - The Epic RPG Adventure
 URL: https://deltarune.cc
 Description: Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.
-Language Support: English (en), Chinese (zh)
+Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French (fr)
 
 ## Primary Content & Services
 - **Main Service**: Free online DELTARUNE game access via https://deltarune.fun/
@@ -108,11 +108,16 @@ All content strictly relates to:
 ### Supported Languages:
 - **English (en)**: Primary language, full content coverage
 - **Chinese (zh)**: Complete translation including UI, content, and navigation
+- **Japanese (ja)**: Full Japanese localization with native terminology
+- **Korean (ko)**: Complete Korean translation with proper gaming terminology
+- **French (fr)**: Comprehensive French localization for European users
 
 ### Language-specific Content:
-- Localized gaming guides and tutorials
-- Cultural adaptation for Chinese gaming community
+- Localized gaming guides and tutorials for all 5 languages
+- Cultural adaptation for Chinese, Japanese, Korean, and French gaming communities
 - Region-appropriate gaming terminology and references
+- Native language FAQ and feature descriptions
+- Localized "What is DELTARUNE?" content for each language
 
 ## Performance & Accessibility
 - **Loading Speed**: Optimized for fast initial load and game startup

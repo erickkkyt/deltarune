@@ -1,0 +1,20 @@
+{
+  "brand": "Deltarune Online",
+  "menu": {
+    "home": "ホーム",
+    "blog": "ブログ", 
+    "features": "特徴",
+    "about": "について",
+    "contact": "お問い合わせ"
+  },
+  "mobileMenu": {
+    "open": "メニューを開く",
+    "close": "メニューを閉じる"
+  },
+  "game": "ゲーム",
+  "features": "特徴",
+  "about": "について",
+  "faq": "よくある質問",
+  "privacy": "プライバシー",
+  "terms": "利用規約"
+}

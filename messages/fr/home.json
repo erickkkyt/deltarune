@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "DELTARUNE Gratuit en Ligne",
+    "subtitle": "L'Aventure RPG Épique",
+    "description": "Jouez à DELTARUNE gratuitement en ligne ! Rejoignez Kris, Susie et Ralsei dans le RPG acclamé de Toby Fox avec des combats au tour par tour et de l'action bullet-hell.",
+    "playButton": "Jouer Maintenant",
+    "learnMore": "En savoir plus"
+  },
+  "features": {
+    "title": "Caractéristiques du Jeu",
+    "subtitle": "Découvrez le charme unique de DELTARUNE"
+  },
+  "gameLoader": {
+    "title": "Commencez votre aventure",
+    "description": "Cliquez sur le bouton ci-dessous pour lancer DELTARUNE dans votre navigateur",
+    "playButton": "Jouer à DELTARUNE",
+    "loading": "Chargement du jeu...",
+    "error": "Échec du chargement du jeu. Veuillez réessayer."
+  }
+}

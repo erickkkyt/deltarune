@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "title": "DELTARUNE ゲームハブ",
+    "description": "神秘的なDeltarune ダークワールドをオンラインで体験。Toby Foxが制作した高く評価されているエピソード型RPGアドベンチャーのハブで、主人公はKris、Susie、Ralsei。"
+  },
+  "navigation": {
+    "title": "DELTARUNE ナビゲーション",
+    "play": "DELTARUNEをプレイ",
+    "features": "DELTARUNE 特徴",
+    "about": "DELTARUNEについて",
+    "faq": "DELTARUNE よくある質問"
+  },
+  "resources": {
+    "title": "リソース",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "blog": "ブログ"
+  },
+  "copyright": "© {year} Deltarune オンラインハブ。DELTARUNEゲームはToby Foxによって制作されました。これは教育と娯楽を目的としたDELTARUNEコミュニティ専用のファンサイトです。",
+  "featured": "Startup Fameで紹介"
+}

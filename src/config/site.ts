@@ -3,7 +3,7 @@ export const siteConfig = {
   i18n: {
     enabled: 1,                    // 0: 关闭多语言, 1: 启用多语言
     defaultLocale: "en",           // 默认语言
-    locales: ["en", "zh"]          // 支持的语言列表 (英文、中文)
+    locales: ["en", "zh", "ja", "ko", "fr"]  // 支持的语言列表 (英文、中文、日文、韩文、法文)
   },
   
   // 网站基本信息

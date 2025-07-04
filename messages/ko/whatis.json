@@ -1,0 +1,19 @@
+{
+  "title": "DELTARUNE이란 무엇인가요?",
+  "description": "DELTARUNE은 Undertale의 제작자인 Toby Fox가 제작한 호평받는 에피소드형 RPG입니다. 이 모험은 인간 소년 Kris가 Susie와 다크 프린스 Ralsei와 함께 신비로운 다크 월드로 끌려가는 이야기를 따릅니다.",
+  "game_elements": "게임은 전통적인 턴제 RPG 메커니즘과 혁신적인 탄막 시퀀스를 능숙하게 혼합합니다. 플레이어는 전술적 사고와 반사 신경 모두를 도전하는 전략적 전투에서 세 명의 영웅 팀을 조종합니다.",
+  "story_chapters_title": "스토리와 챕터",
+  "story_and_chapters": "Kris와 친구들이 여러 챕터를 통해 고향에 나타나는 다크 파운틴을 발견하는 모험을 따라가세요. 각 챕터는 독특한 환경과 더 깊은 캐릭터 개발을 특징으로 합니다.",
+  "game_details_title": "게임 세부사항",
+  "platforms_title": "플랫폼",
+  "platforms": "Windows, macOS, PlayStation, Nintendo Switch, 그리고 브라우저에서 플레이 가능한 무료 deltarune 온라인 버전에서 이용할 수 있습니다.",
+  "release_info_title": "출시 정보",
+  "release_info": "챕터 1과 2가 무료로 제공되며, deltarune 온라인 액세스와 추가 챕터가 향후 출시 예정입니다.",
+  "gameplay_elements_title": "게임플레이 요소",
+  "gameplay": {
+    "bullet_hell": "탄막 전투",
+    "team_strategy": "팀 전략",
+    "puzzles": "다크 월드 퍼즐",
+    "tp_magic": "TP 마법 시스템"
+  }
+}

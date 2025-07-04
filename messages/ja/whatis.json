@@ -1,0 +1,19 @@
+{
+  "title": "DELTARUNEとは？",
+  "description": "DELTARUNEは、Undertaleの制作者であるToby Foxが制作した高く評価されているエピソード型RPGです。この冒険は、人間の少年Krisが神秘的なダークワールドにSusieとダークプリンスRalseiと一緒に引き込まれる物語です。",
+  "game_elements": "ゲームは伝統的なターン制RPGメカニクスと革新的な弾幕シーケンスを巧妙に融合しています。プレイヤーは3人のヒーローチームを操作し、戦術的思考と反射神経の両方を試す戦略的バトルを行います。",
+  "story_chapters_title": "ストーリーと章",
+  "story_and_chapters": "Krisと仲間たちが複数の章を通じて、故郷に現れるダークファウンテンを発見する冒険を追いかけます。各章では独特な環境とより深いキャラクター開発が特徴です。",
+  "game_details_title": "ゲーム詳細",
+  "platforms_title": "プラットフォーム",
+  "platforms": "Windows、macOS、PlayStation、Nintendo Switch、およびブラウザでプレイ可能な無料のdeltarune オンライン版で利用できます。",
+  "release_info_title": "リリース情報",
+  "release_info": "第1章と第2章が無料で利用でき、deltarune オンラインアクセスと追加章が将来のリリースで計画されています。",
+  "gameplay_elements_title": "ゲームプレイ要素",
+  "gameplay": {
+    "bullet_hell": "弾幕戦闘",
+    "team_strategy": "チーム戦略",
+    "puzzles": "ダークワールドパズル",
+    "tp_magic": "TPマジックシステム"
+  }
+}

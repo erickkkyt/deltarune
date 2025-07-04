@@ -1,0 +1,26 @@
+{
+  "title": "Questions Fréquentes",
+  "subtitle": "Questions fréquentes sur ce jeu d'aventure RPG créé par Toby Fox",
+  "questions": {
+    "undertale": {
+      "question": "Quelle est la relation avec Undertale ?",
+      "answer": "Créé par Toby Fox, ce jeu se déroule dans un univers alternatif avec des personnages familiers dans de nouveaux rôles. Bien qu'il partage certains personnages comme Toriel et Sans, il représente une nouvelle histoire dans le Monde Sombre."
+    },
+    "combat": {
+      "question": "Comment fonctionne le système de combat ?",
+      "answer": "Il présente des batailles au tour par tour avec des mécaniques de bullet-hell et un combat en équipe. Les joueurs contrôlent Kris, Susie et Ralsei en utilisant le système TP pour les capacités spéciales et les sorts magiques."
+    },
+    "chapters": {
+      "question": "Combien de chapitres sont disponibles ?",
+      "answer": "Les chapitres 1 et 2 sont actuellement disponibles gratuitement. Des chapitres supplémentaires sont prévus pour de futures sorties alors que l'histoire continue de s'étendre."
+    },
+    "platforms": {
+      "question": "Sur quelles plateformes puis-je jouer ?",
+      "answer": "Disponible sur Windows, macOS, PlayStation, Nintendo Switch, et via des versions navigateur deltarune en ligne gratuites pour un accès facile partout. Les versions deltarune en ligne offrent la même expérience complète."
+    },
+    "characters": {
+      "question": "Qui sont les personnages principaux ?",
+      "answer": "Les personnages principaux sont Kris (le protagoniste humain), Susie (un monstre rebelle), et Ralsei (le gentil Prince Sombre). Ensemble, ils explorent l'aventure du Monde Sombre."
+    }
+  }
+}

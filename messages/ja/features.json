@@ -1,0 +1,39 @@
+{
+  "title": "ゲーム特徴",
+  "subtitle": "Toby FoxによるこのRPGが忘れられないdeltarune オンライン体験となる理由を発見しよう",
+  "whyLove": {
+    "title": "プレイヤーがDeltaruneを愛する理由",
+    "points": {
+      "adventure": "Kris、Susie、Ralseiとのユニークなダークワールド冒険",
+      "storytelling": "Toby Foxの巧妙なストーリーテリングとキャラクター開発",
+      "music": "すべての感情的な瞬間を高める記憶に残る音楽",
+      "free": "拡張する伝承を持つ無料プレイのエピソード型リリース"
+    }
+  },
+  "features": {
+    "combat": {
+      "title": "戦略的戦闘システム",
+      "description": "弾幕メカニクスを備えた革新的なターン制戦闘を体験。戦略的なチームバトルでKris、Susie、Ralseiをコントロール。"
+    },
+    "story": {
+      "title": "魅力的なストーリー",
+      "description": "Toby Foxによる魅力的な物語に没頭。このエピソード型RPGアドベンチャーでヒーローたちとダークワールドを旅しよう。"
+    },
+    "music": {
+      "title": "素晴らしいサウンドトラック",
+      "description": "ダークワールドアドベンチャー体験を完璧に補完する高く評価された音楽スコアを楽しもう。"
+    },
+    "chapters": {
+      "title": "複数の章",
+      "description": "拡張するストーリー章を通じてキャラクター開発とユニークなダークワールド環境を探索。"
+    },
+    "online": {
+      "title": "無料オンラインプレイ",
+      "description": "ブラウザで直接deltarune オンラインをプレイ。デスクトップ、タブレット、モバイルデバイスで完全な無料deltarune冒険を体験。"
+    },
+    "save": {
+      "title": "自動セーブ進行",
+      "description": "進行状況は自動的に保存されます。進行を失うことなく、いつでもダークワールドの冒険を続けられます。"
+    }
+  }
+}

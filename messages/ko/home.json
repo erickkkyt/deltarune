@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "무료 DELTARUNE 온라인",
+    "subtitle": "장대한 RPG 어드벤처",
+    "description": "다운로드 없이 브라우저에서 바로 DELTARUNE을 플레이하세요! Kris, Susie, Ralsei와 함께 Toby Fox의 명작 RPG에서 턴제 전투와 탄막 액션을 즐겨보세요.",
+    "playButton": "지금 플레이",
+    "learnMore": "자세히 보기"
+  },
+  "features": {
+    "title": "게임 특징",
+    "subtitle": "DELTARUNE의 독특한 매력을 발견하세요"
+  },
+  "gameLoader": {
+    "title": "모험을 시작하세요",
+    "description": "아래 버튼을 클릭하여 브라우저에서 DELTARUNE을 시작하세요",
+    "playButton": "DELTARUNE 플레이",
+    "loading": "게임 로딩 중...",
+    "error": "게임 로딩에 실패했습니다. 다시 시도해주세요."
+  }
+}

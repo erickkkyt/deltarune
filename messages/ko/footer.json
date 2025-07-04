@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "title": "DELTARUNE 게임 허브",
+    "description": "신비로운 Deltarune 다크 월드를 온라인으로 경험하세요. Toby Fox가 제작한 호평받는 에피소드형 RPG 어드벤처의 허브로, 주인공은 Kris, Susie, Ralsei입니다."
+  },
+  "navigation": {
+    "title": "DELTARUNE 내비게이션",
+    "play": "DELTARUNE 플레이",
+    "features": "DELTARUNE 특징",
+    "about": "DELTARUNE 소개",
+    "faq": "DELTARUNE 자주 묻는 질문"
+  },
+  "resources": {
+    "title": "리소스",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "blog": "블로그"
+  },
+  "copyright": "© {year} Deltarune 온라인 허브. DELTARUNE 게임은 Toby Fox에 의해 제작되었습니다. 이것은 교육 및 오락 목적의 DELTARUNE 커뮤니티 전용 팬 사이트입니다.",
+  "featured": "Startup Fame에서 추천"
+}

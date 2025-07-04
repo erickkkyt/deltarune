@@ -52,6 +52,9 @@ export async function generateMetadata({
       languages: {
         'en': '/en',
         'zh': '/zh',
+        'ja': '/ja',
+        'ko': '/ko',
+        'fr': '/fr',
         'x-default': '/'
       }
     },
@@ -68,7 +71,10 @@ export async function generateMetadata({
           alt: t('hero.title'),
         },
       ],
-      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
+      locale: locale === 'zh' ? 'zh_CN' :
+              locale === 'ja' ? 'ja_JP' :
+              locale === 'ko' ? 'ko_KR' :
+              locale === 'fr' ? 'fr_FR' : 'en_US',
       type: 'website',
     },
     twitter: {

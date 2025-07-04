@@ -1,0 +1,39 @@
+{
+  "title": "Fonctionnalités du Jeu",
+  "subtitle": "Découvrez ce qui fait de ce RPG par Toby Fox une expérience deltarune en ligne inoubliable",
+  "whyLove": {
+    "title": "Pourquoi les Joueurs Aiment Deltarune",
+    "points": {
+      "adventure": "Aventure unique du Monde Sombre avec Kris, Susie et Ralsei",
+      "storytelling": "Narration magistrale et développement de personnages par Toby Fox",
+      "music": "Musique mémorable qui améliore chaque moment émotionnel",
+      "free": "Sorties épisodiques gratuites avec une tradition en expansion"
+    }
+  },
+  "features": {
+    "combat": {
+      "title": "Système de Combat Stratégique",
+      "description": "Découvrez un combat au tour par tour innovant avec des mécaniques de bullet-hell. Contrôlez Kris, Susie et Ralsei dans des batailles d'équipe stratégiques."
+    },
+    "story": {
+      "title": "Histoire Captivante",
+      "description": "Plongez-vous dans un récit captivant par Toby Fox. Suivez les héros à travers le Monde Sombre dans cette aventure RPG épisodique."
+    },
+    "music": {
+      "title": "Bande Sonore Incroyable",
+      "description": "Profitez d'une partition musicale acclamée qui complète parfaitement votre expérience d'aventure du Monde Sombre."
+    },
+    "chapters": {
+      "title": "Chapitres Multiples",
+      "description": "Explorez des environnements uniques du Monde Sombre avec le développement de personnages à travers des chapitres d'histoire en expansion."
+    },
+    "online": {
+      "title": "Jouer Gratuitement en Ligne",
+      "description": "Jouez à deltarune en ligne directement dans votre navigateur. Découvrez l'aventure deltarune gratuite complète sur ordinateur, tablette et appareils mobiles."
+    },
+    "save": {
+      "title": "Sauvegarde Automatique des Progrès",
+      "description": "Vos progrès sont automatiquement sauvegardés. Continuez votre aventure du Monde Sombre à tout moment sans perdre vos progrès."
+    }
+  }
+}
