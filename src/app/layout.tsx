@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-import StructuredData from "@/components/StructuredData";
 
 
 const inter = Inter({
@@ -96,7 +95,6 @@ export default function RootLayout({
             })(window, document, "clarity", "script", "s0ddodvjcf");
           `}
         </Script>
-        <StructuredData />
       </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}
