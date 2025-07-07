@@ -1,0 +1,37 @@
+{
+  "title": "Player Reviews",
+  "subtitle": "See what players around the world are saying about DELTARUNE",
+  "overall": {
+    "rating": "out of 5 stars",
+    "total_reviews": "Total Reviews",
+    "recommend": "Recommend"
+  },
+  "reviews": {
+    "review1": {
+      "content": "DELTARUNE exceeded all my expectations! The story is incredibly engaging, and the characters feel so real. The combat system is unique and fun, mixing traditional RPG elements with bullet-hell mechanics perfectly. Can't wait for the next chapters!"
+    },
+    "review2": {
+      "content": "As a longtime RPG fan, I can confidently say DELTARUNE is a masterpiece. The writing is witty and emotional, the music is absolutely phenomenal, and the gameplay keeps you engaged throughout. This game deserves all the praise it gets."
+    },
+    "review3": {
+      "content": "The soundtrack alone makes this game worth playing! Toby Fox has created some of the most memorable video game music I've ever heard. Combined with the charming pixel art and compelling story, DELTARUNE is an absolute gem."
+    },
+    "review4": {
+      "content": "I love how DELTARUNE challenges traditional RPG conventions. The choice system feels meaningful, and the meta-narrative elements are brilliantly executed. Some parts can be challenging, but that just makes victory more satisfying."
+    },
+    "review5": {
+      "content": "What an incredible experience! The fact that this amazing game is completely free is mind-blowing. The attention to detail, character development, and world-building rival AAA titles. Highly recommended for any gaming enthusiast."
+    },
+    "review6": {
+      "content": "The pixel art style is absolutely gorgeous, and every frame feels carefully crafted. The visual storytelling complements the narrative perfectly, creating an immersive experience that draws you into the Dark World completely."
+    }
+  },
+  "breakdown": {
+    "title": "Rating Breakdown"
+  },
+  "write_review": {
+    "title": "Share Your Experience",
+    "description": "Have you played DELTARUNE? We'd love to hear about your adventure in the Dark World!",
+    "button": "Write a Review"
+  }
+}

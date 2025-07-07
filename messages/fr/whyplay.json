@@ -1,0 +1,33 @@
+{
+  "title": "Pourquoi jouer à DELTARUNE ?",
+  "subtitle": "Découvrez ce qui fait de DELTARUNE l'un des RPG indépendants les plus aimés de notre époque",
+  "storytelling": {
+    "title": "Narration unique",
+    "description": "Vivez un récit qui brise le quatrième mur et défie les conventions RPG traditionnelles. DELTARUNE offre une histoire qui évolue selon vos choix, créant une aventure vraiment personnalisée qui reste avec vous longtemps après avoir joué."
+  },
+  "gameplay": {
+    "title": "Gameplay innovant",
+    "description": "Combinez les mécaniques RPG au tour par tour classiques avec des séquences d'action bullet-hell. Le système TP (Points de Tension) unique et le combat en équipe créent une profondeur stratégique tout en maintenant l'accessibilité pour les joueurs de tous niveaux."
+  },
+  "characters": {
+    "title": "Personnages mémorables",
+    "description": "Rencontrez un casting inoubliable incluant Kris, Susie, Ralsei et bien d'autres. Chaque personnage a des personnalités, motivations et arcs de développement distincts qui créent de véritables connexions émotionnelles avec les joueurs."
+  },
+  "soundtrack": {
+    "title": "Bande sonore incroyable",
+    "description": "Immergez-vous dans les compositions magistrales de Toby Fox qui complètent parfaitement chaque moment. Des thèmes de bataille épiques aux pièces de personnages émotionnelles, la musique élève chaque aspect de l'expérience de jeu."
+  },
+  "community": {
+    "title": "Communauté dynamique",
+    "description": "Rejoignez des millions de fans du monde entier pour discuter de théories, partager du fan art et explorer la riche tradition. La communauté DELTARUNE est connue pour sa créativité, son inclusivité et son dévouement passionné aux mystères du jeu."
+  },
+  "free": {
+    "title": "Gratuit",
+    "description": "Vivez cette incroyable aventure complètement gratuitement. DELTARUNE prouve que les jeux extraordinaires n'ont pas besoin d'étiquettes de prix élevées - juste de la passion, de la créativité et du dévouement à l'art du développement de jeux."
+  },
+  "cta": {
+    "title": "Prêt à commencer votre voyage ?",
+    "description": "Rejoignez des millions de joueurs qui ont déjà découvert la magie de DELTARUNE. Votre aventure dans le Monde Sombre vous attend !",
+    "button": "Commencer à jouer maintenant"
+  }
+}

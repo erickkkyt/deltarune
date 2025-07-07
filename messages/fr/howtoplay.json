@@ -1,0 +1,63 @@
+{
+  "title": "Comment jouer à DELTARUNE",
+  "subtitle": "Maîtrisez les bases et les stratégies avancées pour devenir un véritable héros du Monde Sombre",
+  "getting_started": {
+    "title": "Commencer",
+    "download": {
+      "title": "Téléchargement et installation",
+      "description": "DELTARUNE est disponible gratuitement sur Windows, Mac, Linux, Nintendo Switch et PlayStation. Téléchargez simplement depuis le site officiel ou le magasin de votre plateforme et installez pour commencer votre aventure."
+    },
+    "system": {
+      "title": "Configuration requise",
+      "description": "DELTARUNE fonctionne sur la plupart des systèmes modernes avec des exigences minimales. Vous aurez besoin d'au moins 2 Go de RAM, 1 Go d'espace de stockage et d'une carte graphique supportant OpenGL 3.0 ou supérieur."
+    }
+  },
+  "basic_controls": {
+    "title": "Contrôles de base",
+    "movement": "Déplacer le personnage",
+    "confirm": "Confirmer/Interagir",
+    "cancel": "Annuler/Retour",
+    "menu": "Ouvrir le menu"
+  },
+  "combat_system": {
+    "title": "Système de combat",
+    "fight": {
+      "title": "Combattre",
+      "description": "Attaquez directement les ennemis pour infliger des dégâts. Chronométrez correctement vos pressions de boutons pour maximiser les dégâts et vaincre rapidement les ennemis."
+    },
+    "defend": {
+      "title": "Défendre",
+      "description": "Naviguez à travers les motifs bullet-hell pendant les attaques ennemies. Utilisez des mouvements précis pour éviter de subir des dégâts tout en construisant des TP pour les capacités spéciales."
+    },
+    "magic": {
+      "title": "Magie",
+      "description": "Utilisez les TP (Points de Tension) pour lancer des sorts et capacités puissants. Chaque personnage a des compétences magiques uniques qui peuvent changer le cours de la bataille."
+    },
+    "spare": {
+      "title": "Épargner",
+      "description": "Résolvez les conflits pacifiquement en comprenant les ennemis et en utilisant la bonne approche. Beaucoup de rencontres peuvent être résolues sans violence."
+    }
+  },
+  "tips": {
+    "title": "Conseils de pro",
+    "tip1": "Expérimentez avec différentes combinaisons de groupe pour découvrir de puissantes synergies entre personnages.",
+    "tip2": "Faites attention aux motifs ennemis - chacun a des comportements uniques qui peuvent être exploités stratégiquement.",
+    "tip3": "Explorez minutieusement pour trouver des objets cachés, des secrets et du contenu d'histoire optionnel dans tout le Monde Sombre.",
+    "tip4": "Sauvegardez fréquemment aux points de sauvegarde pour préserver votre progression et expérimenter avec différents choix."
+  },
+  "quick_start": {
+    "title": "Guide de démarrage rapide",
+    "step1": {
+      "title": "Créer votre sauvegarde",
+      "description": "Commencez une nouvelle partie et créez votre personnage. Vos choix ici influenceront votre voyage à travers le Monde Sombre."
+    },
+    "step2": {
+      "title": "Apprendre les bases",
+      "description": "Complétez les zones tutorielles pour maîtriser les mécaniques de mouvement, combat et interaction avant de faire face à de plus grands défis."
+    },
+    "step3": {
+      "title": "Commencer votre aventure",
+      "description": "Explorez le Monde Sombre, rencontrez de nouveaux amis et découvrez les mystères qui vous attendent dans cette incroyable expérience RPG."
+    }
+  }
+}

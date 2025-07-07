@@ -1,0 +1,63 @@
+{
+  "title": "如何游戏 DELTARUNE",
+  "subtitle": "掌握基础和高级策略，成为真正的暗世界英雄",
+  "getting_started": {
+    "title": "开始游戏",
+    "download": {
+      "title": "下载与安装",
+      "description": "DELTARUNE 可在 Windows、Mac、Linux、Nintendo Switch 和 PlayStation 上免费获得。只需从官方网站或您平台的商店下载并安装即可开始您的冒险。"
+    },
+    "system": {
+      "title": "系统要求",
+      "description": "DELTARUNE 在大多数现代系统上运行，要求最低。您需要至少 2GB RAM、1GB 存储空间和支持 OpenGL 3.0 或更高版本的显卡。"
+    }
+  },
+  "basic_controls": {
+    "title": "基本控制",
+    "movement": "移动角色",
+    "confirm": "确认/交互",
+    "cancel": "取消/返回",
+    "menu": "打开菜单"
+  },
+  "combat_system": {
+    "title": "战斗系统",
+    "fight": {
+      "title": "战斗",
+      "description": "直接攻击敌人造成伤害。正确计时按钮按压以最大化伤害输出并快速击败敌人。"
+    },
+    "defend": {
+      "title": "防御",
+      "description": "在敌人攻击期间导航弹幕模式。使用精确移动避免受到伤害，同时为特殊能力建立 TP。"
+    },
+    "magic": {
+      "title": "魔法",
+      "description": "使用 TP（紧张点数）施放强大的法术和能力。每个角色都有独特的魔法技能，可以扭转战斗局面。"
+    },
+    "spare": {
+      "title": "饶恕",
+      "description": "通过理解敌人并使用正确的方法和平解决冲突。许多遭遇可以在不使用暴力的情况下解决。"
+    }
+  },
+  "tips": {
+    "title": "专业提示",
+    "tip1": "尝试不同的队伍组合，发现角色之间的强大协同效应。",
+    "tip2": "注意敌人模式 - 每个都有独特的行为，可以在战略上加以利用。",
+    "tip3": "彻底探索以在整个暗世界中找到隐藏物品、秘密和可选故事内容。",
+    "tip4": "在保存点频繁保存以保持您的进度并尝试不同的选择。"
+  },
+  "quick_start": {
+    "title": "快速开始指南",
+    "step1": {
+      "title": "创建您的存档",
+      "description": "开始新游戏并创建您的角色。您在这里的选择将影响您在暗世界的旅程。"
+    },
+    "step2": {
+      "title": "学习基础",
+      "description": "完成教程区域以掌握移动、战斗和交互机制，然后面对更大的挑战。"
+    },
+    "step3": {
+      "title": "开始您的冒险",
+      "description": "探索暗世界，结识新朋友，并在这个令人难以置信的 RPG 体验中揭开等待的神秘。"
+    }
+  }
+}

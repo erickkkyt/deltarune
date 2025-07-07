@@ -1,0 +1,63 @@
+{
+  "title": "How to Play DELTARUNE",
+  "subtitle": "Master the basics and advanced strategies to become a true Dark World hero",
+  "getting_started": {
+    "title": "Getting Started",
+    "download": {
+      "title": "Download & Installation",
+      "description": "DELTARUNE is available for free on Windows, Mac, Linux, Nintendo Switch, and PlayStation. Simply download from the official website or your platform's store and install to begin your adventure."
+    },
+    "system": {
+      "title": "System Requirements",
+      "description": "DELTARUNE runs on most modern systems with minimal requirements. You'll need at least 2GB RAM, 1GB storage space, and a graphics card that supports OpenGL 3.0 or higher."
+    }
+  },
+  "basic_controls": {
+    "title": "Basic Controls",
+    "movement": "Move Character",
+    "confirm": "Confirm/Interact",
+    "cancel": "Cancel/Back",
+    "menu": "Open Menu"
+  },
+  "combat_system": {
+    "title": "Combat System",
+    "fight": {
+      "title": "Fight",
+      "description": "Attack enemies directly to deal damage. Time your button presses correctly to maximize damage output and defeat foes quickly."
+    },
+    "defend": {
+      "title": "Defend",
+      "description": "Navigate through bullet-hell patterns during enemy attacks. Use precise movement to avoid taking damage while building TP for special abilities."
+    },
+    "magic": {
+      "title": "Magic",
+      "description": "Use TP (Tension Points) to cast powerful spells and abilities. Each character has unique magic skills that can turn the tide of battle."
+    },
+    "spare": {
+      "title": "Spare",
+      "description": "Resolve conflicts peacefully by understanding enemies and using the right approach. Many encounters can be resolved without violence."
+    }
+  },
+  "tips": {
+    "title": "Pro Tips",
+    "tip1": "Experiment with different party combinations to discover powerful synergies between characters.",
+    "tip2": "Pay attention to enemy patterns - each has unique behaviors that can be exploited strategically.",
+    "tip3": "Explore thoroughly to find hidden items, secrets, and optional story content throughout the Dark World.",
+    "tip4": "Save frequently at save points to preserve your progress and experiment with different choices."
+  },
+  "quick_start": {
+    "title": "Quick Start Guide",
+    "step1": {
+      "title": "Create Your Save",
+      "description": "Start a new game and create your character. Your choices here will influence your journey through the Dark World."
+    },
+    "step2": {
+      "title": "Learn the Basics",
+      "description": "Complete the tutorial areas to master movement, combat, and interaction mechanics before facing greater challenges."
+    },
+    "step3": {
+      "title": "Begin Your Adventure",
+      "description": "Explore the Dark World, meet new friends, and uncover the mysteries that await in this incredible RPG experience."
+    }
+  }
+}

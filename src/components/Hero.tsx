@@ -80,7 +80,9 @@ export default function Hero() {
   };
 
   const openOfficialSite = () => {
-    window.open('https://deltarune.io/', '_blank', 'noopener,noreferrer');
+    if (typeof window !== 'undefined') {
+      window.open('https://deltarune.io/', '_blank', 'noopener,noreferrer');
+    }
   };
 
   const resetToFirstMethod = () => {
@@ -93,32 +95,36 @@ export default function Hero() {
   };
 
   const toggleFullscreen = () => {
-    const gameContainer = document.getElementById('game-container');
-    if (gameContainer) {
-      if (!document.fullscreenElement) {
-        gameContainer.requestFullscreen().then(() => {
-          setIsFullscreen(true);
-        }).catch(err => {
-          console.log('Error attempting to enable fullscreen:', err);
-        });
-      } else {
-        document.exitFullscreen().then(() => {
-          setIsFullscreen(false);
-        });
+    if (typeof document !== 'undefined') {
+      const gameContainer = document.getElementById('game-container');
+      if (gameContainer) {
+        if (!document.fullscreenElement) {
+          gameContainer.requestFullscreen().then(() => {
+            setIsFullscreen(true);
+          }).catch(err => {
+            console.log('Error attempting to enable fullscreen:', err);
+          });
+        } else {
+          document.exitFullscreen().then(() => {
+            setIsFullscreen(false);
+          });
+        }
       }
     }
   };
 
   // 监听全屏状态变化
   useEffect(() => {
-    const handleFullscreenChange = () => {
-      setIsFullscreen(!!document.fullscreenElement);
-    };
+    if (typeof document !== 'undefined') {
+      const handleFullscreenChange = () => {
+        setIsFullscreen(!!document.fullscreenElement);
+      };
 
-    document.addEventListener('fullscreenchange', handleFullscreenChange);
-    return () => {
-      document.removeEventListener('fullscreenchange', handleFullscreenChange);
-    };
+      document.addEventListener('fullscreenchange', handleFullscreenChange);
+      return () => {
+        document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      };
+    }
   }, []);
 
   return (
@@ -161,7 +167,11 @@ export default function Hero() {
                   </button>
                   
                   <button
-                    onClick={() => window.open('https://store.steampowered.com/app/1671210/DELTARUNE/', '_blank')}
+                    onClick={() => {
+                      if (typeof window !== 'undefined') {
+                        window.open('https://store.steampowered.com/app/1671210/DELTARUNE/', '_blank');
+                      }
+                    }}
                     className="block w-full bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded font-mono text-sm transition-colors"
                   >
                     💾 Download from Steam

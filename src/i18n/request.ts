@@ -28,7 +28,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
       terms: (await import(`../../messages/${locale}/terms.json`)).default,
       features: (await import(`../../messages/${locale}/features.json`)).default,
       faq: (await import(`../../messages/${locale}/faq.json`)).default,
-      whatis: (await import(`../../messages/${locale}/whatis.json`)).default
+      whatis: (await import(`../../messages/${locale}/whatis.json`)).default,
+      whyplay: (await import(`../../messages/${locale}/whyplay.json`)).default,
+      howtoplay: (await import(`../../messages/${locale}/howtoplay.json`)).default,
+      userreviews: (await import(`../../messages/${locale}/userreviews.json`)).default
     }
   };
 }); 

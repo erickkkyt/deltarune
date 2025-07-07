@@ -1,0 +1,33 @@
+{
+  "title": "为什么要玩 DELTARUNE？",
+  "subtitle": "发现 DELTARUNE 成为我们时代最受喜爱的独立 RPG 之一的原因",
+  "storytelling": {
+    "title": "独特的叙事",
+    "description": "体验打破第四面墙并挑战传统 RPG 惯例的叙事。DELTARUNE 提供根据您的选择而发展的故事，创造真正个性化的冒险，让您在游戏结束后仍然难以忘怀。"
+  },
+  "gameplay": {
+    "title": "创新的游戏玩法",
+    "description": "将经典回合制 RPG 机制与弹幕动作序列相结合。独特的 TP（紧张点数）系统和团队战斗创造了战略深度，同时保持了对所有技能水平玩家的可访问性。"
+  },
+  "characters": {
+    "title": "难忘的角色",
+    "description": "遇见包括 Kris、Susie、Ralsei 等在内的难忘角色。每个角色都有独特的个性、动机和发展弧线，与玩家建立真正的情感联系。"
+  },
+  "soundtrack": {
+    "title": "惊人的配乐",
+    "description": "沉浸在 Toby Fox 的精湛作品中，完美地补充每一个时刻。从史诗般的战斗主题到情感角色片段，音乐提升了游戏体验的每个方面。"
+  },
+  "community": {
+    "title": "充满活力的社区",
+    "description": "与全世界数百万粉丝一起讨论理论、分享粉丝艺术并探索深层传说。DELTARUNE 社区以其创造力、包容性和对游戏神秘的热情奉献而闻名。"
+  },
+  "free": {
+    "title": "免费游戏",
+    "description": "完全免费体验这个令人难以置信的冒险。DELTARUNE 证明了惊人的游戏不需要昂贵的价格标签 - 只需要对游戏开发工艺的热情、创造力和奉献精神。"
+  },
+  "cta": {
+    "title": "准备开始您的旅程了吗？",
+    "description": "加入已经发现 DELTARUNE 魔力的数百万玩家。您在暗世界的冒险等待着您！",
+    "button": "立即开始游戏"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Why Play DELTARUNE?",
+  "subtitle": "Discover what makes DELTARUNE one of the most beloved indie RPGs of our time",
+  "storytelling": {
+    "title": "Unique Storytelling",
+    "description": "Experience a narrative that breaks the fourth wall and challenges traditional RPG conventions. DELTARUNE offers a story that evolves based on your choices, creating a truly personalized adventure that stays with you long after playing."
+  },
+  "gameplay": {
+    "title": "Innovative Gameplay",
+    "description": "Combine classic turn-based RPG mechanics with bullet-hell action sequences. The unique TP (Tension Points) system and team-based combat create strategic depth while maintaining accessibility for players of all skill levels."
+  },
+  "characters": {
+    "title": "Memorable Characters",
+    "description": "Meet an unforgettable cast including Kris, Susie, Ralsei, and many more. Each character has distinct personalities, motivations, and development arcs that create genuine emotional connections with players."
+  },
+  "soundtrack": {
+    "title": "Amazing Soundtrack",
+    "description": "Immerse yourself in Toby Fox's masterful compositions that perfectly complement every moment. From epic battle themes to emotional character pieces, the music elevates every aspect of the gaming experience."
+  },
+  "community": {
+    "title": "Vibrant Community",
+    "description": "Join millions of fans worldwide in discussing theories, sharing fan art, and exploring the deep lore. The DELTARUNE community is known for its creativity, inclusivity, and passionate dedication to the game's mysteries."
+  },
+  "free": {
+    "title": "Free to Play",
+    "description": "Experience this incredible adventure completely free. DELTARUNE proves that amazing games don't need expensive price tags - just passion, creativity, and dedication to the craft of game development."
+  },
+  "cta": {
+    "title": "Ready to Begin Your Journey?",
+    "description": "Join millions of players who have already discovered the magic of DELTARUNE. Your adventure in the Dark World awaits!",
+    "button": "Start Playing Now"
+  }
+}

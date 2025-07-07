@@ -1,0 +1,37 @@
+{
+  "title": "Avis des joueurs",
+  "subtitle": "Voyez ce que les joueurs du monde entier disent de DELTARUNE",
+  "overall": {
+    "rating": "sur 5 étoiles",
+    "total_reviews": "Total des avis",
+    "recommend": "Recommandent"
+  },
+  "reviews": {
+    "review1": {
+      "content": "DELTARUNE a dépassé toutes mes attentes ! L'histoire est incroyablement captivante, et les personnages semblent si réels. Le système de combat est unique et amusant, mélangeant parfaitement les éléments RPG traditionnels avec les mécaniques bullet-hell. J'ai hâte des prochains chapitres !"
+    },
+    "review2": {
+      "content": "En tant que fan de RPG de longue date, je peux dire avec confiance que DELTARUNE est un chef-d'œuvre. L'écriture est spirituelle et émotionnelle, la musique est absolument phénoménale, et le gameplay vous maintient engagé du début à la fin. Ce jeu mérite tous les éloges qu'il reçoit."
+    },
+    "review3": {
+      "content": "La bande sonore seule vaut la peine de jouer à ce jeu ! Toby Fox a créé certaines des musiques de jeu vidéo les plus mémorables que j'aie jamais entendues. Combiné avec l'art pixel charmant et l'histoire convaincante, DELTARUNE est un joyau absolu."
+    },
+    "review4": {
+      "content": "J'adore comment DELTARUNE défie les conventions RPG traditionnelles. Le système de choix semble significatif, et les éléments méta-narratifs sont brillamment exécutés. Certaines parties peuvent être difficiles, mais cela rend la victoire plus satisfaisante."
+    },
+    "review5": {
+      "content": "Quelle expérience incroyable ! Le fait que ce jeu extraordinaire soit complètement gratuit est époustouflant. L'attention aux détails, le développement des personnages et la construction du monde rivalisent avec les titres AAA. Hautement recommandé pour tout passionné de jeux."
+    },
+    "review6": {
+      "content": "Le style d'art pixel est absolument magnifique, et chaque image semble soigneusement conçue. La narration visuelle complète parfaitement le récit, créant une expérience immersive qui vous attire complètement dans le Monde Sombre."
+    }
+  },
+  "breakdown": {
+    "title": "Répartition des notes"
+  },
+  "write_review": {
+    "title": "Partagez votre expérience",
+    "description": "Avez-vous joué à DELTARUNE ? Nous aimerions entendre parler de votre aventure dans le Monde Sombre !",
+    "button": "Écrire un avis"
+  }
+}
