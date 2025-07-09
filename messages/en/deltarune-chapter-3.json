@@ -1,0 +1,191 @@
+{
+  "title": "DELTARUNE Chapter 3 Complete Guide - Chapter Maps, Boss Battles & Easter Eggs",
+  "description": "Complete DELTARUNE Chapter 3 walkthrough guide featuring detailed chapter maps, all boss battle strategies, and hidden easter egg locations to help you perfectly complete Chapter 3 of DELTARUNE.",
+  "keywords": "DELTARUNE Chapter 3, walkthrough, chapter maps, boss battles, easter eggs, Chapter 3, completion guide, DELTARUNE guide",
+  "hero": {
+    "title": "DELTARUNE CHAPTER 3",
+    "subtitle": "Complete Strategy Guide - Chapter Maps · Boss Battles · Easter Eggs"
+  },
+  "overview": {
+    "title": "Chapter Overview",
+    "description": "DELTARUNE Chapter 3 was released on June 5, 2025, as part of the paid content package. This chapter brings a completely new Dark World experience, where you explore unknown territories with Susie, Ralsei, and Noelle. Chapter 3 of DELTARUNE features richer content, including more character development and complex puzzles that make this DELTARUNE chapter truly memorable.",
+    "playtime": {
+      "title": "Estimated Playtime",
+      "value": "4-6 hours"
+    },
+    "newCharacters": {
+      "title": "New Characters",
+      "value": "5 major new characters"
+    },
+    "easterEggs": {
+      "title": "Hidden Easter Eggs",
+      "value": "12 collectible easter eggs"
+    }
+  },
+  "chapterMap": {
+    "title": "Chapter Maps",
+    "tvWorld": {
+      "title": "🏰 TV World - Television Universe",
+      "locations": [
+        "• Starting Area: TV Channel Selection Hall",
+        "• Game Show Area: Participate in various TV shows",
+        "• News Studio: Solve media-related puzzles", 
+        "• Commercial Zone: Face commercialization challenges",
+        "• Final Boss Area: TV Tower Top Floor"
+      ]
+    },
+    "importantLocations": {
+      "title": "🗺️ Important Locations",
+      "locations": [
+        "• Control Room: Gain channel switching abilities",
+        "• Recording Studio: Audio puzzle challenges",
+        "• Audience Seating: Interact with audience for items",
+        "• Technical Room: Electronic device operations",
+        "• Director's Office: Key story dialogues"
+      ]
+    }
+  },
+  "bossGuide": {
+    "title": "Boss Battle Strategy",
+    "mike": {
+      "title": "📺 Mike (TV Host)",
+      "attacks": {
+        "title": "Attack Patterns",
+        "list": [
+          "• Microphone sound wave attacks",
+          "• Camera flash grenades", 
+          "• Audience interference",
+          "• Channel switching chaos"
+        ]
+      },
+      "strategy": {
+        "title": "Battle Tips",
+        "list": [
+          "• Use Susie's Rude Buster to interrupt his casting",
+          "• Ralsei's healing is crucial in the second phase",
+          "• Watch out for microphone's area attacks",
+          "• Use ACT options to interact with audience"
+        ]
+      }
+    },
+    "queen": {
+      "title": "👑 Queen (TV Form)",
+      "abilities": {
+        "title": "Special Abilities",
+        "list": [
+          "• Screen split attacks",
+          "• Pixelated beam attacks",
+          "• Signal interference",
+          "• Multi-channel simultaneous attacks"
+        ]
+      },
+      "strategy": {
+        "title": "Counter Strategy",
+        "list": [
+          "• Team coordination using Magic attacks",
+          "• Predict screen split timing",
+          "• Keep HP above 70%",
+          "• Use Ralsei's special ability in final phase"
+        ]
+      }
+    },
+    "tenna": {
+      "title": "📡 Tenna (Final Boss)",
+      "phases": {
+        "title": "Three-Phase Battle",
+        "list": [
+          "• Phase 1: Antenna spinning attacks",
+          "• Phase 2: Signal tower summoning",
+          "• Phase 3: Full-screen electromagnetic waves"
+        ]
+      },
+      "victory": {
+        "title": "Victory Points",
+        "list": [
+          "• Each phase has different weaknesses",
+          "• Use items wisely for recovery",
+          "• Team cooperation is key",
+          "• Special ending requires peaceful resolution"
+        ]
+      }
+    }
+  },
+  "collectibles": {
+    "title": "Easter Egg Collection",
+    "main": {
+      "title": "🎯 Main Easter Eggs",
+      "list": [
+        "• Remote Control - Hidden room in TV Channel Hall",
+        "• Retro Game Console - Perfect completion in Game Show Area",
+        "• Microphone - Complete hidden quest in Recording Studio",
+        "• Director's Chair - Solve puzzle in Director's Office",
+        "• Camera - Repair task in Technical Room",
+        "• TV Antenna - Hidden area on rooftop"
+      ]
+    },
+    "hidden": {
+      "title": "🔍 Hidden Easter Eggs",
+      "list": [
+        "• Broken TV - Behind audience seating",
+        "• Old Radio - Corner of Control Room",
+        "• TV Guide - Bookshelf in Commercial Zone",
+        "• Signal Amplifier - Middle floor of TV Tower",
+        "• Channel Card - Under desk in News Studio",
+        "• Mystery Tape - After final boss battle"
+      ]
+    }
+  },
+  "tipsSection": {
+    "title": "Tips & Strategies",
+    "general": {
+      "title": "🎮 General Tips",
+      "list": [
+        "• Save frequently in DELTARUNE Chapter 3 - boss battles can be challenging",
+        "• Experiment with different team combinations for optimal results",
+        "• Pay attention to environmental storytelling in DELTARUNE's TV World",
+        "• Some easter eggs in Chapter 3 require multiple playthroughs to find",
+        "• Keep your team's TP (Tension Points) high for special attacks"
+      ]
+    },
+    "combat": {
+      "title": "⚔️ Combat Strategy",
+      "list": [
+        "• DELTARUNE Chapter 3 bosses have unique patterns - learn them well",
+        "• Use Magic commands effectively in team-based encounters",
+        "• ACT commands often provide non-violent solutions in DELTARUNE",
+        "• Timing is crucial for dodging attacks in bullet-hell segments",
+        "• Don't neglect defensive items - they're essential in Chapter 3"
+      ]
+    },
+    "exploration": {
+      "title": "🔍 Exploration Guide",
+      "list": [
+        "• Check every corner of DELTARUNE's TV World for hidden items",
+        "• Talk to all NPCs multiple times for additional dialogue",
+        "• Some areas in Chapter 3 become accessible only after story progress",
+        "• Return to previous areas with new abilities to find secrets",
+        "• Interactive objects often contain valuable DELTARUNE lore"
+      ]
+    }
+  },
+  "secretEndings": {
+    "title": "Secret Endings & Routes",
+    "peaceful": {
+      "title": "🕊️ Peaceful Route",
+      "description": "Complete DELTARUNE Chapter 3 without defeating any major enemies through violence. Use ACT commands and peaceful resolutions to progress through the TV World storyline."
+    },
+    "aggressive": {
+      "title": "⚔️ Aggressive Route", 
+      "description": "Take a more combat-focused approach in Chapter 3. This route in DELTARUNE changes some story elements and character interactions throughout the TV World."
+    },
+    "hidden": {
+      "title": "🔐 Hidden Route",
+      "description": "Unlock this special DELTARUNE Chapter 3 ending by collecting all easter eggs and completing specific secret objectives in the TV World areas."
+    }
+  },
+  "navigation": {
+    "backToHome": "Back to Home",
+    "chapter4Guide": "Chapter 4 Guide", 
+    "charactersGuide": "Characters Guide"
+  }
+} 

@@ -30,6 +30,34 @@ export default function Header() {
               >
                 {t('game')}
               </Link>
+              <div className="relative group">
+                <button className="text-gray-300 hover:text-white text-sm font-mono transition-colors">
+                  Guides
+                  <svg className="w-4 h-4 ml-1 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="absolute left-0 mt-2 w-48 bg-gray-900 border border-gray-700 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <Link
+                    href="/deltarune-chapter-3"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-t-lg"
+                  >
+                    Chapter 3 Guide
+                  </Link>
+                  <Link
+                    href="/deltarune-chapter-4"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800"
+                  >
+                    Chapter 4 Guide
+                  </Link>
+                  <Link
+                    href="/deltarune-characters"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-b-lg"
+                  >
+                    Characters
+                  </Link>
+                </div>
+              </div>
               <Link
                 href="#features"
                 className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
@@ -83,6 +111,30 @@ export default function Header() {
             >
               {t('game')}
             </Link>
+            <div className="px-3 py-2">
+              <div className="text-gray-400 text-xs font-mono mb-2">Guides</div>
+              <Link
+                href="/deltarune-chapter-3"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Chapter 3 Guide
+              </Link>
+              <Link
+                href="/deltarune-chapter-4"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Chapter 4 Guide
+              </Link>
+              <Link
+                href="/deltarune-characters"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Characters
+              </Link>
+            </div>
             <Link
               href="#features"
               className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"

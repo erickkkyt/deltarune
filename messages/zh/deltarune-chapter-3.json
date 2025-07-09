@@ -1,0 +1,191 @@
+{
+  "title": "DELTARUNE Chapter 3 攻略指南 - 章节地图、Boss战、彩蛋收集",
+  "description": "完整的DELTARUNE Chapter 3攻略指南，包含详细的章节地图、所有Boss战技巧、隐藏彩蛋收集位置，帮助您完美通关DELTARUNE第三章。",
+  "keywords": "DELTARUNE Chapter 3, 攻略, 章节地图, Boss战, 彩蛋收集, 第三章, 通关指南, DELTARUNE攻略",
+  "hero": {
+    "title": "DELTARUNE CHAPTER 3",
+    "subtitle": "完整攻略指南 - 章节地图 · Boss战 · 彩蛋收集"
+  },
+  "overview": {
+    "title": "章节概览",
+    "description": "DELTARUNE Chapter 3于2025年6月5日发布，作为付费版本的一部分。这一章节带来了全新的Dark World体验，与Susie、Ralsei和Noelle一起探索未知的领域。DELTARUNE第三章的内容更加丰富，包含了更多的角色发展和复杂的谜题，让这个DELTARUNE章节令人难忘。",
+    "playtime": {
+      "title": "预计游戏时长",
+      "value": "4-6小时"
+    },
+    "newCharacters": {
+      "title": "新增角色",
+      "value": "5个主要新角色"
+    },
+    "easterEggs": {
+      "title": "隐藏彩蛋",
+      "value": "12个可收集彩蛋"
+    }
+  },
+  "chapterMap": {
+    "title": "章节地图",
+    "tvWorld": {
+      "title": "🏰 TV World - 电视世界",
+      "locations": [
+        "• 开始区域：电视频道选择大厅",
+        "• 游戏节目区域：参与各种电视节目",
+        "• 新闻演播室：解决媒体相关的谜题",
+        "• 广告区域：面对商业化的挑战",
+        "• 最终Boss区域：电视塔顶层"
+      ]
+    },
+    "importantLocations": {
+      "title": "🗺️ 重要地点",
+      "locations": [
+        "• 控制室：获得频道切换能力",
+        "• 录音棚：音频谜题挑战",
+        "• 观众席：与观众互动获得道具",
+        "• 技术室：电子设备操作",
+        "• 导演办公室：剧情关键对话"
+      ]
+    }
+  },
+  "bossGuide": {
+    "title": "Boss战攻略",
+    "mike": {
+      "title": "📺 Mike (电视主持人)",
+      "attacks": {
+        "title": "攻击模式",
+        "list": [
+          "• 话筒音波攻击",
+          "• 摄像头闪光弹",
+          "• 观众席干扰",
+          "• 频道切换混乱"
+        ]
+      },
+      "strategy": {
+        "title": "战斗技巧",
+        "list": [
+          "• 利用Susie的Rude Buster打断其施法",
+          "• Ralsei的治疗在第二阶段很重要",
+          "• 注意躲避话筒的范围攻击",
+          "• 使用ACT选项与观众互动"
+        ]
+      }
+    },
+    "queen": {
+      "title": "👑 Queen (电视形态)",
+      "abilities": {
+        "title": "特殊能力",
+        "list": [
+          "• 屏幕分割攻击",
+          "• 像素化光束",
+          "• 信号干扰",
+          "• 多频道同时攻击"
+        ]
+      },
+      "strategy": {
+        "title": "应对策略",
+        "list": [
+          "• 团队协作使用Magic攻击",
+          "• 预测屏幕分割的时机",
+          "• 保持HP在70%以上",
+          "• 最后阶段使用Ralsei的特殊能力"
+        ]
+      }
+    },
+    "tenna": {
+      "title": "📡 Tenna (最终Boss)",
+      "phases": {
+        "title": "三阶段战斗",
+        "list": [
+          "• 第一阶段：天线旋转攻击",
+          "• 第二阶段：信号塔召唤",
+          "• 第三阶段：全屏电磁波"
+        ]
+      },
+      "victory": {
+        "title": "胜利要点",
+        "list": [
+          "• 每个阶段都有不同的弱点",
+          "• 合理使用道具恢复",
+          "• 团队配合是关键",
+          "• 特殊结局需要和平解决"
+        ]
+      }
+    }
+  },
+  "collectibles": {
+    "title": "彩蛋收集",
+    "main": {
+      "title": "🎯 主要彩蛋",
+      "list": [
+        "• 遥控器 - 电视频道大厅隐藏房间",
+        "• 复古游戏机 - 游戏节目区域完美通关",
+        "• 麦克风 - 录音棚完成隐藏任务",
+        "• 导演椅 - 导演办公室解谜",
+        "• 摄像机 - 技术室修理任务",
+        "• 电视天线 - 屋顶隐藏区域"
+      ]
+    },
+    "hidden": {
+      "title": "🔍 隐藏彩蛋",
+      "list": [
+        "• 破碎电视 - 观众席后方",
+        "• 老式收音机 - 控制室角落",
+        "• 电视指南 - 广告区域书架",
+        "• 信号放大器 - 电视塔中层",
+        "• 频道卡 - 新闻演播室桌下",
+        "• 神秘磁带 - 最终Boss战后"
+      ]
+    }
+  },
+  "tipsSection": {
+    "title": "游戏技巧与策略",
+    "general": {
+      "title": "🎮 通用技巧",
+      "list": [
+        "• 在DELTARUNE第三章中频繁存档 - Boss战可能很有挑战性",
+        "• 尝试不同的团队组合以获得最佳效果",
+        "• 注意DELTARUNE电视世界中的环境叙事",
+        "• 第三章中的某些彩蛋需要多次游戏才能找到",
+        "• 保持队伍的TP（紧张点数）高位以使用特殊攻击"
+      ]
+    },
+    "combat": {
+      "title": "⚔️ 战斗策略",
+      "list": [
+        "• DELTARUNE第三章的Boss有独特的模式 - 好好学习它们",
+        "• 在团队遭遇中有效使用Magic命令",
+        "• ACT命令经常在DELTARUNE中提供非暴力解决方案",
+        "• 在弹幕段落中躲避攻击的时机很关键",
+        "• 不要忽视防御道具 - 它们在第三章中很重要"
+      ]
+    },
+    "exploration": {
+      "title": "🔍 探索指南",
+      "list": [
+        "• 检查DELTARUNE电视世界的每个角落寻找隐藏物品",
+        "• 与所有NPC多次对话以获得额外对话",
+        "• 第三章中的某些区域只有在故事进展后才能进入",
+        "• 用新能力返回之前的区域寻找秘密",
+        "• 互动对象通常包含有价值的DELTARUNE传说"
+      ]
+    }
+  },
+  "secretEndings": {
+    "title": "秘密结局与路线",
+    "peaceful": {
+      "title": "🕊️ 和平路线",
+      "description": "在不通过暴力击败任何主要敌人的情况下完成DELTARUNE第三章。使用ACT命令和和平解决方案在电视世界故事情节中前进。"
+    },
+    "aggressive": {
+      "title": "⚔️ 激进路线",
+      "description": "在第三章中采取更专注于战斗的方法。DELTARUNE中的这条路线改变了一些故事元素和整个电视世界的角色互动。"
+    },
+    "hidden": {
+      "title": "🔐 隐藏路线",
+      "description": "通过收集所有彩蛋并完成电视世界区域中的特定秘密目标来解锁这个特殊的DELTARUNE第三章结局。"
+    }
+  },
+  "navigation": {
+    "backToHome": "返回首页",
+    "chapter4Guide": "第四章攻略",
+    "charactersGuide": "角色指南"
+  }
+} 

@@ -1,0 +1,84 @@
+{
+  "title": "DELTARUNE Chapter 4 攻略指南 - 完整通关攻略与秘密收集",
+  "description": "详细的DELTARUNE Chapter 4攻略指南，包含章节地图、Boss战技巧、隐藏内容收集，以及最复杂DELTARUNE章节的完整策略分析。",
+  "keywords": "DELTARUNE Chapter 4, 攻略, 第四章, 通关指南, Boss战, 隐藏内容, 秘密收集, DELTARUNE攻略",
+  "hero": {
+    "title": "DELTARUNE CHAPTER 4",
+    "subtitle": "终极攻略指南 - 最复杂的章节完整解析"
+  },
+  "overview": {
+    "title": "章节概览",
+    "description": "DELTARUNE Chapter 4是整个游戏中最复杂和最具挑战性的章节，于2025年6月5日与Chapter 3同时发布。这个DELTARUNE章节探索了更深层的故事主题，包含了大量的角色发展、复杂的谜题系统，以及多个分支结局。DELTARUNE第四章的内容比前三章加起来还要丰富，是整个DELTARUNE体验的高潮部分。",
+    "playtime": {
+      "title": "预计游戏时长",
+      "value": "6-8小时"
+    },
+    "endings": {
+      "title": "分支结局",
+      "value": "5种不同结局"
+    },
+    "hiddenContent": {
+      "title": "隐藏内容",
+      "value": "18个秘密收集"
+    }
+  },
+  "newFeatures": {
+    "title": "新功能与机制",
+    "emotionSystem": {
+      "title": "🎭 情感系统",
+      "features": [
+        "• 角色情绪会影响DELTARUNE第四章的战斗表现",
+        "• 对话选择影响团队关系",
+        "• 情感状态决定特殊能力可用性",
+        "• 团队和谐度影响DELTARUNE中的结局走向"
+      ]
+    },
+    "dreamSequences": {
+      "title": "🔮 梦境序列",
+      "features": [
+        "• 进入DELTARUNE第四章中角色的内心世界",
+        "• 解锁隐藏的记忆片段",
+        "• 梦境中的选择影响DELTARUNE现实",
+        "• 特殊梦境Boss战"
+      ]
+    }
+  },
+  "chapterMap": {
+    "title": "章节地图",
+    "schoolInterior": {
+      "title": "🏫 学校内部",
+      "locations": [
+        "• 主教学楼 - 多个教室探索",
+        "• 图书馆 - DELTARUNE中的知识系统谜题",
+        "• 实验室 - 科学实验挑战",
+        "• 礼堂 - 大型集会场景",
+        "• 地下室 - 隐藏的秘密区域"
+      ]
+    },
+    "schoolExterior": {
+      "title": "🌃 学校外围",
+      "locations": [
+        "• 校园庭院 - 社交互动中心",
+        "• 停车场 - DELTARUNE中的车辆相关谜题",
+        "• 后门区域 - 秘密通道入口",
+        "• 屋顶 - 俯瞰全景的关键场所",
+        "• 废弃建筑 - 危险的探索区域"
+      ]
+    },
+    "dreamWorld": {
+      "title": "🌌 梦境世界",
+      "locations": [
+        "• Kris的梦境 - DELTARUNE第四章中的身份认同主题",
+        "• Susie的梦境 - 友谊与成长",
+        "• Noelle的梦境 - 恐惧与勇气主题",
+        "• 共同梦境 - DELTARUNE中的团队合作考验",
+        "• 噩梦区域 - 最终挑战场所"
+      ]
+    }
+  },
+  "navigation": {
+    "backToHome": "返回首页",
+    "chapter3Guide": "第三章攻略",
+    "charactersGuide": "角色指南"
+  }
+} 

@@ -37,7 +37,6 @@ export async function generateMetadata({
   return {
     title: t('hero.title') + " - " + t('hero.subtitle'),
     description: t('hero.description'),
-    keywords: siteConfig.keywords.join(", "),
     authors: [{ name: siteConfig.author.name }],
     creator: siteConfig.author.name,
     publisher: siteConfig.author.name,
@@ -48,9 +47,9 @@ export async function generateMetadata({
     },
     metadataBase: new URL(siteConfig.canonical),
     alternates: {
-      canonical: siteConfig.canonical,
+      canonical: locale === 'en' ? siteConfig.canonical : `${siteConfig.canonical}/${locale}`,
       languages: {
-        'en': '/en',
+        'en': '/',
         'zh': '/zh',
         'ja': '/ja',
         'ko': '/ko',

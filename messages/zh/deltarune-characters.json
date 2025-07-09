@@ -1,0 +1,195 @@
+{
+  "title": "DELTARUNE 角色百科 - Kris, Susie, Ralsei 完整角色指南",
+  "description": "DELTARUNE完整角色百科，包含Kris、Susie、Ralsei、Noelle等主要角色的详细介绍、能力分析、故事背景和DELTARUNE中的发展历程。",
+  "keywords": "DELTARUNE角色, Kris, Susie, Ralsei, Noelle, 角色百科, 角色指南, 角色能力, 故事背景, DELTARUNE",
+  "hero": {
+    "title": "DELTARUNE 角色百科",
+    "subtitle": "深入了解每个角色的能力、背景和故事发展"
+  },
+  "mainCharacters": {
+    "title": "主要角色",
+    "kris": {
+      "name": "Kris",
+      "basicInfo": {
+        "title": "基本信息",
+        "race": "人类",
+        "age": "青少年",
+        "weapon": "剑",
+        "role": "队长",
+        "element": "无属性"
+      },
+      "abilities": {
+        "title": "战斗能力",
+        "list": [
+          "Red Buster - DELTARUNE中的基础攻击技能",
+          "Dual Heal - 治疗队友",
+          "S-Action - 特殊行动",
+          "X-Slash - 强力剑术"
+        ]
+      },
+      "traits": {
+        "title": "角色特点",
+        "list": [
+          "被灵魂控制的角色",
+          "沉默寡言，内向",
+          "强烈的保护欲",
+          "与兄弟Asriel关系密切"
+        ]
+      },
+      "background": {
+        "title": "故事背景",
+        "description": "Kris是小镇上唯一的人类，在DELTARUNE中被Toriel和Asgore收养。他们与Asriel从小一起长大，但现在Asriel已经去上大学了。"
+      }
+    },
+    "susie": {
+      "name": "Susie",
+      "basicInfo": {
+        "title": "基本信息",
+        "race": "紫色怪物",
+        "age": "青少年",
+        "weapon": "斧头",
+        "role": "物理攻击手",
+        "element": "暗属性"
+      },
+      "abilities": {
+        "title": "战斗能力",
+        "list": [
+          "Rude Buster - DELTARUNE中的标志性攻击",
+          "Red Buster - 与Kris合作技",
+          "Ultimate Heal - 强力治疗",
+          "S-Action - 特殊威慑"
+        ]
+      },
+      "traits": {
+        "title": "角色特点",
+        "list": [
+          "外表粗鲁，内心善良",
+          "逐渐学会团队合作",
+          "对朋友极度忠诚",
+          "喜欢吃粉笔"
+        ]
+      },
+      "background": {
+        "title": "故事背景",
+        "description": "Susie起初是学校里的问题学生，以霸凌和威胁著称。通过在Dark World的冒险，Susie学会了友谊的重要性。"
+      }
+    },
+    "ralsei": {
+      "name": "Ralsei",
+      "basicInfo": {
+        "title": "基本信息",
+        "race": "暗世界王子",
+        "age": "未知",
+        "weapon": "法杖",
+        "role": "治疗师",
+        "element": "光属性"
+      },
+      "abilities": {
+        "title": "战斗能力",
+        "list": [
+          "Heal Prayer - DELTARUNE中的治疗法术",
+          "Pacify - 和平解决",
+          "Fluffy Guard - 保护队友",
+          "Red Buster - 合作攻击"
+        ]
+      },
+      "traits": {
+        "title": "角色特点",
+        "list": [
+          "温和善良，和平主义者",
+          "知识渊博，善于指导",
+          "对Kris有特殊情感",
+          "身份和目的神秘"
+        ]
+      },
+      "background": {
+        "title": "故事背景",
+        "description": "Ralsei是Dark World的王子，独自守护着空无一人的城堡。他似乎对Light World的情况非常了解。"
+      }
+    },
+    "noelle": {
+      "name": "Noelle",
+      "basicInfo": {
+        "title": "基本信息",
+        "race": "鹿怪物",
+        "age": "青少年",
+        "weapon": "魔法",
+        "role": "冰系法师",
+        "element": "冰属性"
+      },
+      "abilities": {
+        "title": "战斗能力",
+        "list": [
+          "IceShock - DELTARUNE中的基础冰攻击",
+          "Snowgrave - 强力冰咒",
+          "Heal Prayer - 恢复魔法",
+          "Sleep Mist - 状态效果魔法"
+        ]
+      },
+      "traits": {
+        "title": "角色特点",
+        "list": [
+          "性格害羞胆小",
+          "善良体贴的天性",
+          "Kris的青梅竹马",
+          "缺乏自信心"
+        ]
+      },
+      "background": {
+        "title": "故事背景",
+        "description": "Noelle是Kris在DELTARUNE中的青梅竹马，来自镇上的名门家庭。她的父亲Rudy住院了，给她的生活增加了压力。"
+      }
+    }
+  },
+  "supportingCharacters": {
+    "title": "配角角色",
+    "toriel": {
+      "name": "Toriel",
+      "description": "Kris和Asriel在DELTARUNE中的养母，担任学校老师。"
+    },
+    "asgore": {
+      "name": "Asgore",
+      "description": "前国王和Kris在DELTARUNE中的养父。现在经营一家花店。"
+    },
+    "alphys": {
+      "name": "Alphys",
+      "description": "DELTARUNE中的学校科学老师，以她的紧张和科学专业知识而闻名。"
+    },
+    "undyne": {
+      "name": "Undyne",
+      "description": "DELTARUNE镇上的警察局长，以她强烈和激进的个性而闻名。"
+    },
+    "sans": {
+      "name": "Sans",
+      "description": "神秘的骷髅，在DELTARUNE中作为店主出现。"
+    },
+    "papyrus": {
+      "name": "Papyrus",
+      "description": "Sans在DELTARUNE中的兄弟，热情乐观。"
+    }
+  },
+  "relationships": {
+    "title": "角色关系",
+    "krisAndSusie": {
+      "title": "Kris与Susie",
+      "description": "他们的友谊在DELTARUNE中从恐惧发展到信任。"
+    },
+    "krisAndRalsei": {
+      "title": "Kris与Ralsei",
+      "description": "DELTARUNE中的复杂关系，Ralsei似乎对Kris了解得比他透露的更多。"
+    },
+    "susieAndNoelle": {
+      "title": "Susie与Noelle",
+      "description": "Noelle对Susie的好感推动了DELTARUNE中的角色发展。"
+    },
+    "krisAndNoelle": {
+      "title": "Kris与Noelle",
+      "description": "DELTARUNE中有着共同回忆和经历的青梅竹马。"
+    }
+  },
+  "navigation": {
+    "backToHome": "返回首页",
+    "chapter3Guide": "第三章攻略",
+    "chapter4Guide": "第四章攻略"
+  }
+} 

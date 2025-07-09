@@ -5,7 +5,11 @@
     "blog": "Blog", 
     "features": "Features",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "guides": "Guides",
+    "chapter3": "Chapter 3 Guide",
+    "chapter4": "Chapter 4 Guide", 
+    "characters": "Character Encyclopedia"
   },
   "mobileMenu": {
     "open": "Open menu",

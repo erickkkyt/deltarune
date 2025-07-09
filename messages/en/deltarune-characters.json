@@ -1,0 +1,260 @@
+{
+  "title": "DELTARUNE Character Encyclopedia - Kris, Susie, Ralsei Complete Character Guide",
+  "description": "Complete DELTARUNE character encyclopedia featuring Kris, Susie, Ralsei, Noelle and other main characters with detailed introductions, ability analysis, story backgrounds and development progression in DELTARUNE.",
+  "keywords": "DELTARUNE characters, Kris, Susie, Ralsei, Noelle, character encyclopedia, character guide, character abilities, story background, DELTARUNE",
+  "hero": {
+    "title": "DELTARUNE CHARACTER ENCYCLOPEDIA",
+    "subtitle": "Deep dive into each character's abilities, background and story development"
+  },
+  "mainCharacters": {
+    "title": "Main Characters",
+    "kris": {
+      "name": "🗡️ Kris",
+      "basicInfo": {
+        "title": "Basic Information",
+        "race": "Human",
+        "age": "Teenager", 
+        "weapon": "Sword",
+        "role": "Leader/Protagonist",
+        "element": "Neutral"
+      },
+      "abilities": {
+        "title": "Combat Abilities",
+        "list": [
+          "• Red Buster - Basic attack skill in DELTARUNE",
+          "• Dual Heal - Healing teammates",
+          "• S-Action - Special action commands",
+          "• X-Slash - Powerful sword technique"
+        ]
+      },
+      "traits": {
+        "title": "Character Traits",
+        "list": [
+          "• Controlled by Soul (player) in DELTARUNE",
+          "• Silent and introverted personality",
+          "• Strong protective instincts",
+          "• Close relationship with brother Asriel"
+        ]
+      },
+      "background": {
+        "title": "Story Background",
+        "description": "Kris is the only human in the small town, adopted by Toriel and Asgore in DELTARUNE. They grew up with Asriel, but now Asriel has gone to college. Kris is relatively lonely at school until being drawn into Dark World adventures. As a character controlled by the 'Soul', Kris experiences complex struggles with identity throughout DELTARUNE's story."
+      }
+    },
+    "susie": {
+      "name": "🪓 Susie",
+      "basicInfo": {
+        "title": "Basic Information",
+        "race": "Purple Monster",
+        "age": "Teenager",
+        "weapon": "Axe", 
+        "role": "Physical Attacker",
+        "element": "Dark"
+      },
+      "abilities": {
+        "title": "Combat Abilities",
+        "list": [
+          "• Rude Buster - Signature attack in DELTARUNE",
+          "• Red Buster - Cooperation skill with Kris",
+          "• Ultimate Heal - Powerful healing ability",
+          "• S-Action - Special intimidation commands"
+        ]
+      },
+      "traits": {
+        "title": "Character Traits",
+        "list": [
+          "• Rough exterior, kind heart in DELTARUNE",
+          "• Gradually learns teamwork",
+          "• Extremely loyal to friends",
+          "• Enjoys eating chalk"
+        ]
+      },
+      "background": {
+        "title": "Story Background", 
+        "description": "Susie initially was the problem student at school in DELTARUNE, known for bullying and intimidation. She lived on society's margins, lacking true friends. Through Dark World adventures in DELTARUNE, Susie learned the importance of friendship, gradually growing from a lone 'bad kid' into an indispensable team member. Her growth arc is central to the entire DELTARUNE story."
+      }
+    },
+    "ralsei": {
+      "name": "🛡️ Ralsei",
+      "basicInfo": {
+        "title": "Basic Information",
+        "race": "Dark World Prince",
+        "age": "Unknown",
+        "weapon": "Staff",
+        "role": "Healer/Mage", 
+        "element": "Light"
+      },
+      "abilities": {
+        "title": "Combat Abilities",
+        "list": [
+          "• Heal Prayer - Healing spells in DELTARUNE",
+          "• Pacify - Peaceful resolution ability",
+          "• Fluffy Guard - Protecting teammates",
+          "• Red Buster - Cooperative attack"
+        ]
+      },
+      "traits": {
+        "title": "Character Traits",
+        "list": [
+          "• Gentle and kind, pacifist in DELTARUNE",
+          "• Knowledgeable and good at guidance",
+          "• Special feelings for Kris",
+          "• Mysterious identity and purpose"
+        ]
+      },
+      "background": {
+        "title": "Story Background",
+        "description": "Ralsei is the prince of the Dark World in DELTARUNE, alone guarding an empty castle. He seems very knowledgeable about Light World situations and guides Kris and Susie on their adventure. Ralsei's true identity and motives remain mysterious in DELTARUNE, but he always aims for peaceful conflict resolution and serves as the team's spiritual pillar."
+      }
+    },
+    "noelle": {
+      "name": "❄️ Noelle",
+      "basicInfo": {
+        "title": "Basic Information",
+        "race": "Deer Monster",
+        "age": "Teenager",
+        "weapon": "Magic",
+        "role": "Ice Mage",
+        "element": "Ice"
+      },
+      "abilities": {
+        "title": "Combat Abilities",
+        "list": [
+          "• IceShock - Basic ice attack in DELTARUNE",
+          "• Snowgrave - Powerful ice spell (Snowgrave Route)",
+          "• Heal Prayer - Restoration magic",
+          "• Sleep Mist - Status effect magic"
+        ]
+      },
+      "traits": {
+        "title": "Character Traits",
+        "list": [
+          "• Shy and timid personality in DELTARUNE",
+          "• Kind-hearted and caring nature",
+          "• Childhood friend of Kris",
+          "• Struggles with self-confidence"
+        ]
+      },
+      "background": {
+        "title": "Story Background",
+        "description": "Noelle is Kris's childhood friend in DELTARUNE, coming from a prominent family in town. Her father Rudy is hospitalized, adding stress to her life. Noelle has a crush on Susie and gradually opens up through Dark World adventures in DELTARUNE. Her character development involves overcoming fears and finding inner strength, particularly in the controversial Snowgrave route of DELTARUNE."
+      }
+    }
+  },
+  "supportingCharacters": {
+    "title": "Supporting Characters",
+    "toriel": {
+      "name": "🐐 Toriel",
+      "description": "Kris and Asriel's adoptive mother in DELTARUNE, working as a school teacher. She's protective and caring, often worrying about Kris's wellbeing in the DELTARUNE storyline."
+    },
+    "asgore": {
+      "name": "👑 Asgore", 
+      "description": "Former king and Kris's adoptive father in DELTARUNE. Now runs a flower shop and maintains a complex relationship with Toriel following their separation in the DELTARUNE universe."
+    },
+    "alphys": {
+      "name": "🦎 Alphys",
+      "description": "School science teacher in DELTARUNE, known for her nervousness and scientific expertise. She plays a smaller but important role in the DELTARUNE storyline compared to Undertale."
+    },
+    "undyne": {
+      "name": "🐟 Undyne",
+      "description": "Police chief in DELTARUNE's town, known for her intense and aggressive personality. She maintains law and order while being somewhat suspicious of unusual activities in DELTARUNE."
+    },
+    "sans": {
+      "name": "💀 Sans",
+      "description": "Mysterious skeleton who appears as a shopkeeper in DELTARUNE. His role and knowledge about the Dark Worlds remain enigmatic throughout the DELTARUNE story."
+    },
+    "papyrus": {
+      "name": "💀 Papyrus",
+      "description": "Sans's brother in DELTARUNE, enthusiastic and optimistic. He hasn't appeared directly in DELTARUNE chapters yet but is frequently mentioned by other characters."
+    }
+  },
+  "relationships": {
+    "title": "Character Relationships",
+    "krisAndSusie": {
+      "title": "Kris & Susie",
+      "description": "Their friendship develops from fear to trust in DELTARUNE. Susie learns to care for others through her bond with Kris, while Kris finds someone who accepts them unconditionally."
+    },
+    "krisAndRalsei": {
+      "title": "Kris & Ralsei", 
+      "description": "A complex relationship in DELTARUNE where Ralsei seems to know more about Kris than he reveals. Their bond involves guidance, trust, and mysterious connections to the Dark World."
+    },
+    "susieAndNoelle": {
+      "title": "Susie & Noelle",
+      "description": "Noelle's crush on Susie drives character development in DELTARUNE. Susie gradually softens her tough exterior around Noelle, showing genuine care and protection."
+    },
+    "krisAndNoelle": {
+      "title": "Kris & Noelle",
+      "description": "Childhood friends in DELTARUNE with shared memories and experiences. Their relationship becomes complicated when player choices affect Noelle's actions, especially in alternate routes."
+    }
+  },
+  "characterDevelopment": {
+    "title": "Character Development Arcs",
+    "growth": {
+      "title": "🌱 Character Growth",
+      "description": "DELTARUNE characters undergo significant development throughout the chapters. Each character faces personal challenges and grows through their Dark World experiences, making DELTARUNE's character development one of its strongest elements."
+    },
+    "themes": {
+      "title": "📖 Character Themes",
+      "list": [
+        "• Identity and self-discovery in DELTARUNE",
+        "• Friendship and trust building",
+        "• Overcoming personal fears and limitations",
+        "• The impact of player choice on character fate",
+        "• Balance between individual will and external control"
+      ]
+    },
+    "choices": {
+      "title": "🔀 Player Choice Impact",
+      "description": "Player decisions significantly affect character relationships and development in DELTARUNE. The game explores how external control (player input) influences character agency and personal growth, creating a unique meta-narrative experience."
+    }
+  },
+  "abilities": {
+    "title": "Combat System & Abilities",
+    "magicSystem": {
+      "title": "🔮 Magic System",
+      "description": "DELTARUNE features a unique magic system where characters learn new abilities through story progression and relationship development. Each character's magical abilities reflect their personality and role in the team."
+    },
+    "teamwork": {
+      "title": "🤝 Teamwork Mechanics",
+      "description": "DELTARUNE emphasizes cooperative gameplay where characters can combine their abilities for powerful team attacks. Character compatibility and relationship status affect the effectiveness of these cooperative abilities."
+    },
+    "specialAttacks": {
+      "title": "⚡ Special Attacks",
+      "list": [
+        "• Dual Tech attacks require two characters in DELTARUNE",
+        "• Triple Tech involves all three main characters",
+        "• Character-specific ultimate abilities",
+        "• Emotion-based attack variations",
+        "• Equipment affects available attack options"
+      ]
+    }
+  },
+  "trivia": {
+    "title": "Character Trivia & Secrets",
+    "secrets": {
+      "title": "🎭 Hidden Character Details",
+      "list": [
+        "• Kris's true feelings about player control in DELTARUNE",
+        "• Susie's favorite foods and hidden vulnerabilities",
+        "• Ralsei's mysterious knowledge about the Light World",
+        "• Noelle's magical potential and family history",
+        "• Character reactions change based on player choices"
+      ]
+    },
+    "easter_eggs": {
+      "title": "🥚 Character Easter Eggs",
+      "list": [
+        "• Special dialogue combinations in DELTARUNE",
+        "• Hidden character interactions and scenes",
+        "• References to Undertale character connections",
+        "• Secret character development paths",
+        "• Meta-narrative character moments"
+      ]
+    }
+  },
+  "navigation": {
+    "backToHome": "Back to Home",
+    "chapter3Guide": "Chapter 3 Guide",
+    "chapter4Guide": "Chapter 4 Guide"
+  }
+} 

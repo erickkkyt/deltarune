@@ -1,14 +1,24 @@
 {
-  "home": "首页",
-  "game": "游戏",
-  "features": "特色",
-  "about": "关于",
-  "faq": "常见问题",
-  "blog": "博客", 
-  "privacy": "隐私政策",
-  "terms": "服务条款",
+  "brand": "DELTARUNE 在线",
   "menu": {
+    "home": "首页",
+    "blog": "博客", 
+    "features": "功能特色",
+    "about": "关于",
+    "contact": "联系我们",
+    "guides": "攻略指南",
+    "chapter3": "第三章攻略",
+    "chapter4": "第四章攻略",
+    "characters": "角色百科"
+  },
+  "mobileMenu": {
     "open": "打开菜单",
     "close": "关闭菜单"
-  }
+  },
+  "game": "游戏",
+  "features": "功能特色",
+  "about": "关于",
+  "faq": "常见问题",
+  "privacy": "隐私政策",
+  "terms": "使用条款"
 } 

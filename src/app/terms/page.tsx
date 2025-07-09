@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms of Service - Deltarune Online Hub',
-  description: 'Terms of Service for Deltarune Online Hub - Learn about our service terms and conditions.',
+  description: 'Terms of Service for Deltarune Online Hub - Read our comprehensive terms and conditions that govern your use of our website and services.',
   alternates: {
     canonical: 'https://deltarune.cc/terms',
   },
   openGraph: {
     title: 'Terms of Service - Deltarune Online Hub',
-    description: 'Terms of Service for Deltarune Online Hub - Learn about our service terms and conditions.',
+    description: 'Terms of Service for Deltarune Online Hub - Read our comprehensive terms and conditions that govern your use of our website and services.',
     url: 'https://deltarune.cc/terms',
   },
 };

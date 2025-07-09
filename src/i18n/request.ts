@@ -31,7 +31,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
       whatis: (await import(`../../messages/${locale}/whatis.json`)).default,
       whyplay: (await import(`../../messages/${locale}/whyplay.json`)).default,
       howtoplay: (await import(`../../messages/${locale}/howtoplay.json`)).default,
-      userreviews: (await import(`../../messages/${locale}/userreviews.json`)).default
+      userreviews: (await import(`../../messages/${locale}/userreviews.json`)).default,
+      'deltarune-chapter-3': (await import(`../../messages/${locale}/deltarune-chapter-3.json`)).default,
+      'deltarune-chapter-4': (await import(`../../messages/${locale}/deltarune-chapter-4.json`)).default,
+      'deltarune-characters': (await import(`../../messages/${locale}/deltarune-characters.json`)).default
     }
   };
 }); 

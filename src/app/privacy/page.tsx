@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Deltarune Online Hub',
-  description: 'Privacy Policy for Deltarune Online Hub - Learn how we protect your data and privacy.',
+  description: 'Privacy Policy for Deltarune Online Hub - Learn how we collect, use, and protect your personal information when you visit our website and use our services.',
   alternates: {
     canonical: 'https://deltarune.cc/privacy',
   },
   openGraph: {
     title: 'Privacy Policy - Deltarune Online Hub',
-    description: 'Privacy Policy for Deltarune Online Hub - Learn how we protect your data and privacy.',
+    description: 'Privacy Policy for Deltarune Online Hub - Learn how we collect, use, and protect your personal information when you visit our website and use our services.',
     url: 'https://deltarune.cc/privacy',
   },
 };

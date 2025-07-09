@@ -18,6 +18,26 @@ Allow: /fr/
 Allow: /privacy
 Allow: /terms
 
+# Allow DELTARUNE guide pages
+Allow: /deltarune-chapter-3
+Allow: /deltarune-chapter-4
+Allow: /deltarune-characters
+Allow: /en/deltarune-chapter-3
+Allow: /en/deltarune-chapter-4
+Allow: /en/deltarune-characters
+Allow: /zh/deltarune-chapter-3
+Allow: /zh/deltarune-chapter-4
+Allow: /zh/deltarune-characters
+Allow: /ja/deltarune-chapter-3
+Allow: /ja/deltarune-chapter-4
+Allow: /ja/deltarune-characters
+Allow: /ko/deltarune-chapter-3
+Allow: /ko/deltarune-chapter-4
+Allow: /ko/deltarune-characters
+Allow: /fr/deltarune-chapter-3
+Allow: /fr/deltarune-chapter-4
+Allow: /fr/deltarune-characters
+
 # Crawl-delay for polite crawling
 Crawl-delay: 1
 

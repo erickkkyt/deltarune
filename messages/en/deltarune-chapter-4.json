@@ -1,0 +1,282 @@
+{
+  "title": "DELTARUNE Chapter 4 Complete Guide - Ultimate Walkthrough & Secret Collection",
+  "description": "Detailed DELTARUNE Chapter 4 walkthrough guide including chapter maps, boss battle techniques, hidden content collection, and complete strategy analysis for the most complex DELTARUNE chapter.",
+  "keywords": "DELTARUNE Chapter 4, walkthrough, Chapter 4, completion guide, boss battles, hidden content, secret collection, DELTARUNE guide",
+  "hero": {
+    "title": "DELTARUNE CHAPTER 4",
+    "subtitle": "Ultimate Strategy Guide - The Most Complex Chapter Complete Analysis"
+  },
+  "overview": {
+    "title": "Chapter Overview",
+    "description": "DELTARUNE Chapter 4 is the most complex and challenging chapter in the entire game, released on June 5, 2025, alongside Chapter 3. This DELTARUNE chapter explores deeper story themes, including extensive character development, complex puzzle systems, and multiple branching endings. Chapter 4 of DELTARUNE contains more content than the first three chapters combined, making it the climax of the entire DELTARUNE experience.",
+    "playtime": {
+      "title": "Estimated Playtime",
+      "value": "6-8 hours"
+    },
+    "endings": {
+      "title": "Branching Endings",
+      "value": "5 different endings"
+    },
+    "hiddenContent": {
+      "title": "Hidden Content",
+      "value": "18 secret collectibles"
+    }
+  },
+  "newFeatures": {
+    "title": "New Features & Mechanics",
+    "emotionSystem": {
+      "title": "🎭 Emotion System",
+      "features": [
+        "• Character emotions affect battle performance in DELTARUNE Chapter 4",
+        "• Dialogue choices influence team relationships",
+        "• Emotional states determine special ability availability",
+        "• Team harmony affects ending outcomes in DELTARUNE"
+      ]
+    },
+    "dreamSequences": {
+      "title": "🔮 Dream Sequences",
+      "features": [
+        "• Enter characters' inner worlds in DELTARUNE Chapter 4",
+        "• Unlock hidden memory fragments",
+        "• Dream choices affect reality in DELTARUNE",
+        "• Special dream boss battles"
+      ]
+    }
+  },
+  "chapterMap": {
+    "title": "Chapter Maps",
+    "schoolInterior": {
+      "title": "🏫 School Interior",
+      "locations": [
+        "• Main Building - Multiple classroom exploration",
+        "• Library - Knowledge system puzzles in DELTARUNE",
+        "• Laboratory - Science experiment challenges",
+        "• Auditorium - Large assembly scenes",
+        "• Basement - Hidden secret areas"
+      ]
+    },
+    "schoolExterior": {
+      "title": "🌃 School Exterior",
+      "locations": [
+        "• Campus Courtyard - Social interaction center",
+        "• Parking Lot - Vehicle-related puzzles in DELTARUNE",
+        "• Back Door Area - Secret passage entrance",
+        "• Rooftop - Key location with panoramic views",
+        "• Abandoned Building - Dangerous exploration area"
+      ]
+    },
+    "dreamWorld": {
+      "title": "🌌 Dream World",
+      "locations": [
+        "• Kris's Dream - Identity theme in DELTARUNE Chapter 4",
+        "• Susie's Dream - Friendship and growth",
+        "• Noelle's Dream - Fear and courage themes",
+        "• Shared Dream - Team cooperation test in DELTARUNE",
+        "• Nightmare Zone - Final challenge area"
+      ]
+    }
+  },
+  "bossGuide": {
+    "title": "Boss Battle Strategy",
+    "rouxls": {
+      "title": "🃏 Rouxls Kaard (Evolved Form)",
+      "abilities": {
+        "title": "New Abilities",
+        "list": [
+          "• Rule Rewriting - Battle mechanics change in real-time",
+          "• Card Summoning - Random effect attacks in DELTARUNE",
+          "• Time Distortion - Turn order scrambling",
+          "• Space Reorganization - Battlefield layout changes"
+        ]
+      },
+      "strategy": {
+        "title": "Counter Strategy",
+        "list": [
+          "• Quickly adapt to rule changes in DELTARUNE Chapter 4",
+          "• Focus attacks on his 'Rule Book'",
+          "• Utilize Ralsei's stabilizing effects",
+          "• Maintain team formation integrity"
+        ]
+      }
+    },
+    "berdly": {
+      "title": "🦅 Berdly (Nightmare Form)",
+      "attacks": {
+        "title": "Dream Attacks",
+        "list": [
+          "• Knowledge Flood - Text bullet attacks in DELTARUNE",
+          "• Competitive Pressure - Psychological state effects",
+          "• Academic Anxiety - Continuous HP drain",
+          "• Self-Doubt - Temporary ability sealing"
+        ]
+      },
+      "solution": {
+        "title": "Solution",
+        "list": [
+          "• Use Susie's 'Encourage' action in DELTARUNE Chapter 4",
+          "• Noelle's 'Understanding' skill is very effective",
+          "• Avoid using sarcastic ACT commands",
+          "• Focus on healing rather than damage"
+        ]
+      }
+    },
+    "knight": {
+      "title": "⚔️ The Knight (First Encounter)",
+      "attacks": {
+        "title": "Attack Patterns",
+        "list": [
+          "• Shadow Sword - Defense-ignoring attacks in DELTARUNE",
+          "• Dark Vortex - Full-screen area attacks",
+          "• Void Summon - Shadow monster summoning",
+          "• Despair Aura - Team morale reduction"
+        ]
+      },
+      "survival": {
+        "title": "Survival Tips",
+        "list": [
+          "• This is a story battle - cannot truly win in DELTARUNE",
+          "• Focus on surviving enough turns",
+          "• Prioritize healing and defense",
+          "• Observe attack patterns for future preparation"
+        ]
+      }
+    },
+    "spamton": {
+      "title": "📞 Spamton NEO (Upgraded)",
+      "phases": {
+        "title": "Four Battle Phases",
+        "list": [
+          "• Phase 1: Email spam attacks in DELTARUNE Chapter 4",
+          "• Phase 2: Phone wire manipulation",
+          "• Phase 3: Big Shot barrage attacks",
+          "• Phase 4: Desperate final form transformation"
+        ]
+      },
+      "strategy": {
+        "title": "Advanced Strategy",
+        "list": [
+          "• Each phase requires different tactics in DELTARUNE",
+          "• Cut wire connections to weaken him",
+          "• Yellow SOUL mode essential for victory",
+          "• Watch for 'BIG SHOT' warning indicators"
+        ]
+      }
+    },
+    "shadowKris": {
+      "title": "🌑 Shadow Kris (Final Boss)",
+      "description": "The ultimate boss of DELTARUNE Chapter 4, representing Kris's internal struggle with player control. This multi-phase battle determines the chapter's ending.",
+      "phases": {
+        "title": "Five Battle Phases",
+        "list": [
+          "• Phase 1: Knife attacks and soul manipulation in DELTARUNE",
+          "• Phase 2: Dark fountain creation powers",
+          "• Phase 3: Player vs Character conflict manifestation",
+          "• Phase 4: Reality distortion and fourth wall breaks",
+          "• Phase 5: Final determination - multiple ending paths"
+        ]
+      },
+      "endings": {
+        "title": "Ending Variations",
+        "list": [
+          "• Control Ending - Player maintains control in DELTARUNE",
+          "• Freedom Ending - Kris breaks free from control",
+          "• Balance Ending - Harmony between player and character",
+          "• Sacrifice Ending - Kris's ultimate sacrifice choice",
+          "• Secret Ending - Hidden path requiring special conditions"
+        ]
+      }
+    }
+  },
+  "collectibles": {
+    "title": "Secret Content Collection",
+    "main": {
+      "title": "🎯 Main Collectibles",
+      "list": [
+        "• School Key - Principal's office secret drawer",
+        "• Ancient Journal - Library hidden section in DELTARUNE Chapter 4",
+        "• Chemistry Set - Laboratory completion reward",
+        "• Drama Mask - Auditorium stage secret area",
+        "• Basement Map - Underground exploration guide",
+        "• Rooftop Telescope - Astronomy club equipment",
+        "• Parking Pass - Vehicle access in DELTARUNE",
+        "• Emergency Kit - Abandoned building survival gear",
+        "• Dream Catcher - Shared dream world artifact"
+      ]
+    },
+    "hidden": {
+      "title": "🔍 Hidden Secrets",
+      "list": [
+        "• Time Capsule - Buried in campus courtyard",
+        "• Love Letter - Locker combination puzzle reward",
+        "• Broken Phone - Technical room repair quest in DELTARUNE",
+        "• Photo Album - Darkroom development minigame",
+        "• Music Box - Band practice room tuning puzzle",
+        "• Science Award - Chemistry experiment perfect score",
+        "• Sports Trophy - Gymnasium challenge completion",
+        "• Art Supplies - Creative writing class inspiration",
+        "• Graduation Cap - Future timeline vision artifact"
+      ]
+    }
+  },
+  "endingGuide": {
+    "title": "Multiple Ending Guide",
+    "control": {
+      "title": "🎮 Control Ending",
+      "description": "Maintain player control over Kris throughout DELTARUNE Chapter 4. Make choices that assert player dominance and ignore Kris's autonomous actions. This ending emphasizes the meta-narrative of game control."
+    },
+    "freedom": {
+      "title": "🕊️ Freedom Ending", 
+      "description": "Allow Kris to break free from player control in DELTARUNE Chapter 4. Support their autonomous decisions and respect their individual will. This ending explores themes of character agency."
+    },
+    "balance": {
+      "title": "⚖️ Balance Ending",
+      "description": "Achieve harmony between player and character in DELTARUNE. Make collaborative decisions that respect both player intent and Kris's personality. This ending promotes cooperation."
+    },
+    "sacrifice": {
+      "title": "💔 Sacrifice Ending",
+      "description": "Choose the path where Kris makes the ultimate sacrifice in DELTARUNE Chapter 4. This emotionally intense ending requires specific story choices and character development paths."
+    },
+    "secret": {
+      "title": "🔐 Secret Ending",
+      "description": "Unlock the hidden ending in DELTARUNE Chapter 4 by collecting all secrets, achieving perfect character relationships, and discovering the truth behind the Dark Worlds. Requirements are complex but rewarding."
+    }
+  },
+  "tips": {
+    "title": "Advanced Strategy Tips",
+    "general": {
+      "title": "🎮 General Tips",
+      "list": [
+        "• Save before major story decisions in DELTARUNE Chapter 4",
+        "• Character relationships affect battle effectiveness",
+        "• Emotion system requires careful dialogue management",
+        "• Multiple playthroughs reveal different DELTARUNE secrets",
+        "• Dream sequences contain crucial story information"
+      ]
+    },
+    "combat": {
+      "title": "⚔️ Combat Strategy",
+      "list": [
+        "• DELTARUNE Chapter 4 bosses use psychological warfare",
+        "• Team chemistry affects special attack availability",
+        "• Defensive strategy often better than aggressive",
+        "• ACT commands have deeper meaning in Chapter 4 of DELTARUNE",
+        "• Emotion states change battle options dynamically"
+      ]
+    },
+    "secrets": {
+      "title": "🔍 Secret Discovery",
+      "list": [
+        "• Revisit areas after emotional state changes in DELTARUNE",
+        "• Dream world items carry to reality",
+        "• Character-specific interactions unlock hidden content",
+        "• Timeline elements affect secret availability",
+        "• Meta-narrative clues hidden in Chapter 4 of DELTARUNE"
+      ]
+    }
+  },
+  "navigation": {
+    "backToHome": "Back to Home",
+    "chapter3Guide": "Chapter 3 Guide",
+    "charactersGuide": "Characters Guide"
+  }
+} 

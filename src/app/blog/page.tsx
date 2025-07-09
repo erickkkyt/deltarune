@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Blog - Deltarune Online Hub',
-  description: 'Latest news, updates, and articles about Deltarune and gaming community.',
+  description: 'Latest news, updates, and in-depth articles about Deltarune, gaming guides, character analysis, and community discussions for RPG enthusiasts.',
   alternates: {
     canonical: 'https://deltarune.cc/blog',
   },
   openGraph: {
     title: 'Blog - Deltarune Online Hub',
-    description: 'Latest news, updates, and articles about Deltarune and gaming community.',
+    description: 'Latest news, updates, and in-depth articles about Deltarune, gaming guides, character analysis, and community discussions for RPG enthusiasts.',
     url: 'https://deltarune.cc/blog',
   },
 };
