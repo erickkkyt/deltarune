@@ -10,7 +10,6 @@ Disallow: /*.json$
 
 # Allow specific important pages
 Allow: /blog/
-Allow: /en/
 Allow: /zh/
 Allow: /ja/
 Allow: /ko/
@@ -18,13 +17,10 @@ Allow: /fr/
 Allow: /privacy
 Allow: /terms
 
-# Allow DELTARUNE guide pages
+# Allow DELTARUNE guide pages (English is default, no /en/ prefix)
 Allow: /deltarune-chapter-3
 Allow: /deltarune-chapter-4
 Allow: /deltarune-characters
-Allow: /en/deltarune-chapter-3
-Allow: /en/deltarune-chapter-4
-Allow: /en/deltarune-characters
 Allow: /zh/deltarune-chapter-3
 Allow: /zh/deltarune-chapter-4
 Allow: /zh/deltarune-characters

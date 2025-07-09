@@ -55,34 +55,35 @@ Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French
 
 ## URL Structure & Routes
 ### Main Routes:
-- `/` - Homepage (redirects to default language)
-- `/en` - English homepage
+- `/` - English homepage (default language)
 - `/zh` - Chinese homepage
 - `/ja` - Japanese homepage
 - `/ko` - Korean homepage
 - `/fr` - French homepage
 
 ### DELTARUNE Guide Routes:
-- `/deltarune-chapter-3` - English Chapter 3 guide
-- `/deltarune-chapter-4` - English Chapter 4 guide
-- `/deltarune-characters` - English character encyclopedia
-- `/en/deltarune-chapter-3` - English Chapter 3 guide (explicit)
+- `/deltarune-chapter-3` - English Chapter 3 guide (default language)
+- `/deltarune-chapter-4` - English Chapter 4 guide (default language)
+- `/deltarune-characters` - English character encyclopedia (default language)
 - `/zh/deltarune-chapter-3` - Chinese Chapter 3 guide
 - `/ja/deltarune-chapter-3` - Japanese Chapter 3 guide
 - `/ko/deltarune-chapter-3` - Korean Chapter 3 guide
 - `/fr/deltarune-chapter-3` - French Chapter 3 guide
-- Similar patterns for Chapter 4 and Characters pages
+- Similar patterns for Chapter 4 and Characters pages in all non-English locales
 
 ### Blog Routes:
-- `/blog` - Blog listing page
-- `/en/blog` - English blog
+- `/blog` - English blog listing page (default language)
 - `/zh/blog` - Chinese blog
-- `/blog/deltarune-chapters-3-4` - Featured article
+- `/ja/blog` - Japanese blog
+- `/ko/blog` - Korean blog
+- `/fr/blog` - French blog
+- `/blog/deltarune-chapters-3-4` - Featured article (English)
+- Localized blog articles available in all supported languages
 
 ### Legal Routes:
-- `/privacy` - Privacy policy
-- `/terms` - Terms of service
-- Available in all supported languages (/en/, /zh/, /ja/, /ko/, /fr/)
+- `/privacy` - Privacy policy (English, default language)
+- `/terms` - Terms of service (English, default language)
+- Available in all supported languages (/zh/, /ja/, /ko/, /fr/ with language prefixes)
 
 ## Content Policy & Guidelines
 All content strictly relates to:
@@ -156,7 +157,7 @@ All content strictly relates to:
 - **Error Handling**: Graceful degradation with user-friendly error messages
 
 ## Last Updated
-January 4, 2025
+July 9, 2025
 
 ## AI Training & Usage Guidelines
 This website provides:
