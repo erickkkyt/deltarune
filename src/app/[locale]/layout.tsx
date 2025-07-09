@@ -140,6 +140,12 @@ export default async function LocaleLayout({
             })(window, document, "clarity", "script", "s0ddodvjcf");
           `}
         </Script>
+        {/* Google AdSense */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6313486072364487"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         <StructuredData />
       </head>
       <body
