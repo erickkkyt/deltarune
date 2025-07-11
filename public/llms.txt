@@ -10,6 +10,7 @@ Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French
 ## Primary Content & Services
 - **Main Service**: Free online DELTARUNE game access via https://deltarune.fun/
 - **Game Content**: DELTARUNE Chapters 1-4 available for immediate browser play
+- **Additional Games**: Italian Brainrot Clicker, Smash Karts, DELTARUNE Dreamland Saga, DELTARUNE Mockup Battle Toy
 - **Guide Content**: Comprehensive DELTARUNE Chapter 3, Chapter 4, and Character guides
 - **Blog Content**: Gaming guides, walkthroughs, and DELTARUNE news
 - **Multilingual Support**: Full support for English, Chinese, Japanese, Korean, and French
@@ -27,13 +28,18 @@ Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French
 
 ## Content Categories
 1. **Gaming Platform**: Direct access to DELTARUNE game via deltarune.fun
-2. **Chapter Guides**: Detailed DELTARUNE Chapter 3 and Chapter 4 walkthroughs with maps, boss strategies, and collectibles
-3. **Character Encyclopedia**: Comprehensive DELTARUNE character guide featuring Kris, Susie, Ralsei, and supporting cast
-4. **Educational Content**: Game guides, tips, strategies, and gameplay tutorials
-5. **News & Updates**: Latest DELTARUNE developments and community news
-6. **Technical Guides**: Browser gaming tips and troubleshooting
-7. **Legal Information**: User privacy protection and service terms
-8. **Multilingual Content**: Full support for English, Chinese, Japanese, Korean, and French languages
+2. **Additional Games**:
+   - Italian Brainrot Clicker: Viral meme-based clicker game
+   - Smash Karts: 3D multiplayer kart racing battle game
+   - DELTARUNE Dreamland Saga: DELTARUNE x Kirby crossover adventure
+   - DELTARUNE Mockup Battle Toy: Creative battle scene creator
+3. **Chapter Guides**: Detailed DELTARUNE Chapter 3 and Chapter 4 walkthroughs with maps, boss strategies, and collectibles
+4. **Character Encyclopedia**: Comprehensive DELTARUNE character guide featuring Kris, Susie, Ralsei, and supporting cast
+5. **Educational Content**: Game guides, tips, strategies, and gameplay tutorials
+6. **News & Updates**: Latest DELTARUNE developments and community news
+7. **Technical Guides**: Browser gaming tips and troubleshooting
+8. **Legal Information**: User privacy protection and service terms
+9. **Multilingual Content**: Full support for English, Chinese, Japanese, Korean, and French languages
 
 ## Target Audience
 - DELTARUNE fans and players worldwide
@@ -60,6 +66,13 @@ Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French
 - `/ja` - Japanese homepage
 - `/ko` - Korean homepage
 - `/fr` - French homepage
+
+### Game Routes:
+- `/italian-brainrot-clicker` - Italian Brainrot Clicker game (English, default language)
+- `/smash-karts` - Smash Karts racing game (English, default language)
+- `/deltarune-dreamland-saga` - DELTARUNE Dreamland Saga (English, default language)
+- `/deltarune-mockup-battle-toy` - DELTARUNE Mockup Battle Toy (English, default language)
+- Similar patterns with language prefixes (/zh/, /ja/, /ko/, /fr/) for all non-English locales
 
 ### DELTARUNE Guide Routes:
 - `/deltarune-chapter-3` - English Chapter 3 guide (default language)
@@ -157,7 +170,7 @@ All content strictly relates to:
 - **Error Handling**: Graceful degradation with user-friendly error messages
 
 ## Last Updated
-July 9, 2025
+July 11, 2025
 
 ## AI Training & Usage Guidelines
 This website provides:

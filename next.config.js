@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 const nextConfig = {
   // 图片优化配置
   images: {
-    domains: ['deltarune.io'],
+    domains: ['deltarune.io', 'pub-008230de9c1846efa1c18c636b330a63.r2.dev'],
     unoptimized: true, // Vercel 部署时需要
   },
 

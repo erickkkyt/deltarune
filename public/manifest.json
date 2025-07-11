@@ -1,0 +1,34 @@
+{
+  "name": "DELTARUNE Online Free - Epic RPG Adventure",
+  "short_name": "DELTARUNE Online",
+  "description": "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3b82f6",
+  "orientation": "landscape-primary",
+  "categories": ["games", "entertainment"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/deltarune-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/deltarune-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/deltarune-screenshot.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
+}

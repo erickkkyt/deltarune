@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import OtherTrendingGames from './OtherTrendingGames';
 
 interface LoadingMethod {
   id: string;
@@ -140,8 +141,10 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Game Container */}
-        <div className="max-w-5xl mx-auto">
+        {/* Game Container with Sidebar */}
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+          {/* Main Game Area */}
+          <div className="lg:col-span-3">
           {showManualOptions ? (
             <div className="aspect-video bg-black rounded-lg border border-gray-700 overflow-hidden shadow-2xl flex items-center justify-center">
               <div className="text-center p-8">
@@ -268,6 +271,12 @@ export default function Hero() {
               )}
             </div>
           )}
+          </div>
+
+          {/* Sidebar - Other Trending Games */}
+          <div className="lg:col-span-1">
+            <OtherTrendingGames currentGameId="deltarune" />
+          </div>
         </div>
       </div>
     </section>

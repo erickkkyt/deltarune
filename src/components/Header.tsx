@@ -38,12 +38,46 @@ export default function Header() {
               </Link>
               <div className="relative group">
                 <button className="text-gray-300 hover:text-white text-sm font-mono transition-colors">
+                  Trending Games
+                  <svg className="w-4 h-4 ml-1 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="absolute left-0 mt-2 w-72 bg-gray-900 border border-gray-700 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <Link
+                    href="/deltarune-dreamland-saga"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-t-lg"
+                  >
+                    DELTARUNE Dreamland Saga
+                  </Link>
+                  <Link
+                    href="/deltarune-mockup-battle-toy"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800"
+                  >
+                    DELTARUNE Mockup Battle Toy
+                  </Link>
+                  <Link
+                    href="/italian-brainrot-clicker"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800"
+                  >
+                    Italian Brainrot Clicker
+                  </Link>
+                  <Link
+                    href="/smash-karts"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-b-lg"
+                  >
+                    Smash Karts
+                  </Link>
+                </div>
+              </div>
+              <div className="relative group">
+                <button className="text-gray-300 hover:text-white text-sm font-mono transition-colors">
                   Guides
                   <svg className="w-4 h-4 ml-1 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
-                <div className="absolute left-0 mt-2 w-48 bg-gray-900 border border-gray-700 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div className="absolute left-0 mt-2 w-56 bg-gray-900 border border-gray-700 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                   <Link
                     href="/deltarune-chapter-3"
                     className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-t-lg"
@@ -64,24 +98,6 @@ export default function Header() {
                   </Link>
                 </div>
               </div>
-              <Link
-                href="#features"
-                className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
-              >
-                {t('features')}
-              </Link>
-              <Link
-                href="#about"
-                className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
-              >
-                {t('about')}
-              </Link>
-              <Link
-                href="#faq"
-                className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
-              >
-                {t('faq')}
-              </Link>
             </div>
           </nav>
 
@@ -125,6 +141,37 @@ export default function Header() {
               {t('menu.blog')}
             </Link>
             <div className="px-3 py-2">
+              <div className="text-gray-400 text-xs font-mono mb-2">Trending Games</div>
+              <Link
+                href="/deltarune-dreamland-saga"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                DELTARUNE Dreamland Saga
+              </Link>
+              <Link
+                href="/deltarune-mockup-battle-toy"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                DELTARUNE Mockup Battle Toy
+              </Link>
+              <Link
+                href="/italian-brainrot-clicker"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Italian Brainrot Clicker
+              </Link>
+              <Link
+                href="/smash-karts"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Smash Karts
+              </Link>
+            </div>
+            <div className="px-3 py-2">
               <div className="text-gray-400 text-xs font-mono mb-2">Guides</div>
               <Link
                 href="/deltarune-chapter-3"
@@ -148,27 +195,6 @@ export default function Header() {
                 Characters
               </Link>
             </div>
-            <Link
-              href="#features"
-              className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('features')}
-            </Link>
-            <Link
-              href="#about"
-              className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('about')}
-            </Link>
-            <Link
-              href="#faq"
-              className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('faq')}
-            </Link>
           </div>
         </div>
       )}

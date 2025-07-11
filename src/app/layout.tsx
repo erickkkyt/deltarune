@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "DELTARUNE Online Free - The Free Epic RPG Adventure",
     description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
-    url: 'https://deltarune-arcade-hub.vercel.app',
+    url: 'https://deltarune.cc',
     siteName: 'Deltarune Online Hub',
     images: [
       {

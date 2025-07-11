@@ -1,6 +1,7 @@
 {
-  "name": "my-next-app",
-  "version": "0.1.0",
+  "name": "deltarune-online-hub",
+  "version": "2.1.0",
+  "description": "Free DELTARUNE Online - Play DELTARUNE and other games in your browser",
   "private": true,
   "scripts": {
     "dev": "next dev",

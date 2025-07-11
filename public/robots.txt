@@ -17,6 +17,28 @@ Allow: /fr/
 Allow: /privacy
 Allow: /terms
 
+# Allow game pages (English is default, no /en/ prefix)
+Allow: /italian-brainrot-clicker
+Allow: /smash-karts
+Allow: /deltarune-dreamland-saga
+Allow: /deltarune-mockup-battle-toy
+Allow: /zh/italian-brainrot-clicker
+Allow: /zh/smash-karts
+Allow: /zh/deltarune-dreamland-saga
+Allow: /zh/deltarune-mockup-battle-toy
+Allow: /ja/italian-brainrot-clicker
+Allow: /ja/smash-karts
+Allow: /ja/deltarune-dreamland-saga
+Allow: /ja/deltarune-mockup-battle-toy
+Allow: /ko/italian-brainrot-clicker
+Allow: /ko/smash-karts
+Allow: /ko/deltarune-dreamland-saga
+Allow: /ko/deltarune-mockup-battle-toy
+Allow: /fr/italian-brainrot-clicker
+Allow: /fr/smash-karts
+Allow: /fr/deltarune-dreamland-saga
+Allow: /fr/deltarune-mockup-battle-toy
+
 # Allow DELTARUNE guide pages (English is default, no /en/ prefix)
 Allow: /deltarune-chapter-3
 Allow: /deltarune-chapter-4
