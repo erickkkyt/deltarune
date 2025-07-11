@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import type { Metadata } from 'next';
+import Breadcrumb from '@/components/Breadcrumb';
 
 export async function generateMetadata({
   params
@@ -57,19 +58,13 @@ export default async function BlogPostPage({
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-12">
         {/* Breadcrumb */}
-        <nav className="mb-8">
-          <div className="flex items-center space-x-2 text-sm font-mono text-gray-400">
-            <Link href="/" className="hover:text-white transition-colors">
-              {tCommon('nav.home')}
-            </Link>
-            <span>→</span>
-            <Link href="/blog" className="hover:text-white transition-colors">
-              {tCommon('nav.blog')}
-            </Link>
-            <span>→</span>
-            <span className="text-white">Chapters 3 & 4 Deep Dive</span>
-          </div>
-        </nav>
+        <Breadcrumb
+          items={[
+            { label: tCommon('nav.home'), href: '/' },
+            { label: tCommon('nav.blog'), href: '/blog' },
+            { label: 'Chapters 3 & 4 Deep Dive' }
+          ]}
+        />
 
         {/* Article Header */}
         <header className="mb-12">

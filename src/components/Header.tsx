@@ -30,6 +30,12 @@ export default function Header() {
               >
                 {t('game')}
               </Link>
+              <Link
+                href="/blog"
+                className="text-gray-300 hover:text-white text-sm font-mono transition-colors"
+              >
+                {t('menu.blog')}
+              </Link>
               <div className="relative group">
                 <button className="text-gray-300 hover:text-white text-sm font-mono transition-colors">
                   Guides
@@ -110,6 +116,13 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               {t('game')}
+            </Link>
+            <Link
+              href="/blog"
+              className="text-gray-300 hover:text-white block px-3 py-2 text-sm font-mono"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t('menu.blog')}
             </Link>
             <div className="px-3 py-2">
               <div className="text-gray-400 text-xs font-mono mb-2">Guides</div>

@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -29,32 +32,19 @@ const blogPosts = [
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      {/* Header Navigation */}
-      <header className="bg-black border-b border-gray-800 sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="flex justify-between items-center h-14">
-            <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center">
-                <div className="text-xl font-bold text-white font-mono">
-                  DELTARUNE
-                </div>
-              </Link>
-            </div>
-            <nav className="flex items-center space-x-6">
-              <Link
-                href="/"
-                className="text-gray-300 hover:text-blue-400 text-sm font-mono transition-colors"
-              >
-                Back to Home
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen bg-gray-900">
+      <Header />
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto px-4 py-12">
+      <main className="max-w-6xl mx-auto px-4 py-12 bg-black text-white">
+        {/* Breadcrumb */}
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Blog' }
+          ]}
+        />
+
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-white font-mono mb-4">
@@ -111,33 +101,10 @@ export default function BlogPage() {
           ))}
         </div>
 
-        {/* Quick Navigation */}
-        <div className="bg-gray-900 border border-gray-800 p-8">
-          <h3 className="text-2xl font-bold text-white font-mono mb-6 text-center">
-            NAVIGATION
-          </h3>
-          <div className="flex justify-center">
-            <Link
-              href="/"
-              className="btn-deltarune text-center py-3 px-6 font-mono font-bold"
-            >
-              BACK TO HOME
-            </Link>
-          </div>
-        </div>
+
       </main>
 
-      {/* Footer */}
-      <footer className="bg-black border-t border-gray-800 mt-12">
-        <div className="max-w-6xl mx-auto px-4 py-8">
-          <div className="text-center">
-            <p className="text-gray-400 text-sm font-mono">
-              © {new Date().getFullYear()} Deltarune Online Hub. 
-              Deltarune game created by Toby Fox.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 } 

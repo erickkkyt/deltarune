@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Breadcrumb from '@/components/Breadcrumb';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -28,18 +29,12 @@ export default function DeltaruneChapters34Page() {
                 </div>
               </Link>
             </div>
-            <nav className="flex items-center space-x-6">
-              <Link
-                href="/blog"
-                className="text-gray-300 hover:text-blue-400 text-sm font-mono transition-colors"
-              >
-                Back to Blog
-              </Link>
-              <Link
-                href="/"
-                className="text-gray-300 hover:text-blue-400 text-sm font-mono transition-colors"
-              >
+            <nav className="hidden md:flex space-x-8">
+              <Link href="/" className="text-gray-300 hover:text-white font-mono text-sm transition-colors">
                 Home
+              </Link>
+              <Link href="/blog" className="text-blue-400 font-mono text-sm">
+                Blog
               </Link>
             </nav>
           </div>
@@ -48,6 +43,14 @@ export default function DeltaruneChapters34Page() {
 
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-12">
+        {/* Breadcrumb */}
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Blog', href: '/blog' },
+            { label: 'Chapters 3 & 4 Deep Dive' }
+          ]}
+        />
         <article className="bg-gray-900 border border-gray-800 p-8">
           {/* Article Header */}
           <div className="mb-8">

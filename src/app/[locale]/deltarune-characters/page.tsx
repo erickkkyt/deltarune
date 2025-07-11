@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -29,6 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function DeltaruneCharactersPage({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'deltarune-characters' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -52,6 +54,13 @@ export default async function DeltaruneCharactersPage({ params }: PageProps) {
       {/* Main Characters */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-6xl mx-auto px-4">
+          {/* Breadcrumb */}
+          <Breadcrumb
+            items={[
+              { label: tCommon('nav.home'), href: '/' },
+              { label: 'Characters' }
+            ]}
+          />
           <h2 className="text-3xl font-bold text-center mb-12 font-mono text-yellow-400">
             {t('mainCharacters.title')}
           </h2>

@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Free DELTARUNE Online - The Epic RPG Adventure",
+  title: "DELTARUNE Online Free - The Free Epic RPG Adventure",
   description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
   authors: [{ name: "Deltarune Online Hub" }],
   creator: "Deltarune Online Hub",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: 'https://deltarune.cc/',
   },
   openGraph: {
-    title: "Free DELTARUNE Online - The Epic RPG Adventure",
+    title: "DELTARUNE Online Free - The Free Epic RPG Adventure",
     description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
     url: 'https://deltarune-arcade-hub.vercel.app',
     siteName: 'Deltarune Online Hub',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Free DELTARUNE Online - The Epic RPG Adventure",
+    title: "DELTARUNE Online Free - The Free Epic RPG Adventure",
     description: "Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG with turn-based combat and bullet-hell action.",
     images: ['/deltarune-og.jpg'],
   },
