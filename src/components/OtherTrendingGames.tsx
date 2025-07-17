@@ -74,13 +74,13 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
   const otherGames = allGames.filter(game => game.id !== currentGameId);
 
   return (
-    <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 sticky top-24">
-      <h3 className="text-xl font-bold text-white mb-6 font-mono text-center">
+    <div className="bg-gray-900 border border-gray-700 rounded-lg p-8 sticky top-24">
+      <h3 className="text-2xl font-bold text-white mb-8 font-mono text-center">
         Other Trending Games
       </h3>
 
-      {/* 2x2网格布局 */}
-      <div className="grid grid-cols-2 gap-4">
+      {/* 2x2网格布局 - 增加间距 */}
+      <div className="grid grid-cols-2 gap-6">
         {otherGames.slice(0, 4).map((game) => (
           <Link
             key={game.id}

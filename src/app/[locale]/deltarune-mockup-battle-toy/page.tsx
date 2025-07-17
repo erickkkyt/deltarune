@@ -58,9 +58,9 @@ export default async function DeltaruneMockupBattleToyPage({ params }: PageProps
           </div>
 
           {/* Game Container with Sidebar */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
             {/* Main Game Area */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-2">
               <GameIframe
                 title="DELTARUNE Mockup Battle Toy"
                 src="https://html-classic.itch.zone/html/4489880/index.html"

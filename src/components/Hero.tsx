@@ -21,6 +21,7 @@ export default function Hero() {
   const [retryCount, setRetryCount] = useState(0);
   const [showManualOptions, setShowManualOptions] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   const loadingMethods: LoadingMethod[] = [
     {
@@ -41,7 +42,15 @@ export default function Hero() {
 
   const currentLoadingMethod = loadingMethods[currentMethod];
 
+  // 挂载状态检测，防止水合错误
   useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    // 只在客户端挂载后执行
+    if (!isMounted) return;
+
     // 自动尝试下一个方法
     if (hasError && currentMethod < loadingMethods.length - 1) {
       const timer = setTimeout(() => {
@@ -58,7 +67,7 @@ export default function Hero() {
       setShowManualOptions(true);
       setIsLoading(false);
     }
-  }, [hasError, currentMethod]);
+  }, [hasError, currentMethod, isMounted, currentLoadingMethod.name]);
 
   const handleIframeLoad = () => {
     setIsGameLoaded(true);
@@ -116,17 +125,18 @@ export default function Hero() {
 
   // 监听全屏状态变化
   useEffect(() => {
-    if (typeof document !== 'undefined') {
-      const handleFullscreenChange = () => {
-        setIsFullscreen(!!document.fullscreenElement);
-      };
+    // 只在客户端挂载后执行
+    if (!isMounted || typeof document === 'undefined') return;
 
-      document.addEventListener('fullscreenchange', handleFullscreenChange);
-      return () => {
-        document.removeEventListener('fullscreenchange', handleFullscreenChange);
-      };
-    }
-  }, []);
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, [isMounted]);
 
   return (
     <section id="game" className="bg-black py-8">
@@ -142,11 +152,20 @@ export default function Hero() {
         </div>
 
         {/* Game Container with Sidebar */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {/* Main Game Area */}
-          <div className="lg:col-span-3">
-          {showManualOptions ? (
-            <div className="aspect-video bg-black rounded-lg border border-gray-700 overflow-hidden shadow-2xl flex items-center justify-center">
+          <div className="lg:col-span-2">
+          {!isMounted ? (
+            // 服务端渲染占位符，防止水合错误
+            <div className="aspect-[4/3] bg-black rounded-lg border border-gray-700 overflow-hidden shadow-2xl flex items-center justify-center">
+              <div className="text-center">
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400 mx-auto mb-4"></div>
+                <div className="text-2xl mb-2">🎮</div>
+                <p className="text-gray-400 font-mono text-sm">Loading Game...</p>
+              </div>
+            </div>
+          ) : showManualOptions ? (
+            <div className="aspect-[4/3] bg-black rounded-lg border border-gray-700 overflow-hidden shadow-2xl flex items-center justify-center">
               <div className="text-center p-8">
                 <div className="text-6xl mb-4">🎮</div>
                 <h3 className="text-white font-mono text-xl mb-4">Choose How to Play</h3>
@@ -190,7 +209,7 @@ export default function Hero() {
               </div>
             </div>
           ) : (
-            <div id="game-container" className="aspect-video bg-black relative rounded-lg border border-gray-700 overflow-hidden shadow-2xl">
+            <div id="game-container" className="aspect-[4/3] bg-black relative rounded-lg border border-gray-700 overflow-hidden shadow-2xl">
               {/* Fullscreen Button */}
               <button
                 onClick={toggleFullscreen}

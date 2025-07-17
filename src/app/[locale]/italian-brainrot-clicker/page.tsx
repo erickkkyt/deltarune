@@ -58,9 +58,9 @@ export default async function ItalianBrainrotClickerPage({ params }: PageProps) 
           </div>
 
           {/* Game Container with Sidebar */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
             {/* Main Game Area */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-2">
               <GameIframe
                 title="Italian Brainrot Clicker"
                 src="https://azgames.io/italian-brainrot-clicker-2.embed"

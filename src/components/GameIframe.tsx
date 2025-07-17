@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface GameIframeProps {
   src?: string;
@@ -16,6 +16,12 @@ export default function GameIframe({ src, title, placeholder }: GameIframeProps)
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  // 挂载状态检测，防止水合错误
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const handleIframeLoad = () => {
     setIsLoading(false);
@@ -28,6 +34,8 @@ export default function GameIframe({ src, title, placeholder }: GameIframeProps)
   };
 
   const toggleFullscreen = () => {
+    if (!isMounted || typeof document === 'undefined') return;
+
     const container = document.getElementById('game-container');
     if (!container) return;
 
@@ -46,8 +54,23 @@ export default function GameIframe({ src, title, placeholder }: GameIframeProps)
     }
   };
 
+  // 如果还未挂载，显示加载状态防止水合错误
+  if (!isMounted) {
+    return (
+      <div className="aspect-[4/3] bg-black relative rounded-lg border border-gray-700 overflow-hidden shadow-2xl">
+        <div className="w-full h-full flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400 mx-auto mb-4"></div>
+            <div className="text-6xl mb-4">{placeholder?.icon || '🎮'}</div>
+            <h3 className="text-white font-mono text-xl mb-4">Loading...</h3>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div id="game-container" className="aspect-video bg-black relative rounded-lg border border-gray-700 overflow-hidden shadow-2xl">
+    <div id="game-container" className="aspect-[4/3] bg-black relative rounded-lg border border-gray-700 overflow-hidden shadow-2xl">
       {/* Fullscreen Button */}
       {src && (
         <button
@@ -88,9 +111,11 @@ export default function GameIframe({ src, title, placeholder }: GameIframeProps)
                 setHasError(false);
                 setIsLoading(true);
                 // Force iframe reload by changing src
-                const iframe = document.querySelector('iframe');
-                if (iframe && src) {
-                  iframe.src = src;
+                if (typeof document !== 'undefined') {
+                  const iframe = document.querySelector('iframe');
+                  if (iframe && src) {
+                    iframe.src = src;
+                  }
                 }
               }}
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded font-mono text-sm transition-colors"
