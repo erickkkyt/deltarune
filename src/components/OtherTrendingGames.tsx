@@ -87,8 +87,8 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
             href={game.href}
             className="block bg-black border border-gray-700 rounded-lg overflow-hidden hover:border-blue-400 transition-all duration-300 group relative"
           >
-            {/* 游戏图片 */}
-            <div className="w-full h-24 bg-gray-600 relative overflow-hidden">
+            {/* 游戏图片 - 增加高度 */}
+            <div className="w-full h-32 bg-gray-600 relative overflow-hidden">
               <Image
                 src={game.image}
                 alt={game.title}
@@ -110,9 +110,9 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
               />
             </div>
 
-            {/* 游戏名称 */}
-            <div className="p-3">
-              <h4 className="text-white font-mono text-sm font-semibold group-hover:text-blue-400 transition-colors text-center truncate">
+            {/* 游戏名称 - 增加内边距和字体大小 */}
+            <div className="p-4">
+              <h4 className="text-white font-mono text-base font-semibold group-hover:text-blue-400 transition-colors text-center truncate">
                 {game.title}
               </h4>
             </div>
@@ -127,9 +127,9 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
         ))}
       </div>
 
-      {/* 底部提示 */}
-      <div className="mt-6 pt-4 border-t border-gray-700">
-        <p className="text-center text-sm text-gray-500 font-mono">
+      {/* 底部提示 - 增加间距 */}
+      <div className="mt-8 pt-6 border-t border-gray-700">
+        <p className="text-center text-base text-gray-500 font-mono">
           Discover more amazing games!
         </p>
       </div>
