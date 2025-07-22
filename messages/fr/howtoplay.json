@@ -19,6 +19,24 @@
     "cancel": "Annuler/Retour",
     "menu": "Ouvrir le menu"
   },
+  "controls": {
+    "movement": {
+      "title": "Mouvement",
+      "description": "Utilisez WASD ou les touches fléchées pour déplacer votre personnage"
+    },
+    "interact": {
+      "title": "Interagir",
+      "description": "Appuyez sur Z ou Entrée pour interagir avec les objets et PNJ"
+    },
+    "menu": {
+      "title": "Menu",
+      "description": "Appuyez sur X ou Échap pour ouvrir le menu principal et gérer les objets"
+    },
+    "battle": {
+      "title": "Combat",
+      "description": "Utilisez Z pour confirmer les actions et les touches fléchées pour naviguer dans les menus"
+    }
+  },
   "combat_system": {
     "title": "Système de combat",
     "fight": {

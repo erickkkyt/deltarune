@@ -47,6 +47,43 @@ const pages = [
     changefreq: 'monthly',
     lastmod: '2025-01-04'
   },
+  // 游戏页面
+  {
+    path: 'geoguessr',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: '2025-01-22'
+  },
+  {
+    path: 'geometry-dash-lite',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: '2025-01-22'
+  },
+  {
+    path: 'deltarune-dreamland-saga',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: '2025-01-22'
+  },
+  {
+    path: 'deltarune-mockup-battle-toy',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: '2025-01-22'
+  },
+  {
+    path: 'italian-brainrot-clicker',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: '2025-01-22'
+  },
+  {
+    path: 'smash-karts',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: '2025-01-22'
+  },
   // 其他页面
   {
     path: 'privacy',

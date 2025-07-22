@@ -11,16 +11,7 @@ export const siteConfig = {
   description: "Play Deltarune online for free. Join Kris, Susie, and Ralsei in Toby Fox's acclaimed RPG adventure.",
   canonical: "https://deltarune.cc",
   
-  // SEO 关键词
-  keywords: [
-    "deltarune",
-    "deltarune online", 
-    "toby fox",
-    "undertale",
-    "rpg game",
-    "browser game",
-    "free game"
-  ],
+
   
   // 作者信息
   author: {

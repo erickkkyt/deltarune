@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import GameIframe from '@/components/GameIframe';
 import OtherTrendingGames from '@/components/OtherTrendingGames';
+import OtherTrendingGamesSection from '@/components/OtherTrendingGamesSection';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: 'DELTARUNE Dreamland Saga - Epic Kirby Crossover Battle',
     description: 'Experience the ultimate crossover in DELTARUNE Dreamland Saga! Join Kris, Susie, and Ralsei as they face Kirby in epic battles with DELTARUNE elements.',
     alternates: {
-      canonical: locale === 'en' ? '/deltarune-dreamland-saga' : `/${locale}/deltarune-dreamland-saga`,
+      canonical: locale === 'en' ? 'https://deltarune.cc/deltarune-dreamland-saga' : `https://deltarune.cc/${locale}/deltarune-dreamland-saga`,
     },
     openGraph: {
       title: 'DELTARUNE Dreamland Saga - Epic Crossover Battle',
@@ -30,13 +31,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function DeltaruneDreamlandSagaPage({ params }: PageProps) {
   const { locale } = await params;
-  const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tCommon = await getTranslations('common');
 
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
-
-      {/* Hero Section with Game */}
+      <main>
+        {/* Hero Section with Game */}
       <section id="game" className="bg-black py-8">
         <div className="max-w-7xl mx-auto px-4">
           {/* Breadcrumb */}
@@ -175,8 +176,9 @@ export default async function DeltaruneDreamlandSagaPage({ params }: PageProps) 
         </div>
       </section>
 
-
-
+      {/* Footer上方的Other Trending Games */}
+      <OtherTrendingGamesSection currentGameId="dreamland-saga" />
+      </main>
       <Footer />
     </div>
   );

@@ -19,6 +19,24 @@
     "cancel": "取消/返回",
     "menu": "打开菜单"
   },
+  "controls": {
+    "movement": {
+      "title": "移动",
+      "description": "使用 WASD 或方向键移动您的角色"
+    },
+    "interact": {
+      "title": "交互",
+      "description": "按 Z 或 Enter 与物体和 NPC 交互"
+    },
+    "menu": {
+      "title": "菜单",
+      "description": "按 X 或 Escape 打开主菜单并管理物品"
+    },
+    "battle": {
+      "title": "战斗",
+      "description": "使用 Z 确认操作，方向键导航菜单"
+    }
+  },
   "combat_system": {
     "title": "战斗系统",
     "fight": {

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: 'DELTARUNE Characters Guide - Kris, Susie, Ralsei & More',
     description: 'Complete DELTARUNE character encyclopedia featuring Kris, Susie, Ralsei, and supporting cast with detailed abilities, backgrounds, and story development.',
     alternates: {
-      canonical: locale === 'en' ? '/deltarune-characters' : `/${locale}/deltarune-characters`,
+      canonical: locale === 'en' ? 'https://deltarune.cc/deltarune-characters' : `https://deltarune.cc/${locale}/deltarune-characters`,
     },
     openGraph: {
       title: 'DELTARUNE Character Encyclopedia',

@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import GameIframe from '@/components/GameIframe';
 import OtherTrendingGames from '@/components/OtherTrendingGames';
+import OtherTrendingGamesSection from '@/components/OtherTrendingGamesSection';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: 'Italian Brainrot Clicker - Viral Meme Clicker Game Online',
     description: 'Play Italian Brainrot Clicker online! Tap your way through the viral Italian Brainrot universe. Unlock Bombardino Crocodilo, Tung Tung Sahur, and more meme characters!',
     alternates: {
-      canonical: locale === 'en' ? '/italian-brainrot-clicker' : `/${locale}/italian-brainrot-clicker`,
+      canonical: locale === 'en' ? 'https://deltarune.cc/italian-brainrot-clicker' : `https://deltarune.cc/${locale}/italian-brainrot-clicker`,
     },
     openGraph: {
       title: 'Italian Brainrot Clicker - Viral Meme Clicker Game',
@@ -30,13 +31,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ItalianBrainrotClickerPage({ params }: PageProps) {
   const { locale } = await params;
-  const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tCommon = await getTranslations('common');
 
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
-
-      {/* Hero Section with Game */}
+      <main>
+        {/* Hero Section with Game */}
       <section id="game" className="bg-black py-8">
         <div className="max-w-7xl mx-auto px-4">
           {/* Breadcrumb */}
@@ -268,8 +269,9 @@ export default async function ItalianBrainrotClickerPage({ params }: PageProps) 
         </div>
       </section>
 
-
-
+      {/* Footer上方的Other Trending Games */}
+      <OtherTrendingGamesSection currentGameId="brainrot-clicker" />
+      </main>
       <Footer />
     </div>
   );

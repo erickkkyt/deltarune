@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import GameIframe from '@/components/GameIframe';
 import OtherTrendingGames from '@/components/OtherTrendingGames';
+import OtherTrendingGamesSection from '@/components/OtherTrendingGamesSection';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: 'Smash Karts - 3D Multiplayer Kart Battle Game Online',
     description: 'Play Smash Karts online! Drive go-karts, pick up weapons, and blow up other players in this epic 3D multiplayer battle arena. Level up and unlock new characters!',
     alternates: {
-      canonical: locale === 'en' ? '/smash-karts' : `/${locale}/smash-karts`,
+      canonical: locale === 'en' ? 'https://deltarune.cc/smash-karts' : `https://deltarune.cc/${locale}/smash-karts`,
     },
     openGraph: {
       title: 'Smash Karts - 3D Multiplayer Kart Battle Arena',
@@ -30,13 +31,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function SmashKartsPage({ params }: PageProps) {
   const { locale } = await params;
-  const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tCommon = await getTranslations('common');
 
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
-
-      {/* Hero Section with Game */}
+      <main>
+        {/* Hero Section with Game */}
       <section id="game" className="bg-black py-8">
         <div className="max-w-7xl mx-auto px-4">
           {/* Breadcrumb */}
@@ -343,8 +344,9 @@ export default async function SmashKartsPage({ params }: PageProps) {
         </div>
       </section>
 
-
-
+      {/* Footer上方的Other Trending Games */}
+      <OtherTrendingGamesSection currentGameId="smash-karts" />
+      </main>
       <Footer />
     </div>
   );

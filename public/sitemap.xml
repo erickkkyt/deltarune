@@ -4,7 +4,7 @@
 
   <url>
     <loc>https://deltarune.cc</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc" />
@@ -17,7 +17,7 @@
 
   <url>
     <loc>https://deltarune.cc/zh</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc" />
@@ -30,7 +30,7 @@
 
   <url>
     <loc>https://deltarune.cc/ja</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc" />
@@ -43,7 +43,7 @@
 
   <url>
     <loc>https://deltarune.cc/ko</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc" />
@@ -56,7 +56,7 @@
 
   <url>
     <loc>https://deltarune.cc/fr</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc" />
@@ -67,65 +67,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc" />
   </url>
 
-  <!-- Game Pages -->
-  <url>
-    <loc>https://deltarune.cc/italian-brainrot-clicker</loc>
-    <lastmod>2025-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/italian-brainrot-clicker" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/italian-brainrot-clicker" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/italian-brainrot-clicker" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/italian-brainrot-clicker" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/italian-brainrot-clicker" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/italian-brainrot-clicker" />
-  </url>
-
-  <url>
-    <loc>https://deltarune.cc/smash-karts</loc>
-    <lastmod>2025-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/smash-karts" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/smash-karts" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/smash-karts" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/smash-karts" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/smash-karts" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/smash-karts" />
-  </url>
-
-  <url>
-    <loc>https://deltarune.cc/deltarune-dreamland-saga</loc>
-    <lastmod>2025-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-dreamland-saga" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-dreamland-saga" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-dreamland-saga" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-dreamland-saga" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-dreamland-saga" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-dreamland-saga" />
-  </url>
-
-  <url>
-    <loc>https://deltarune.cc/deltarune-mockup-battle-toy</loc>
-    <lastmod>2025-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-mockup-battle-toy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-mockup-battle-toy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-mockup-battle-toy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-mockup-battle-toy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
-  </url>
-
-  <!-- Guide Pages -->
   <url>
     <loc>https://deltarune.cc/deltarune-chapter-3</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-3" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-chapter-3" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-chapter-3" />
@@ -136,7 +82,7 @@
 
   <url>
     <loc>https://deltarune.cc/zh/deltarune-chapter-3</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-3" />
@@ -149,7 +95,7 @@
 
   <url>
     <loc>https://deltarune.cc/ja/deltarune-chapter-3</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-3" />
@@ -162,7 +108,7 @@
 
   <url>
     <loc>https://deltarune.cc/ko/deltarune-chapter-3</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-3" />
@@ -175,7 +121,7 @@
 
   <url>
     <loc>https://deltarune.cc/fr/deltarune-chapter-3</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-3" />
@@ -188,7 +134,7 @@
 
   <url>
     <loc>https://deltarune.cc/deltarune-chapter-4</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-4" />
@@ -201,7 +147,7 @@
 
   <url>
     <loc>https://deltarune.cc/zh/deltarune-chapter-4</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-4" />
@@ -214,7 +160,7 @@
 
   <url>
     <loc>https://deltarune.cc/ja/deltarune-chapter-4</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-4" />
@@ -227,7 +173,7 @@
 
   <url>
     <loc>https://deltarune.cc/ko/deltarune-chapter-4</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-4" />
@@ -240,7 +186,7 @@
 
   <url>
     <loc>https://deltarune.cc/fr/deltarune-chapter-4</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-chapter-4" />
@@ -253,7 +199,7 @@
 
   <url>
     <loc>https://deltarune.cc/deltarune-characters</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-characters" />
@@ -266,7 +212,7 @@
 
   <url>
     <loc>https://deltarune.cc/zh/deltarune-characters</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-characters" />
@@ -279,7 +225,7 @@
 
   <url>
     <loc>https://deltarune.cc/ja/deltarune-characters</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-characters" />
@@ -292,7 +238,7 @@
 
   <url>
     <loc>https://deltarune.cc/ko/deltarune-characters</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-characters" />
@@ -305,7 +251,7 @@
 
   <url>
     <loc>https://deltarune.cc/fr/deltarune-characters</loc>
-    <lastmod>2025-07-11</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-characters" />
@@ -444,6 +390,396 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/blog/deltarune-chapters-3-4" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/blog/deltarune-chapters-3-4" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/blog/deltarune-chapters-3-4" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/geoguessr</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geoguessr" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/geoguessr</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geoguessr" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ja/geoguessr</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geoguessr" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ko/geoguessr</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geoguessr" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/fr/geoguessr</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geoguessr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geoguessr" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/geometry-dash-lite</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geometry-dash-lite" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/geometry-dash-lite</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geometry-dash-lite" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ja/geometry-dash-lite</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geometry-dash-lite" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ko/geometry-dash-lite</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geometry-dash-lite" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/fr/geometry-dash-lite</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/geometry-dash-lite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/geometry-dash-lite" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/deltarune-dreamland-saga</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-dreamland-saga" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/deltarune-dreamland-saga</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-dreamland-saga" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ja/deltarune-dreamland-saga</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-dreamland-saga" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ko/deltarune-dreamland-saga</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-dreamland-saga" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/fr/deltarune-dreamland-saga</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-dreamland-saga" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-dreamland-saga" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/deltarune-mockup-battle-toy</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/deltarune-mockup-battle-toy</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ja/deltarune-mockup-battle-toy</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ko/deltarune-mockup-battle-toy</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/fr/deltarune-mockup-battle-toy</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/deltarune-mockup-battle-toy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/deltarune-mockup-battle-toy" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/italian-brainrot-clicker</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/italian-brainrot-clicker" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/italian-brainrot-clicker</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/italian-brainrot-clicker" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ja/italian-brainrot-clicker</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/italian-brainrot-clicker" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ko/italian-brainrot-clicker</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/italian-brainrot-clicker" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/fr/italian-brainrot-clicker</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/italian-brainrot-clicker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/italian-brainrot-clicker" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/smash-karts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/smash-karts" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/zh/smash-karts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/smash-karts" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ja/smash-karts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/smash-karts" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/ko/smash-karts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/smash-karts" />
+  </url>
+
+  <url>
+    <loc>https://deltarune.cc/fr/smash-karts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltarune.cc/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://deltarune.cc/zh/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://deltarune.cc/ja/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://deltarune.cc/ko/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltarune.cc/fr/smash-karts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deltarune.cc/smash-karts" />
   </url>
 
   <url>

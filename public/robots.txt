@@ -18,26 +18,36 @@ Allow: /privacy
 Allow: /terms
 
 # Allow game pages (English is default, no /en/ prefix)
-Allow: /italian-brainrot-clicker
-Allow: /smash-karts
+Allow: /geoguessr
+Allow: /geometry-dash-lite
 Allow: /deltarune-dreamland-saga
 Allow: /deltarune-mockup-battle-toy
-Allow: /zh/italian-brainrot-clicker
-Allow: /zh/smash-karts
+Allow: /italian-brainrot-clicker
+Allow: /smash-karts
+Allow: /zh/geoguessr
+Allow: /zh/geometry-dash-lite
 Allow: /zh/deltarune-dreamland-saga
 Allow: /zh/deltarune-mockup-battle-toy
-Allow: /ja/italian-brainrot-clicker
-Allow: /ja/smash-karts
+Allow: /zh/italian-brainrot-clicker
+Allow: /zh/smash-karts
+Allow: /ja/geoguessr
+Allow: /ja/geometry-dash-lite
 Allow: /ja/deltarune-dreamland-saga
 Allow: /ja/deltarune-mockup-battle-toy
-Allow: /ko/italian-brainrot-clicker
-Allow: /ko/smash-karts
+Allow: /ja/italian-brainrot-clicker
+Allow: /ja/smash-karts
+Allow: /ko/geoguessr
+Allow: /ko/geometry-dash-lite
 Allow: /ko/deltarune-dreamland-saga
 Allow: /ko/deltarune-mockup-battle-toy
-Allow: /fr/italian-brainrot-clicker
-Allow: /fr/smash-karts
+Allow: /ko/italian-brainrot-clicker
+Allow: /ko/smash-karts
+Allow: /fr/geoguessr
+Allow: /fr/geometry-dash-lite
 Allow: /fr/deltarune-dreamland-saga
 Allow: /fr/deltarune-mockup-battle-toy
+Allow: /fr/italian-brainrot-clicker
+Allow: /fr/smash-karts
 
 # Allow DELTARUNE guide pages (English is default, no /en/ prefix)
 Allow: /deltarune-chapter-3

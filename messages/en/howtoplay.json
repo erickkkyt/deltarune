@@ -19,6 +19,24 @@
     "cancel": "Cancel/Back",
     "menu": "Open Menu"
   },
+  "controls": {
+    "movement": {
+      "title": "Movement",
+      "description": "Use WASD or Arrow Keys to move your character around the world"
+    },
+    "interact": {
+      "title": "Interact",
+      "description": "Press Z or Enter to interact with objects and NPCs"
+    },
+    "menu": {
+      "title": "Menu",
+      "description": "Press X or Escape to open the main menu and manage items"
+    },
+    "battle": {
+      "title": "Battle",
+      "description": "Use Z to confirm actions and Arrow Keys to navigate menus"
+    }
+  },
   "combat_system": {
     "title": "Combat System",
     "fight": {

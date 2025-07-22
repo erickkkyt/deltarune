@@ -33,6 +33,24 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
       rating: '4.8'
     },
     {
+      id: 'geoguessr',
+      title: 'GeoGuessr',
+      href: '/geoguessr',
+      image: 'https://pub-dd9404e72d594f05acd661a8179747d2.r2.dev/geoguesser.png',
+      description: 'Geography Guessing Game',
+      category: 'Educational',
+      rating: '4.8'
+    },
+    {
+      id: 'geometry-dash-lite',
+      title: 'Geometry Dash Lite',
+      href: '/geometry-dash-lite',
+      image: 'https://pub-dd9404e72d594f05acd661a8179747d2.r2.dev/geometry%20dash%20lite.png',
+      description: 'Rhythm Platformer Game',
+      category: 'Platformer',
+      rating: '4.7'
+    },
+    {
       id: 'dreamland-saga',
       title: 'DELTARUNE Dreamland Saga',
       href: '/deltarune-dreamland-saga',
@@ -79,16 +97,16 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
         Other Trending Games
       </h3>
 
-      {/* 2x2网格布局 - 增加间距 */}
-      <div className="grid grid-cols-2 gap-6">
-        {otherGames.slice(0, 4).map((game) => (
+      {/* 2x3网格布局 - 显示所有6个游戏 */}
+      <div className="grid grid-cols-2 gap-4">
+        {otherGames.map((game) => (
           <Link
             key={game.id}
             href={game.href}
             className="block bg-black border border-gray-700 rounded-lg overflow-hidden hover:border-blue-400 transition-all duration-300 group relative"
           >
-            {/* 游戏图片 - 增加高度 */}
-            <div className="w-full h-32 bg-gray-600 relative overflow-hidden">
+            {/* 游戏图片 - 只显示图片，不显示名称 */}
+            <div className="w-full h-32 bg-gray-600 relative overflow-hidden rounded-lg">
               <Image
                 src={game.image}
                 alt={game.title}
@@ -101,7 +119,7 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
                   const parent = target.parentElement;
                   if (parent) {
                     parent.innerHTML = `
-                      <div class="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                      <div class="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center rounded-lg">
                         <span class="text-white text-2xl font-bold">${game.title.charAt(0)}</span>
                       </div>
                     `;
@@ -110,15 +128,8 @@ export default function OtherTrendingGames({ currentGameId }: OtherTrendingGames
               />
             </div>
 
-            {/* 游戏名称 - 增加内边距和字体大小 */}
-            <div className="p-4">
-              <h4 className="text-white font-mono text-base font-semibold group-hover:text-blue-400 transition-colors text-center truncate">
-                {game.title}
-              </h4>
-            </div>
-
             {/* Play按钮覆盖层 */}
-            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100 rounded-lg">
               <div className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-mono font-semibold transform scale-90 group-hover:scale-100 transition-transform">
                 PLAY →
               </div>

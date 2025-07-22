@@ -45,8 +45,20 @@ export default function Header() {
                 </button>
                 <div className="absolute left-0 mt-2 w-72 bg-gray-900 border border-gray-700 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                   <Link
-                    href="/deltarune-dreamland-saga"
+                    href="/geoguessr"
                     className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-t-lg"
+                  >
+                    GeoGuessr
+                  </Link>
+                  <Link
+                    href="/geometry-dash-lite"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800"
+                  >
+                    Geometry Dash Lite
+                  </Link>
+                  <Link
+                    href="/deltarune-dreamland-saga"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800"
                   >
                     DELTARUNE Dreamland Saga
                   </Link>
@@ -142,6 +154,20 @@ export default function Header() {
             </Link>
             <div className="px-3 py-2">
               <div className="text-gray-400 text-xs font-mono mb-2">Trending Games</div>
+              <Link
+                href="/geoguessr"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                GeoGuessr
+              </Link>
+              <Link
+                href="/geometry-dash-lite"
+                className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Geometry Dash Lite
+              </Link>
               <Link
                 href="/deltarune-dreamland-saga"
                 className="text-gray-300 hover:text-white block px-3 py-1 text-sm font-mono"
