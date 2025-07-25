@@ -8,11 +8,18 @@ Description: Play DELTARUNE online for free! Join Kris, Susie, and Ralsei in Tob
 Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French (fr)
 
 ## Primary Content & Services
-- **Main Service**: Free online DELTARUNE game access via https://deltarune.fun/
-- **Game Content**: DELTARUNE Chapters 1-4 available for immediate browser play
-- **Additional Games**: GeoGuessr, Geometry Dash Lite, DELTARUNE Dreamland Saga, DELTARUNE Mockup Battle Toy, Italian Brainrot Clicker, Smash Karts
+- **Main Service**: Free online DELTARUNE game access and multi-game gaming platform
+- **Game Content**: DELTARUNE Chapters 1-4 plus 6 additional browser games
+- **Featured Games**:
+  * DELTARUNE - Main RPG adventure game
+  * GeoGuessr - Geography guessing game with Street View
+  * Geometry Dash Lite - Rhythm-based platformer with music sync
+  * DELTARUNE Dreamland Saga - DELTARUNE x Kirby crossover
+  * DELTARUNE Mockup Battle Toy - Creative battle scene creator
+  * Italian Brainrot Clicker - Viral meme clicker game
+  * Smash Karts - 3D multiplayer kart racing
 - **Guide Content**: Comprehensive DELTARUNE Chapter 3, Chapter 4, and Character guides
-- **Blog Content**: Gaming guides, walkthroughs, and DELTARUNE news
+- **Blog Content**: Gaming guides, walkthroughs, and gaming news
 - **Multilingual Support**: Full support for English, Chinese, Japanese, Korean, and French
 - **Legal Pages**: Privacy Policy, Terms of Service (all languages)
 
@@ -56,10 +63,17 @@ Language Support: English (en), Chinese (zh), Japanese (ja), Korean (ko), French
 - **Language**: TypeScript for type safety
 - **Styling**: Tailwind CSS for responsive design
 - **Internationalization**: next-intl for multilingual support
-- **Game Integration**: iframe-based integration with deltarune.fun
-- **Session Management**: Automated session refresh every 2 minutes
-- **Proxy System**: Smart fallback for connection reliability
+- **Game Integration**: Multi-source iframe integration with various game providers
+  * DELTARUNE: https://deltarune.fun/
+  * GeoGuessr: https://openguessr.com/
+  * Geometry Dash Lite: https://geometrydashlitepc.io/
+  * DELTARUNE Dreamland Saga: https://kdata1.com/
+  * DELTARUNE Mockup Battle Toy: https://html-classic.itch.zone/
+  * Italian Brainrot Clicker: https://azgames.io/
+  * Smash Karts: https://smashkarts.io/
+- **Game Loading**: Smart iframe loading with placeholder and error handling
 - **SEO**: Comprehensive meta tags, structured data, multilingual sitemap
+- **Performance**: Optimized loading with lazy loading and CDN integration
 
 ## URL Structure & Routes
 ### Main Routes:
@@ -174,7 +188,7 @@ All content strictly relates to:
 - **Error Handling**: Graceful degradation with user-friendly error messages
 
 ## Last Updated
-July 11, 2025
+July 25, 2025
 
 ## AI Training & Usage Guidelines
 This website provides:
